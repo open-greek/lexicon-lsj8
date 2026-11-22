@@ -1,0 +1,582 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://opengreek.org/schema/lexica/0.3.0/lexicon-manifest.schema.json",
+ "title": "Lexicon manifest (open-greek-lexica 0.3.0)",
+ "description": "manifest.json at the top of one lexicon's directory.",
+ "type": "object",
+ "required": [
+  "format",
+  "id",
+  "title",
+  "author",
+  "edition",
+  "year",
+  "license",
+  "attribution",
+  "sources",
+  "scans",
+  "key_normalization",
+  "counts",
+  "files"
+ ],
+ "properties": {
+  "format": {
+   "type": "string",
+   "pattern": "^open-greek-lexica/[0-9]+\\.[0-9]+\\.[0-9]+$"
+  },
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z0-9-]+$",
+   "description": "Lexicon id, also the prefix of every entry id: cunliffe-1924, lsj8-1901."
+  },
+  "title": {
+   "type": "string"
+  },
+  "short_title": {
+   "type": "string"
+  },
+  "author": {
+   "type": "string"
+  },
+  "edition": {
+   "type": "string"
+  },
+  "publisher": {
+   "type": "string"
+  },
+  "place": {
+   "type": "string"
+  },
+  "year": {
+   "type": [
+    "integer",
+    "string"
+   ]
+  },
+  "volumes": {
+   "type": "array"
+  },
+  "scope": {
+   "type": "string"
+  },
+  "languages": {
+   "type": "object"
+  },
+  "license": {
+   "type": "object",
+   "required": [
+    "id",
+    "url"
+   ],
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "url": {
+     "type": "string"
+    },
+    "note": {
+     "type": "string"
+    }
+   }
+  },
+  "attribution": {
+   "type": "string",
+   "minLength": 1
+  },
+  "sources": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": [
+     "role",
+     "name",
+     "sha256"
+    ],
+    "properties": {
+     "role": {
+      "type": "string"
+     },
+     "name": {
+      "type": "string"
+     },
+     "repository": {
+      "type": "string"
+     },
+     "commit": {
+      "type": "string"
+     },
+     "path": {
+      "type": "string"
+     },
+     "url": {
+      "type": "string"
+     },
+     "bytes": {
+      "type": "integer"
+     },
+     "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+     },
+     "license": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "scans": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "provider",
+     "url",
+     "access",
+     "credit"
+    ],
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "provider": {
+      "type": "string"
+     },
+     "description": {
+      "type": "string"
+     },
+     "url": {
+      "type": "string"
+     },
+     "viewer_url": {
+      "type": "string",
+      "description": "Template for a link to one leaf in the provider's viewer: {n} is the leaf's position among the leaves the viewer shows (from the pinned scandata), {leaf} the leaf. pages.json has the links made from it."
+     },
+     "volume": {
+      "type": [
+       "string",
+       "integer",
+       "null"
+      ]
+     },
+     "image_url": {
+      "type": "string",
+      "description": "Template with {leaf} for a page image (public scans only)."
+     },
+     "leaf_offset": {
+      "type": "integer",
+      "description": "leaf = printed page + leaf_offset, for the pages in pages."
+     },
+     "pages": {
+      "type": "object",
+      "description": "The printed pages the scan has: first and last (with leaf_offsets ranges, less lacks), or used (the pages read from it) and also."
+     },
+     "rights": {
+      "type": "string"
+     },
+     "access": {
+      "enum": [
+       "public",
+       "us-only",
+       "restricted"
+      ],
+      "description": "public: images anyone may see and load; us-only: a link to a viewer that shows the page in the United States only; restricted: no public image."
+     },
+     "credit": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The credit line shown with an image or link of this scan."
+     },
+     "leaf_files": {
+      "type": "object",
+      "required": [
+       "scandata",
+       "page_numbers"
+      ],
+      "properties": {
+       "description": {
+        "type": "string"
+       },
+       "scandata": {
+        "type": "object",
+        "required": [
+         "name",
+         "path",
+         "url",
+         "bytes",
+         "sha256"
+        ],
+        "properties": {
+         "name": {
+          "type": "string"
+         },
+         "path": {
+          "type": "string"
+         },
+         "url": {
+          "type": "string"
+         },
+         "bytes": {
+          "type": "integer",
+          "minimum": 0
+         },
+         "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+         },
+         "md5": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{32}$"
+         }
+        },
+        "description": "A pinned file as archive.org serves it; sha256 and bytes are of that file."
+       },
+       "page_numbers": {
+        "type": "object",
+        "required": [
+         "name",
+         "path",
+         "url",
+         "bytes",
+         "sha256"
+        ],
+        "properties": {
+         "name": {
+          "type": "string"
+         },
+         "path": {
+          "type": "string"
+         },
+         "url": {
+          "type": "string"
+         },
+         "bytes": {
+          "type": "integer",
+          "minimum": 0
+         },
+         "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+         },
+         "md5": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{32}$"
+         }
+        },
+        "description": "A pinned file as archive.org serves it; sha256 and bytes are of that file."
+       }
+      },
+      "description": "archive.org: the pinned scandata and page-number files the leaves are checked against."
+     }
+    }
+   }
+  },
+  "key_normalization": {
+   "type": "object",
+   "required": [
+    "version",
+    "fold",
+    "translit",
+    "greek_run"
+   ],
+   "properties": {
+    "version": {
+     "type": "integer"
+    },
+    "function": {
+     "type": "string"
+    },
+    "fold": {
+     "type": "integer",
+     "description": "Version of fold (letters only)."
+    },
+    "translit": {
+     "type": "integer",
+     "description": "Version of translit (Latin search key)."
+    },
+    "greek_run": {
+     "type": "integer",
+     "description": "Version of the reader's Greek run tokenization."
+    },
+    "vectors": {
+     "type": "string",
+     "description": "Where the test vectors of these functions are."
+    }
+   }
+  },
+  "citation_target": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "description": "The corpus release that citation addresses refer to."
+  },
+  "perseus_ids": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "required": [
+    "source",
+    "sha256",
+    "entries",
+    "methods"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "source": {
+     "type": "string",
+     "description": "The role in sources of the pinned LSJ9 files (headword-marks)."
+    },
+    "sha256": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{64}$",
+     "description": "Their pin, as in sources."
+    },
+    "entries": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "Entries given a source.perseus_id."
+    },
+    "methods": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "integer",
+      "minimum": 0
+     },
+     "description": "Entries of the body by how they were matched: key, key-window, letters-window, ambiguous (no id recorded) and none."
+    }
+   },
+   "description": "LSJ8: how source.perseus_id was matched to the LSJ9 entries, or null for a build made without the LSJ9 files (--no-lsj9), which records no perseus_id and is not to be released. Absent for a lexicon whose ids are not matched to LSJ9."
+  },
+  "counts": {
+   "type": "object"
+  },
+  "files": {
+   "type": "object",
+   "required": [
+    "entries",
+    "keys",
+    "corrections",
+    "pages",
+    "aliases"
+   ],
+   "properties": {
+    "entries": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "required": [
+       "file",
+       "count",
+       "first_seq",
+       "last_seq",
+       "first_key",
+       "last_key",
+       "bytes",
+       "sha256"
+      ],
+      "properties": {
+       "file": {
+        "type": "string"
+       },
+       "count": {
+        "type": "integer"
+       },
+       "first_seq": {
+        "type": "integer"
+       },
+       "last_seq": {
+        "type": "integer"
+       },
+       "first_key": {
+        "type": "string"
+       },
+       "last_key": {
+        "type": "string"
+       },
+       "bytes": {
+        "type": "integer"
+       },
+       "sha256": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+       }
+      }
+     }
+    },
+    "keys": {
+     "type": "object",
+     "required": [
+      "file",
+      "bytes",
+      "sha256"
+     ],
+     "properties": {
+      "file": {
+       "type": "string"
+      },
+      "bytes": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "sha256": {
+       "type": "string",
+       "pattern": "^[0-9a-f]{64}$"
+      }
+     }
+    },
+    "corrections": {
+     "type": "object",
+     "required": [
+      "file",
+      "bytes",
+      "sha256"
+     ],
+     "properties": {
+      "file": {
+       "type": "string"
+      },
+      "bytes": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "sha256": {
+       "type": "string",
+       "pattern": "^[0-9a-f]{64}$"
+      }
+     }
+    },
+    "pages": {
+     "type": "object",
+     "required": [
+      "file",
+      "rows",
+      "bytes",
+      "sha256"
+     ],
+     "properties": {
+      "file": {
+       "type": "string"
+      },
+      "bytes": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "sha256": {
+       "type": "string",
+       "pattern": "^[0-9a-f]{64}$"
+      },
+      "rows": {
+       "type": "integer",
+       "minimum": 0
+      }
+     },
+     "description": "pages.json"
+    },
+    "aliases": {
+     "type": "object",
+     "required": [
+      "file",
+      "aliases",
+      "bytes",
+      "sha256"
+     ],
+     "properties": {
+      "file": {
+       "type": "string"
+      },
+      "bytes": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "sha256": {
+       "type": "string",
+       "pattern": "^[0-9a-f]{64}$"
+      },
+      "aliases": {
+       "type": "integer",
+       "minimum": 0
+      }
+     },
+     "description": "aliases.json"
+    },
+    "lookup": {
+     "type": "object",
+     "required": [
+      "file",
+      "bytes",
+      "sha256"
+     ],
+     "properties": {
+      "file": {
+       "type": "string"
+      },
+      "bytes": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "sha256": {
+       "type": "string",
+       "pattern": "^[0-9a-f]{64}$"
+      }
+     }
+    },
+    "reverse": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "work",
+       "file",
+       "loci",
+       "bytes",
+       "sha256"
+      ],
+      "properties": {
+       "work": {
+        "type": "string"
+       },
+       "file": {
+        "type": "string"
+       },
+       "loci": {
+        "type": "integer"
+       },
+       "bytes": {
+        "type": "integer"
+       },
+       "sha256": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "readme": {
+     "type": "object",
+     "required": [
+      "file",
+      "bytes",
+      "sha256"
+     ],
+     "properties": {
+      "file": {
+       "type": "string"
+      },
+      "bytes": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "sha256": {
+       "type": "string",
+       "pattern": "^[0-9a-f]{64}$"
+      }
+     }
+    }
+   }
+  }
+ }
+}

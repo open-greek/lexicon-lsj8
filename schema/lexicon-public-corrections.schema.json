@@ -1,0 +1,134 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://opengreek.org/schema/lexica/0.3.0/lexicon-public-corrections.schema.json",
+ "title": "Lexicon corrections, public copy (open-greek-lexica 0.3.0)",
+ "description": "corrections.json: reversible changes to the source, applied in order before conversion. inverse is the same change with original and correction exchanged. The public copy in a lexicon's repository leaves out these fields of each record: evidence.",
+ "type": "object",
+ "required": [
+  "lexicon",
+  "corrections"
+ ],
+ "properties": {
+  "lexicon": {
+   "type": "string"
+  },
+  "description": {
+   "type": "string"
+  },
+  "corrections": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "kind",
+     "error_in",
+     "target",
+     "original",
+     "correction",
+     "summary",
+     "scan",
+     "date",
+     "inverse"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+-c[0-9]{4,}$"
+     },
+     "kind": {
+      "enum": [
+       "element",
+       "page-break",
+       "move",
+       "remove-element",
+       "insert-element",
+       "insert-entry",
+       "text"
+      ]
+     },
+     "error_in": {
+      "enum": [
+       "print",
+       "encoding"
+      ],
+      "description": "Where the error is: in the printed book (a correction of the author) or in the source encoding (the print is right)."
+     },
+     "target": {
+      "type": "object",
+      "description": "What the record changes. element: entry (xml:id), element (name), occurrences, and optionally nth (position among the elements of that name in the entry, counted after earlier records). page-break: entry, anchor. move: div, entry or entry_of. insert-element: entry, element, nth (insert before that element; with after: true, right after it). remove-element: div (a top-level element), or entry, element, nth (an element inside an entry). insert-entry: div (the xml:id of the entry).",
+      "properties": {
+       "entry": {
+        "type": "string"
+       },
+       "element": {
+        "type": "string"
+       },
+       "occurrences": {
+        "type": "integer",
+        "minimum": 1
+       },
+       "nth": {
+        "type": "integer",
+        "minimum": 0
+       },
+       "after": {
+        "type": "boolean",
+        "description": "insert-element only: insert right after the nth element and its text instead of before it."
+       },
+       "anchor": {
+        "type": "string"
+       },
+       "div": {
+        "type": "string"
+       },
+       "entry_of": {
+        "type": "string"
+       }
+      }
+     },
+     "original": {
+      "type": [
+       "object",
+       "null"
+      ]
+     },
+     "correction": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "description": "The changed state. element: {attributes, text} (an attribute the original names and the correction does not is removed), and tail (the exact text after the element) when the original gives one (a record on a paragraph, p, changes only its text); page-break: {pb}; move: {parent, index}; insert-element: {xml, tail}; remove-element: {index, xml, tail} (top-level) or {xml, tail} (inside an entry), or null; insert-entry: {index, xml, tail}, the entry the source lost, typed from the scan, at that position among the children of the body."
+     },
+     "summary": {
+      "type": "string",
+      "minLength": 1,
+      "description": "One line for readers: what was wrong and what the print or the evidence shows. Copied into the correction mark."
+     },
+     "print_reading": {
+      "type": "string",
+      "description": "The reading of the print, when it differs from both the original and the correction (the print and the source are wrong in different ways). Copied into the correction mark."
+     },
+     "scan": {
+      "type": "object",
+      "description": "Where the evidence can be seen: {vol, page, col}."
+     },
+     "date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+     },
+     "inverse": {
+      "type": "object",
+      "required": [
+       "kind",
+       "target",
+       "original",
+       "correction"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

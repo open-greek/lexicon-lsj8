@@ -1,0 +1,422 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://opengreek.org/schema/lexica/0.3.0/lexicon-entry.schema.json",
+ "title": "Lexicon entry (open-greek-lexica 0.3.0)",
+ "description": "One entry of a lexicon, one JSON object per line in entries/NNNN.jsonl. The entry text is plain text; senses, citations, cross-references and typographic marks point into it with character spans (standoff markup), so the text needs no escaping or sanitizing.",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "seq",
+  "kind",
+  "headword",
+  "key",
+  "alt_keys",
+  "fold",
+  "homograph",
+  "flags",
+  "quality",
+  "text",
+  "senses",
+  "citations",
+  "xrefs",
+  "marks",
+  "loc",
+  "loc_end",
+  "page_breaks",
+  "source"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z0-9-]+:[A-Za-z0-9._-]+$",
+   "description": "Stable id: lexicon id, a colon and a local id that is never reused for another entry."
+  },
+  "seq": {
+   "type": "integer",
+   "minimum": 1,
+   "description": "Position in printed order, from 1."
+  },
+  "kind": {
+   "enum": [
+    "entry",
+    "prefix",
+    "suffix",
+    "cross-reference",
+    "other"
+   ]
+  },
+  "headword": {
+   "type": "string",
+   "minLength": 1,
+   "description": "The headword as printed, without the flag symbols and homograph number, which have their own fields. Several printed forms are joined with ', '."
+  },
+  "key": {
+   "type": "string",
+   "minLength": 1,
+   "description": "Normalized lookup key of the first printed form (see key_normalization in the manifest). It starts with a Greek letter (a capital or small letter of the Greek blocks: not a sign, numeral sign, ypogegrammeni or prosgegrammeni, nor a Coptic letter), or with a hyphen for a suffix; pattern is key_pattern() in lexica_format.py.",
+   "pattern": "^[-\\u0370-\\u0373\\u0376\\u0377\\u037b-\\u037d\\u037f\\u0386\\u0388-\\u038a\\u038c\\u038e-\\u03a1\\u03a3-\\u03e1\\u03f0-\\u03f5\\u03f7-\\u03ff\\u1f00-\\u1f15\\u1f18-\\u1f1d\\u1f20-\\u1f45\\u1f48-\\u1f4d\\u1f50-\\u1f57\\u1f59\\u1f5b\\u1f5d\\u1f5f-\\u1f7d\\u1f80-\\u1fb4\\u1fb6-\\u1fbc\\u1fc2-\\u1fc4\\u1fc6-\\u1fcc\\u1fd0-\\u1fd3\\u1fd6-\\u1fdb\\u1fe0-\\u1fec\\u1ff2-\\u1ff4\\u1ff6-\\u1ffc]"
+  },
+  "alt_keys": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1,
+    "pattern": "^[-\\u0370-\\u0373\\u0376\\u0377\\u037b-\\u037d\\u037f\\u0386\\u0388-\\u038a\\u038c\\u038e-\\u03a1\\u03a3-\\u03e1\\u03f0-\\u03f5\\u03f7-\\u03ff\\u1f00-\\u1f15\\u1f18-\\u1f1d\\u1f20-\\u1f45\\u1f48-\\u1f4d\\u1f50-\\u1f57\\u1f59\\u1f5b\\u1f5d\\u1f5f-\\u1f7d\\u1f80-\\u1fb4\\u1fb6-\\u1fbc\\u1fc2-\\u1fc4\\u1fc6-\\u1fcc\\u1fd0-\\u1fd3\\u1fd6-\\u1fdb\\u1fe0-\\u1fec\\u1ff2-\\u1ff4\\u1ff6-\\u1ffc]"
+   },
+   "description": "Further lookup keys: other printed forms and, where the source gives one, a standard lemma spelling. Each starts with a Greek letter or a hyphen."
+  },
+  "fold": {
+   "type": "string",
+   "description": "The letters of key (fold version 1 in the manifest's key_normalization): no breathings, accents, diaeresis, iota subscript, hyphens or spaces, σ for ς. For forgiving search."
+  },
+  "homograph": {
+   "type": [
+    "integer",
+    "null"
+   ],
+   "minimum": 1,
+   "description": "The printed homograph number, or null."
+  },
+  "flags": {
+   "type": "array",
+   "items": {
+    "enum": [
+     "dagger",
+     "asterisk",
+     "double-dagger"
+    ]
+   },
+   "description": "Signs printed before the headword, in printed order. What each means is stated in the lexicon's README."
+  },
+  "quality": {
+   "enum": [
+    "transcribed-checked",
+    "ocr-headword-checked",
+    "ocr"
+   ],
+   "description": "How far the entry can be trusted: transcribed-checked (a transcription checked against the print), ocr-headword-checked (OCR text whose headword and start passed the build's checks, which catch misreadings but do not prove a headword right), ocr (OCR text with a doubtful headword or start; see source.review)."
+  },
+  "text": {
+   "type": "string",
+   "minLength": 1,
+   "description": "The whole entry as plain text in printed order, starting with the flags and headword. No inline markup."
+  },
+  "senses": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/sense"
+   }
+  },
+  "citations": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/citation"
+   }
+  },
+  "xrefs": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/xref"
+   }
+  },
+  "marks": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/mark"
+   }
+  },
+  "loc": {
+   "$ref": "#/$defs/loc"
+  },
+  "loc_end": {
+   "$ref": "#/$defs/loc"
+  },
+  "page_breaks": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "page",
+     "offset"
+    ],
+    "properties": {
+     "vol": {
+      "type": [
+       "string",
+       "integer",
+       "null"
+      ]
+     },
+     "page": {
+      "type": [
+       "string",
+       "integer"
+      ]
+     },
+     "col": {
+      "type": [
+       "string",
+       "integer",
+       "null"
+      ]
+     },
+     "offset": {
+      "type": "integer",
+      "minimum": 0
+     }
+    }
+   },
+   "description": "Page or column breaks inside the entry: the new page starts at this text offset."
+  },
+  "source": {
+   "type": "object",
+   "description": "Identifiers in the source encoding, for tracing; free-form per lexicon. LSJ8 entries record perseus_id, the id of the matching LSJ9 entry in the Perseus encoding, where one matches."
+  },
+  "corrections": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "Ids of the records in corrections.json that changed this entry."
+  }
+ },
+ "$defs": {
+  "span": {
+   "type": "array",
+   "items": {
+    "type": "integer",
+    "minimum": 0
+   },
+   "minItems": 2,
+   "maxItems": 2,
+   "description": "[start, end) character offsets into the entry text (Python string indices, Unicode code points)."
+  },
+  "loc": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "vol",
+    "page",
+    "col"
+   ],
+   "properties": {
+    "vol": {
+     "type": [
+      "string",
+      "integer",
+      "null"
+     ]
+    },
+    "page": {
+     "type": [
+      "string",
+      "integer",
+      "null"
+     ]
+    },
+    "col": {
+     "type": [
+      "string",
+      "integer",
+      "null"
+     ]
+    }
+   },
+   "description": "Printed volume, page and column. Null when the lexicon has no volumes or columns or the value is unknown."
+  },
+  "sense": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "label",
+    "path",
+    "span"
+   ],
+   "properties": {
+    "label": {
+     "type": "string",
+     "description": "The printed label, without brackets: 1, a, β, II."
+    },
+    "path": {
+     "type": "string",
+     "description": "Labels from the top level down, joined with dots: 7.a. Unique within the entry."
+    },
+    "label_printed": {
+     "type": "boolean",
+     "description": "False when the label was added by the encoder and is not in the print."
+    },
+    "span": {
+     "$ref": "#/$defs/span"
+    },
+    "senses": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/sense"
+     }
+    }
+   }
+  },
+  "citation": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "printed",
+    "span",
+    "address"
+   ],
+   "properties": {
+    "printed": {
+     "type": "string",
+     "description": "The reference as the lexicon prints it (Cunliffe: Ξ 113, or 143 for a further line of the same book)."
+    },
+    "encoded": {
+     "type": "string",
+     "description": "The reference as the source encoding writes it, when it differs from the print."
+    },
+    "urn": {
+     "type": "string",
+     "pattern": "^urn:cts:",
+     "description": "CTS URN of the cited passage."
+    },
+    "address": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "Corpus address work:locus in the corpus release named in the manifest, or null when the passage is not in it."
+    },
+    "span": {
+     "$ref": "#/$defs/span"
+    },
+    "sense": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "Path of the innermost sense containing the citation."
+    },
+    "quote": {
+     "type": "string",
+     "description": "The quoted words the reference supports, as printed."
+    },
+    "quote_span": {
+     "$ref": "#/$defs/span"
+    },
+    "problem": {
+     "type": "string",
+     "description": "Why the reference could not be read normally (no-target, not-homer, text-differs-from-link, unparsed-text, no-such-book, continuation-changes-book, continuation-without-book)."
+    },
+    "correction": {
+     "type": "string"
+    }
+   }
+  },
+  "xref": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "span",
+    "target"
+   ],
+   "properties": {
+    "span": {
+     "$ref": "#/$defs/span"
+    },
+    "target": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "Entry id, or null when the target is not in the lexicon."
+    },
+    "sense": {
+     "type": "string"
+    },
+    "unresolved": {
+     "type": "string"
+    },
+    "encoded": {
+     "type": "string",
+     "description": "The reference as the source encoding writes it, when the text gives it in the printed form."
+    }
+   }
+  },
+  "mark": {
+   "description": "A typographic or editorial span. A correction mark covers the corrected text and also has correction, original, error_in and reason.",
+   "anyOf": [
+    {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "type",
+      "span"
+     ],
+     "properties": {
+      "type": {
+       "enum": [
+        "headword",
+        "italic",
+        "bold",
+        "gloss",
+        "greek",
+        "latin",
+        "sup"
+       ]
+      },
+      "span": {
+       "$ref": "#/$defs/span"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "type",
+      "span",
+      "correction",
+      "original",
+      "error_in",
+      "reason"
+     ],
+     "properties": {
+      "type": {
+       "const": "correction"
+      },
+      "span": {
+       "$ref": "#/$defs/span"
+      },
+      "correction": {
+       "type": "string",
+       "description": "correction mark: id of the record in corrections.json."
+      },
+      "original": {
+       "type": [
+        "string",
+        "null"
+       ],
+       "description": "correction mark: the reading before the correction: the printed form for a reference, the source text for other elements, null when the correction moved text into the entry."
+      },
+      "error_in": {
+       "enum": [
+        "print",
+        "encoding"
+       ],
+       "description": "correction mark: whether the printed book or the source encoding was wrong."
+      },
+      "reason": {
+       "type": "string",
+       "description": "correction mark: the record's one-line summary."
+      },
+      "print_reading": {
+       "type": "string",
+       "description": "correction mark: the print's own reading, when it differs from both original and corrected text."
+      }
+     }
+    }
+   ]
+  }
+ }
+}

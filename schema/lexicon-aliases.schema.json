@@ -1,0 +1,36 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://opengreek.org/schema/lexica/0.3.0/lexicon-aliases.schema.json",
+ "title": "Lexicon id aliases (open-greek-lexica 0.3.0)",
+ "description": "aliases.json: every entry id that a published release had and this one does not, with the ids that replace it. A site redirects a retired id to its successors.",
+ "type": "object",
+ "additionalProperties": {
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+   "successors",
+   "reason",
+   "retired_in"
+  ],
+  "properties": {
+   "successors": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "pattern": "^[a-z0-9-]+:[A-Za-z0-9._-]+$"
+    },
+    "description": "current entry ids that replace it; empty when the entry was removed with no successor"
+   },
+   "reason": {
+    "type": "string",
+    "minLength": 1,
+    "description": "one line for readers: merged into, split into, removed because"
+   },
+   "retired_in": {
+    "type": "string",
+    "pattern": "^[a-z][a-z0-9]*-[0-9]{4}-[0-9]{2}-[0-9]{2}(\\.[0-9]+)?$",
+    "description": "the tag of the first release without the id: a dataset release of the lexicon, a tag of its public repository (cunliffe-2027-01-02, lsj8-2027-01-02), or a lexica serving release (lexica-2027-01-02)"
+   }
+  }
+ }
+}

@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this dataset, cite the release you used by its tag, and credit the printed book and the digital sources as README.md says (Licence and attribution)."
+title: "Liddell and Scott, A Greek-English Lexicon, 8th edition (1901 printing): OCR edition"
+abstract: "Liddell and Scott's Greek-English Lexicon, eighth edition (1897), in its 1901 printing, read by OCR from the public scans of the book and split into structured JSON entries. The headwords are checked and many corrected with reversible records; the rest of the text is uncorrected OCR."
+type: "dataset"
+authors:
+  - name: "The Open Greek project"
+repository-code: "https://github.com/open-greek/lexicon-lsj8"
+version: "lsj8-2026-11-22"
+date-released: "2026-11-22"
+license: "CC-BY-SA-4.0"
+keywords:
+  - "ancient Greek"
+  - "Greek-English lexicon"
+  - "Liddell and Scott"
+  - "LSJ"
+  - "dictionary"
+  - "digital classics"
+  - "OCR"
+references:
+  - type: "book"
+    title: "A Greek-English Lexicon"
+    authors:
+      - family-names: "Liddell"
+        given-names: "Henry George"
+      - family-names: "Scott"
+        given-names: "Robert"
+    edition: "8th edition, revised throughout (1897), printing of 1901"
+    publisher:
+      name: "Clarendon Press"
+      city: "Oxford"
+    year: 1901
+    year-original: 1897
+  - type: "data"
+    title: "A Greek-English Lexicon, ninth edition (Liddell, Scott, Jones and McKenzie, 1940), Perseus Digital Library encoding (grc.lsj.perseus-eng1.xml to grc.lsj.perseus-eng27.xml)"
+    authors:
+      - name: "Perseus Digital Library, Tufts University"
+    editors:
+      - family-names: "Crane"
+        given-names: "Gregory"
+    repository-code: "https://github.com/PerseusDL/lexica"
+    commit: "b1f73c0867bd8e8be0bd6ca4e97b5f36df935827"
+    license: "CC-BY-SA-4.0"
+    url: "http://www.perseus.tufts.edu/"
+    notes: "Prepared under the supervision of Lisa Cerrato and David Smith, with funding from the National Endowment for the Humanities. Some corrected headwords take their breathing, accent, long and short marks, and a few their letters, from it."

@@ -1,0 +1,176 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://opengreek.org/schema/lexica/0.3.0/lexicon-pages.schema.json",
+ "title": "Lexicon page images (open-greek-lexica 0.3.0)",
+ "description": "pages.json: one row per printed page (and column, where the lexicon records columns), in printed order, with the scan and leaf to show, links, access and credit. Leaves come from the scans' pinned scandata and page-number files, never from archive.org page labels.",
+ "type": "array",
+ "items": {
+  "$ref": "#/$defs/row"
+ },
+ "$defs": {
+  "row": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "vol",
+    "page",
+    "col",
+    "scan",
+    "leaf",
+    "viewer_url",
+    "image_url",
+    "access",
+    "credit",
+    "fallback",
+    "first_seq",
+    "last_seq",
+    "max_line"
+   ],
+   "properties": {
+    "vol": {
+     "type": [
+      "string",
+      "integer",
+      "null"
+     ]
+    },
+    "page": {
+     "type": [
+      "string",
+      "integer"
+     ]
+    },
+    "col": {
+     "type": [
+      "string",
+      "integer",
+      "null"
+     ]
+    },
+    "scan": {
+     "type": "string",
+     "description": "id of a scan in the manifest"
+    },
+    "leaf": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "minimum": 0,
+     "description": "the scan's image number for the page"
+    },
+    "viewer_url": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "link to the leaf in the provider's viewer; null when there is no public viewer"
+    },
+    "image_url": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "the page image; null unless access is public"
+    },
+    "access": {
+     "enum": [
+      "public",
+      "us-only",
+      "restricted"
+     ]
+    },
+    "credit": {
+     "type": "string",
+     "minLength": 1
+    },
+    "fallback": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/link"
+     },
+     "description": "other scans that have the page and can be linked, public ones first"
+    },
+    "first_seq": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "minimum": 1,
+     "description": "seq of the first entry on the page or column"
+    },
+    "last_seq": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "minimum": 1,
+     "description": "seq of the last entry on the page or column"
+    },
+    "max_line": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "minimum": 1,
+     "description": "the last column line an entry has there, where the lexicon numbers lines"
+    },
+    "note": {
+     "type": "string",
+     "description": "what a reader should know about this page's image"
+    }
+   }
+  },
+  "link": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "scan",
+    "leaf",
+    "viewer_url",
+    "image_url",
+    "access",
+    "credit"
+   ],
+   "properties": {
+    "scan": {
+     "type": "string",
+     "description": "id of a scan in the manifest"
+    },
+    "leaf": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "minimum": 0,
+     "description": "the scan's image number for the page"
+    },
+    "viewer_url": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "link to the leaf in the provider's viewer; null when there is no public viewer"
+    },
+    "image_url": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "the page image; null unless access is public"
+    },
+    "access": {
+     "enum": [
+      "public",
+      "us-only",
+      "restricted"
+     ]
+    },
+    "credit": {
+     "type": "string",
+     "minLength": 1
+    }
+   }
+  }
+ }
+}

@@ -1,6 +1,6 @@
 # Lexicon entry format (open-greek-lexica 0.3.0)
 
-> This copy of the format comes with release `lsj8-2026-11-22` of
+> This copy of the format comes with release `lsj8-2026-11-22.2` of
 > `lsj8-1901`. The programs it names under `scripts/` build the lexica and
 > are not part of this repository, and neither is `lookup/`, the lemma
 > lookup. The JSON Schemas are in `schema/` and the test vectors in
@@ -19,6 +19,9 @@ and `summary` fields of correction records. 0.3.0 added `pages.json`,
 `source.perseus_id` and the manifest's `perseus_ids`, the rule that a key
 starts with a Greek letter or a hyphen, the `access` and `credit` of every
 scan, and the test vectors in `vectors/`.
+
+The reader site does not read these directories; it serves a release of
+SQLite files exported from them (`site-bundle.md`).
 
 ## Layout
 
@@ -73,7 +76,7 @@ vector is a new normalization version.
   the entry's first line: `<page>-<col>-<line>` for LSJ8 (printed page,
   column, line in that column), with the volume first for a lexicon in
   volumes. An id that has to go (entries merged or split, a running head
-  read as an entry) is kept in `aliases.json` with the ids that replace it
+  or a quotation read as an entry) is kept in `aliases.json` with the ids that replace it
   (below), so a link to it still resolves.
 - **`headword`**: as printed, without the flag signs and homograph number,
   which have their own fields. Several printed forms are joined with `, `.
@@ -297,7 +300,17 @@ source. Kinds:
 - `text`: for OCR'd lexica: replace text within one line of the OCR text;
   `target` has `page`, `col`, `line` (the line in that column) and
   `offset` (in characters, in the line as earlier records left it), and
-  `original` and `correction` are `{"text": ...}`.
+  `original` and `correction` are `{"text": ...}`;
+- `start`: for OCR'd lexica: whether a line begins an entry, where the
+  lexicon's rules for finding entry starts get it wrong (an entry run on
+  inside the one before, or a line of an entry read as an entry of its
+  own); `target` has `page`, `col` and `line`, and `original` and
+  `correction` are `{"start": true}` and `{"start": false}`, one each.
+  The build fails when the rules do not give the original, or when a line
+  made a start has no headword. The record changes no text, so it has no
+  mark; the entry that begins at the line, or that now holds it, names it
+  in `corrections`. An entry id that a start record retires goes into
+  `aliases.json`.
 
 Systematic conversions that apply to every entry (how a printed citation is
 written, how sense labels are shown) are not corrections; each lexicon's
@@ -375,9 +388,9 @@ page whose image is missing, partial or from another copy.
 it:
 
 ```json
-{"lsj8-1901:1013-a-80": {"successors": ["lsj8-1901:1013-a-77"],
-                         "reason": "Read as a new entry; it continues νυμφών.",
-                         "retired_in": "lsj8-2027-01-02"}}
+{"lsj8-1901:1770-a-55": {"successors": ["lsj8-1901:1770-a-10"],
+                         "reason": "Read as an entry; the line belongs to ὡς.",
+                         "retired_in": "lsj8-2026-11-23"}}
 ```
 
 `successors` is empty when the entry was removed (a running head).
@@ -395,11 +408,13 @@ lexicon. A site resolves a link to a retired id through this file.
 reaches the lexicon to entry ids, built by
 `scripts/build_lexicon_lemma_lookup.py` over every sidecar of a pinned
 annotation revision. Several ids mean homographs or alternative entries;
-show them all. `methods` gives, for each lemma, the stage that matched it,
-and `absent` lists the lemmas pinned as absent from the lexicon. The file
-records the annotation revision (with a digest of the sidecars it read), the
-Dilemma version and the hashes of the convention files and pins it used.
-The build refuses a lookup in another format version.
+show them all, in the order of the table, whose first id is the lemma's
+main entry (*Order of a lemma's entries*, below). `methods` gives, for each
+lemma, the stage that matched it, and `absent` lists the lemmas pinned as
+absent from the lexicon. The file records the annotation revision (with a
+digest of the sidecars it read), the Dilemma version, the hashes of the
+convention files and pins it used, and the order rule (`entry_order`). The
+build refuses a lookup in another format version.
 
 The stages run in order, and the first that finds an entry decides. A
 lemma goes to its own entry when the lexicon prints one, so its key,
@@ -412,10 +427,11 @@ under their own heads):
    (`lexicon-lemma-pins.schema.json`) sends a lemma to entries chosen by
    hand, or to the entries another lemma reaches (`as`), each with its
    reason, or marks it absent, and then nothing else is tried. Pins only
-   route the lookup; they change no entry. Cunliffe's τέμνω goes to the
-   τάμνω entry and the cross-reference "τέμνω. See τάμνω."; LSJ8's ποιέω
-   goes to the entry whose head the OCR reads πολέω; Πατήρ, which the
-   tagger takes for a name, goes as πατήρ. A lemma pinned `as` one that
+   route the lookup; they change no entry. The ids of a pin keep the order
+   it gives them, main entry first. Cunliffe's τέμνω goes to the
+   τάμνω entry and the cross-reference "τέμνω. See τάμνω."; LSJ8's τίς
+   goes to the entry on τις, which treats the interrogative; Πατήρ, which
+   the tagger takes for a name, goes as πατήρ. A lemma pinned `as` one that
    reaches no entry stops the build.
 2. `key`: the lemma's key is an entry's key.
 3. `alt_key`: the lemma's key is one of an entry's alternative keys.
@@ -443,13 +459,159 @@ the corpus reaches only entries whose headword is capitalized, at every
 stage but the pins: Δῖος does not reach δῖος. A lemma with a small letter
 is never taken for a name.
 
+### Order of a lemma's entries
+
+The stages find a lemma's entries; the rule `open-greek-lexica-entry-order/2`
+(in `build_lexicon_lemma_lookup.py`) puts them in order, so that the first
+is the entry a reader looking up the word wants: the article on the word,
+not a note on one of its forms. It reads only the entries.
+
+A **pointer** is an entry that only sends the reader to another: an entry
+of the kind `cross-reference` (LSJ8's "ἀγεννία, v. sub ἀγέννεια."), or one
+that names another entry and has no sense, no citation and no gloss. It
+names the entry through a cross-reference with a target (Cunliffe's "πολύς.
+See πολλός." and "οἶδα, pf. εἴδω (C)."; LSJ8's Addenda notes on the entry
+they amend), or, when the build resolved none of its references and it
+prints at most 80 code points (a printed line is about 67), in words:
+
+- whatever else the note prints, "v. sub X" (LSJ8's "ἔπομαι, to follow,
+  Dep.: v. sub ἔπω."), but not a source's "s. v. X", and "X, q. v."
+  ("εἰώθα, pf. 2 (in pres. signf.) of ἔθω, q. v."; a gender before "q. v."
+  is passed over: "fem. Θρῆσσα, ἡ, q. v." names Θρῆσσα);
+- where the note glosses nothing before them, the parse or dialect note of
+  a form, with an abbreviation, a number or a bracket before "of" and an
+  abbreviation or nothing before "for" ("εἰσί, εἰσίν, 3 pl. of εἰμί
+  (sum).", "ὅπερ, Ep. for ὅσπερ, Il. 7. 114.", "μάλιστα, Adv., Sup. of
+  μάλα", "γενή, ἡ, poët. for γενεά"), and "v. X" ("εὐθεῖα, ἡ, v. εὐθύς."),
+  but not a source's sub voce ("Suid. v. Σωσίβιος"). A gloss after the word
+  is the word's ("θῆϊον, τό, Ep. for θεῖον, brimstone"), except in the note
+  of an adverb or a feminine, a word of its own, which glosses itself
+  ("δεόντως, Adv. of δέον, as it ought"; "δεσπότειρα, fem. of δεσπότης, a
+  mistress"). After a gloss of the note's own these are "see also" or a
+  note on the reading ("δί-μετρος, ον, of a verse, having two metres,
+  Hephaest. ; v. διποδία."; "ἐξιδίω, ..., to exsude: in Ar. Av. 791 euphem.
+  for τιλάω.").
+
+"son of" and "used for" name nothing, nor does a note on a phrase
+("τοῦναντίον, crasis for τὸ ἐναντίον", "ἐπιπολύ, Adv. for ἐπὶ πολύ"), one
+that derives another word ("Dim. of ζωμός", "strengthd. for πτήσσω", "verb.
+Adj. of ἀρέσκω"), a prefix ("v. sub μεσ-"), a word in brackets ("εὐβωλος,
+ον, (βῶλον) fertile (v. sub εὐπωλος)."), a word the OCR mixes with Latin
+letters ("v. sub δopι-"), a word with the note's own key ("καθίζω, Dor.
+aor. I subjunct. of καθίζω"), or, in a form's note, a bare letter ("ξέ,
+poët. for ξ, him", where the OCR prints ξ for ἕ; "γάμμα, τό, indecl., the
+letter γ, q. v." names the letter). A word runs on through the combining
+marks the OCR prints for some accents ("βῶκος, ὁ, Dor. for βου̂κος"). A
+cross-reference whose references the build left unresolved names its entry
+in words too.
+
+1. The entries that are not pointers come first. The lead is one whose
+   headword has the lemma's case, a capital or a small letter, when any
+   has (LSJ8's ῥέα, easily, leads before the longer Ῥέα, and κῦρος,
+   authority, before Κῦρος; the lemma Κῦρος leads with Cyrus). Of those
+   the longest leads, unless one printed before it is at least two thirds
+   of its length (a lead margin of 1.5, in code points of the entry's
+   text): then the first such entry in print leads. A dialect-form or
+   crasis note is a line and the article on the word a page, so LSJ8's καί
+   leads with the conjunction, not with "καί, crasis for καὶ αἱ"; and
+   printed order, which is the order of the homograph numbers where the
+   lexicon prints them, decides between entries of comparable length
+   (Cunliffe's ἅλς, the sea, before ἅλς, salt). The other entries follow in
+   printed order.
+2. Each pointer follows the entry it names, directly or through a pointer
+   it names, when that entry is one of the lemma's; the other pointers come
+   last, in printed order.
+3. When every entry of a lemma is a pointer, the entries they name are
+   added and lead by step 1 (they are *followed*): Cunliffe's ἐνέπω leads
+   with ἐννέπω, then "ἐνέπω. See ἐννέπω."; πολύς with πολλός. So are the
+   entries named by the pointers with the lemma's case, a capital or a
+   small letter, when every entry with that case is a pointer: LSJ8's κρῆς
+   ("κρῆς, Dor. for κρέας") leads with κρέας, not with Κρῆς, a Cretan.
+   Pointers to pointers are followed up to three steps. A pointer that
+   prints one form for each of its targets ("ἆθλος, ἀθλοφόρος. See ἄεθλος,
+   ἀεθλοφόρος.") names, for a lemma that is one of its forms, only that
+   form's target.
+
+The entry a pointer names is read from the word it prints as well as from
+the cross-reference's target, which the build takes as the first entry
+with the word's key, whatever homograph the pointer prints. Of the entries
+with the printed key, the pointer names the one with the homograph mark it
+prints: a letter after the word (LSJ8's "χράομαι, v. sub χράω C." names
+χράω (C), to use, not χράω (A), to graze) or a superscript number in it
+(Cunliffe's "εἴκω¹"), matched with the number the entry records or the
+letter in brackets in its head. Without a mark it names the build's
+target, except a pointer when the key has an entry that is not one
+("δύνω, v. sub δύω." names the verb, not "δύω, v. sub δύο.") or an entry
+with another key (Cunliffe's "ἐξ. See ἐκ." names the preposition ἐκ, not
+the prefix ἐκ-); then it names the key's main entry by step 1. A target
+the build reaches through a pointer with the printed key stands (ἐξ- names
+ἐκ- through "ἐξ-. See ἐκ-.").
+
+A word named in words names the entries with its key (a compound's hyphen
+left out), else with it as an alternative key, else the one entry with its
+letters (the OCR often drops a mark: "εἰώθα, ... of ἔθω, q. v." names the
+entry headed ἑθω). Of these it names the one with the homograph mark it
+prints, in brackets or as a bare letter that does not begin a section
+number ("v. sub εἰ A. VI. 4. c." names section A of εἰ, not a homograph
+(A)). Without a mark it names, of those that are not pointers (with the
+word's case, if any has it, and passing over notes of a line, if a longer
+one is left), the one, or the longest when it is at least three times as
+long as the next (the word margin): "θεῖον, τό, the divinity, v. sub θεῖος
+II." names θεῖος, divine (2,913 code points), not θεῖος, uncle (448).
+Otherwise it names none: "v. sub εἴρω to say" does not say which of εἴρω
+(A), to fasten, and εἴρω (B), to say, of a length, it means. A word that
+names no entry but the pointer itself makes no pointer. So LSJ8's ἕπομαι
+leads with ἔπω, καθάπερ with καθά, εὐθεῖα with εὐθύς and ἔ with the
+reflexive οὗ (headed οὖ), then the note.
+
+A pin keeps the order it gives, for the cases the rule cannot see. The rule
+reads only the entries, not the corpus, so it cannot tell which of two
+homographs the corpus means when the rarer one is the longer (LSJ8's
+πρόσειμι and μέτειμι, whose tokens are mostly forms of the verbs with εἰμί;
+Cunliffe's μήν, the particle, ἕλιξ, the noun, and σύνειμι, to be with), nor
+that a lemma is another word than the form a form entry parses (Cunliffe's
+"ἔστε, 2 pl. imp. εἰμί." for the conjunction ἔστε, which the rule would
+follow to εἰμί). The pins also cover a main entry the parse does not link
+(LSJ8 treats οἶδα under *εἴδω, and its "οἶδα, Aeol. οὔδα Alcae. 141, v. sub
+*εἶδω B." is not read as a cross-reference by the build; LSJ8's οὐκ is
+treated under οὐ), an entry that defines without a marked gloss (Cunliffe's
+"ἆ. Ah! ..."), and a misread headword or a stray line of another article
+among the entries (LSJ8's ὄρος, ἐμφάνεια and οἱ). Each pin gives its
+reason. A lemma pinned `as` another takes the rule, unless the other lemma
+is pinned. Reading pointers in words adds pins where the note's word
+reaches the wrong entry: LSJ8's μήτι (the build keys the head of μήτις
+"μήτις ορ μή τις", so the note reaches only μῆτις, counsel), κέαρ (the OCR
+drops the mark of the word the note prints), σῦς (the article on ὗς is not
+split out) and Θουκυδίδης (its note names the entry on Doric θευ-); where
+the key reaches only a note because the article's head is misread (ἀνάσσω,
+ἄδεια, and the conjunction ἤν, headed ἦν); where the lemma is another word
+than the entry with its key (ὕστερον, the adverb, under ὕστερος; κάν, the
+corpus's κἄν, under κἂν); and where
+the corpus means the word a pointer names but the rule puts another
+homograph first, since it follows a pointer only when every entry is one
+(εἰλέω, to roll up, under εἶλω; οὐρία, the fair wind, under οὔριος), or the
+word margin names none of a word's homographs (πόμα, the drink πῶμα, not
+the lid). LSJ8's ἔσκε is pinned to εἰμί, which its note prints εἶμί. LSJ8's
+εὀ is pinned to the reflexive οὗ, whose word its note prints without marks.
+
+`lemmas.json` records the rule as `entry_order`: `rule`, `lead_margin`,
+`follow_depth`, `pointer_span`, `word_margin`, the lemmas whose order a pin
+gives (`pinned`), and the entries the rule added for each lemma by
+following its pointers (`followed`). A release refuses a table that records
+another rule, or whose order is not the one the rule gives.
+
 `lookup/coverage.json` reports, over tokens whose lemma has a Greek letter:
 the share of tokens matched, by method, with and without proper nouns, and
 how much of it is exact (pins, convention and keys) rather than by letters;
 the same for the top 100, 1,000 and 5,000 lemmas and for the Homeric poems;
 the letter matches refused and why; the lemmas whose entries carry review
-flags; the letter matches among the top 5,000; and the 500 most frequent
-unmatched lemmas, as the worklist for reading the scans.
+flags; the letter matches among the top 5,000; the 500 most frequent
+unmatched lemmas, as the worklist for reading the scans; and the effect of
+the entry order (`entry_order`): over all lemmas and the top 100, 1,000 and
+5,000, the lemmas with several entries, those whose lead is not their
+first entry in print, those led by a followed entry or a pointer and those
+a pin orders (each with its tokens), and every lead change in the top
+1,000.
 
 ## Fitting the other lexica
 

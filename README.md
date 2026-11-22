@@ -11,7 +11,7 @@ edition, revised throughout (Oxford: Clarendon Press, 1897), in the
 printing of 1901: the lexicon, pages 1 to 1774, and the Addenda, pages
 1774 to 1776, as structured data. Every entry is a JSON object with its
 text, its sense labels, its cross-references and the page, column and line
-where it is printed. This is release `lsj8-2026-11-22`, with 99,837
+where it is printed. This is release `lsj8-2026-11-22.2`, with 99,837
 entries: 99,545 from the lexicon and 292
 from the Addenda.
 
@@ -57,8 +57,12 @@ serves them).
    set in and its other lines are flush, so the indent of each line was
    measured on the scan, and an entry starts at a line set in that begins
    with a headword. Where a line could not be measured, the text and the
-   alphabetical order decide. Running heads, page numbers, the printer's
-   signatures and the letter headings are left out.
+   alphabetical order decide. Where the scans show the split wrong (an
+   entry run on inside the one before, or a quotation read as an entry of
+   its own), a record in `corrections.json` sets or removes the start at
+   that line, and an entry id that goes is kept in `aliases.json`. Running
+   heads, page numbers, the printer's signatures and the letter headings
+   are left out.
 3. The headwords were checked: one accent on a word of two or more
    syllables, a breathing on the first vowel and none inside the word,
    Greek letters only, alphabetical order, and agreement with the same
@@ -69,11 +73,14 @@ serves them).
    breathing, accent and long and short marks were taken from LSJ9. A few
    corrections fix whole lines: a faint column on page 562, the cut-off
    column on page 1770 and a running head read inside a column on page
-   1422. There are 16,433 corrections, all in `corrections.json`.
-   Each one is marked at its place in the entry, with the reading before it and the reason.
+   1422. Then the headwords that the corpus's lemmas reach most often were
+   read again on the scans of both copies, and corrected where they differ
+   from the print. There are 16,857 corrections, all in
+   `corrections.json`.
+   Each one that changes an entry's text or references is marked at that place in the entry, with the reading before it and the reason. The 11 that change no entry's text (11 entry starts set or removed: c16833-c16843) have no mark.
 4. Each entry of the lexicon is matched to its entry in the Perseus
    encoding of LSJ9 where one can be found in the same alphabetical place
-   (83,078 entries), and has its id as `source.perseus_id`,
+   (83,221 entries), and has its id as `source.perseus_id`,
    so that the two editions can be compared entry by entry.
 
 The OCR text itself is not otherwise changed. Lines are joined, words
@@ -86,19 +93,19 @@ are not yet parsed or linked.
 The text of every entry is OCR. `quality` says how far the headword was
 checked:
 
-- `ocr-headword-checked` (87,674 entries):
+- `ocr-headword-checked` (87,968 entries):
   the headword and the start of the entry pass the checks above;
-- `ocr` (12,163 entries): something makes the entry
+- `ocr` (11,869 entries): something makes the entry
   doubtful, and `source.review` says what:
-  - `headword` (2,260): the headword cannot be right as
+  - `headword` (2,222): the headword cannot be right as
     read (two accents, a missing or misplaced breathing, Latin or Cyrillic
     letters);
-  - `no-accent` (1,912): a word of two or more
+  - `no-accent` (1,834): a word of two or more
     syllables without an accent;
-  - `lsj9-key` (8,127): its breathing, accent or
+  - `lsj9-key` (7,944): its breathing, accent or
     another mark differs from its LSJ9 entry. Many of these are misread,
     but some words are printed otherwise in the two editions;
-  - `out-of-order` (1,876): the start breaks the
+  - `out-of-order` (1,808): the start breaks the
     alphabetical order, mostly because its headword is misread;
   - `indent` (34): a start at a line the scan shows
     flush.
@@ -117,16 +124,16 @@ letter, breathing or accent.
   breathings are misread, and an OCR slip can hide a sense label or add one
   (`I. IO` for `l. 10`). A few lines still have letters of other scripts
   (Arabic, Hebrew) where the OCR misread Greek.
-- The 2,260 headwords flagged `headword` are not
+- The 2,222 headwords flagged `headword` are not
   corrected, and the `no-accent` and `lsj9-key` entries have not been
-  checked on the scans yet.
+  checked on the scans yet, apart from those the corpus's most frequent
+  lemmas reach.
 - A headword settled with LSJ9 follows LSJ9 where the 1901 print differs
   from it, mostly in long and short marks.
 - Where the indent of a line could not be measured (about one line in
   twenty), or was measured wrong, an entry can start in the wrong place or
-  a derivative can be run into the entry before it. On page 1770, column
-  a, two lines inside ὡς start entries of their own.
-- 161 cross-references do not find their entry,
+  a derivative can be run into the entry before it.
+- 149 cross-references do not find their entry,
   among them a few amendments in the Addenda whose headword is read
   differently.
 - Citations are not parsed: `citations` is empty in every entry.
@@ -172,7 +179,7 @@ of this repository.
 Cite the release you used, by its tag:
 
 > Henry George Liddell and Robert Scott, A Greek-English Lexicon, 8th
-> edition (1901 printing), Open Greek OCR edition, release `lsj8-2026-11-22`
+> edition (1901 printing), Open Greek OCR edition, release `lsj8-2026-11-22.2`
 > (2026-11-22), https://github.com/open-greek/lexicon-lsj8.
 
 `CITATION.cff` has the same in machine-readable form. Cite an entry by its

@@ -1,1 +1,58 @@
-{}
+{
+ "lsj8-1901:1241-b-84": {
+  "successors": [
+   "lsj8-1901:1241-b-81"
+  ],
+  "reason": "Read as an entry; the line belongs to πολλαπλόος.",
+  "retired_in": "lsj8-2026-11-22.2"
+ },
+ "lsj8-1901:1514-b-16": {
+  "successors": [
+   "lsj8-1901:1514-b-9"
+  ],
+  "reason": "Read as an entry; the line belongs to σφῠρ-ήλατος.",
+  "retired_in": "lsj8-2026-11-22.2"
+ },
+ "lsj8-1901:1768-a-58": {
+  "successors": [
+   "lsj8-1901:1767-b-57"
+  ],
+  "reason": "Read as an entry; the line belongs to ὥρα.",
+  "retired_in": "lsj8-2026-11-22.2"
+ },
+ "lsj8-1901:1768-a-60": {
+  "successors": [
+   "lsj8-1901:1767-b-57"
+  ],
+  "reason": "Read as an entry; the line belongs to ὥρα.",
+  "retired_in": "lsj8-2026-11-22.2"
+ },
+ "lsj8-1901:1770-a-49": {
+  "successors": [
+   "lsj8-1901:1770-a-10"
+  ],
+  "reason": "Read as an entry; the line belongs to ὡς.",
+  "retired_in": "lsj8-2026-11-22.2"
+ },
+ "lsj8-1901:1770-a-55": {
+  "successors": [
+   "lsj8-1901:1770-a-10"
+  ],
+  "reason": "Read as an entry; the line belongs to ὡς.",
+  "retired_in": "lsj8-2026-11-22.2"
+ },
+ "lsj8-1901:181-a-80": {
+  "successors": [
+   "lsj8-1901:181-a-79"
+  ],
+  "reason": "Read as an entry; the line belongs to ἀποθεράπευσις.",
+  "retired_in": "lsj8-2026-11-22.2"
+ },
+ "lsj8-1901:301-b-55": {
+  "successors": [
+   "lsj8-1901:301-b-24"
+  ],
+  "reason": "Read as an entry; the line belongs to γε.",
+  "retired_in": "lsj8-2026-11-22.2"
+ }
+}

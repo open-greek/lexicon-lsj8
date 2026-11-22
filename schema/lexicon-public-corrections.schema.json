@@ -45,7 +45,8 @@
        "remove-element",
        "insert-element",
        "insert-entry",
-       "text"
+       "text",
+       "start"
       ]
      },
      "error_in": {
@@ -57,7 +58,7 @@
      },
      "target": {
       "type": "object",
-      "description": "What the record changes. element: entry (xml:id), element (name), occurrences, and optionally nth (position among the elements of that name in the entry, counted after earlier records). page-break: entry, anchor. move: div, entry or entry_of. insert-element: entry, element, nth (insert before that element; with after: true, right after it). remove-element: div (a top-level element), or entry, element, nth (an element inside an entry). insert-entry: div (the xml:id of the entry).",
+      "description": "What the record changes. element: entry (xml:id), element (name), occurrences, and optionally nth (position among the elements of that name in the entry, counted after earlier records). page-break: entry, anchor. move: div, entry or entry_of. insert-element: entry, element, nth (insert before that element; with after: true, right after it). remove-element: div (a top-level element), or entry, element, nth (an element inside an entry). insert-entry: div (the xml:id of the entry). text: page, col, line, offset. start: page, col, line.",
       "properties": {
        "entry": {
         "type": "string"
@@ -99,7 +100,7 @@
        "object",
        "null"
       ],
-      "description": "The changed state. element: {attributes, text} (an attribute the original names and the correction does not is removed), and tail (the exact text after the element) when the original gives one (a record on a paragraph, p, changes only its text); page-break: {pb}; move: {parent, index}; insert-element: {xml, tail}; remove-element: {index, xml, tail} (top-level) or {xml, tail} (inside an entry), or null; insert-entry: {index, xml, tail}, the entry the source lost, typed from the scan, at that position among the children of the body."
+      "description": "The changed state. element: {attributes, text} (an attribute the original names and the correction does not is removed), and tail (the exact text after the element) when the original gives one (a record on a paragraph, p, changes only its text); page-break: {pb}; move: {parent, index}; insert-element: {xml, tail}; remove-element: {index, xml, tail} (top-level) or {xml, tail} (inside an entry), or null; insert-entry: {index, xml, tail}, the entry the source lost, typed from the scan, at that position among the children of the body; text: {text}; start: {start}, whether the line begins an entry."
      },
      "summary": {
       "type": "string",

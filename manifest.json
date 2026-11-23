@@ -179,13 +179,13 @@
  "perseus_ids": {
   "source": "headword-marks",
   "sha256": "f7bce164f6dc03334445dce4d50f38a2e7c91266a9ec595f4d4361e852e45717",
-  "entries": 83335,
+  "entries": 83478,
   "methods": {
-   "ambiguous": 234,
-   "key": 75472,
-   "key-window": 24,
-   "letters-window": 7839,
-   "none": 15978
+   "ambiguous": 233,
+   "key": 75667,
+   "key-window": 36,
+   "letters-window": 7775,
+   "none": 15836
   }
  },
  "counts": {
@@ -201,18 +201,18 @@
   "kind:suffix": 14,
   "part:addenda": 292,
   "part:body": 99547,
-  "perseus_ids": 83335,
-  "quality:ocr": 11218,
-  "quality:ocr-headword-checked": 88621,
-  "review": 11218,
-  "review:headword": 1547,
+  "perseus_ids": 83478,
+  "quality:ocr": 10475,
+  "quality:ocr-headword-checked": 89364,
+  "review": 10475,
+  "review:headword": 841,
   "review:indent": 34,
-  "review:lsj9-key": 7806,
-  "review:no-accent": 1825,
-  "review:out-of-order": 1780,
-  "senses": 42155,
-  "xrefs": 1351,
-  "xrefs_unresolved": 149
+  "review:lsj9-key": 7742,
+  "review:no-accent": 1821,
+  "review:out-of-order": 1699,
+  "senses": 42156,
+  "xrefs": 1397,
+  "xrefs_unresolved": 143
  },
  "files": {
   "entries": [
@@ -223,8 +223,8 @@
     "last_seq": 500,
     "first_key": "α",
     "last_key": "ἀγκυροειδής",
-    "bytes": 499382,
-    "sha256": "a361c465857e6d5e0b293b91281f9b9d12fbefea351c2f92f3c6a2941e78e7f5"
+    "bytes": 501939,
+    "sha256": "bc22b915aeeb61947af213576feaad792b691a4c0e10222cac716a9831e7f5ca"
    },
    {
     "file": "entries/0002.jsonl",
@@ -233,8 +233,8 @@
     "last_seq": 1000,
     "first_key": "ἀγκυρομήλη",
     "last_key": "ἀδελφίζω",
-    "bytes": 509019,
-    "sha256": "ed802ddfbc64b743a40de650a16b5f244a898672f4a3879b71055fdf35f112c6"
+    "bytes": 510053,
+    "sha256": "945e5bc4cf3d3d818b74c48bbbfd4f40350f2bfd8e09df009b295fc8da2606cc"
    },
    {
     "file": "entries/0003.jsonl",
@@ -243,8 +243,8 @@
     "last_seq": 1500,
     "first_key": "ἀδελφικός",
     "last_key": "ἀερόχροος",
-    "bytes": 444551,
-    "sha256": "a96e8bb710993fa15753f4fccef9a751d2da6ed86f6d61ebaa7d7886226d11e2"
+    "bytes": 445028,
+    "sha256": "f96ffcc1becff328f6cb028c7fa247aea5b6de14a201aa51711f61bd72d5df12"
    },
    {
     "file": "entries/0004.jsonl",
@@ -253,8 +253,8 @@
     "last_seq": 2000,
     "first_key": "ἀέροψ",
     "last_key": "αἰθροπλανής",
-    "bytes": 457414,
-    "sha256": "64fb877edbc9cfe9e521541fcaf288bda1bae0a24cb6225de001fc5461c369f7"
+    "bytes": 458156,
+    "sha256": "427a56bb4fdbceae3ccee2965037e8fa6934f835cd338245a284f56c2d4f0ede"
    },
    {
     "file": "entries/0005.jsonl",
@@ -263,8 +263,8 @@
     "last_seq": 2500,
     "first_key": "αἰθροπολεύω",
     "last_key": "ἀκανθοστεφής",
-    "bytes": 494274,
-    "sha256": "a01736444cf8e1df4e952915760fb4cd8c9720089d2d3e2a4a629fbc020c4d52"
+    "bytes": 495349,
+    "sha256": "0669db5e7f976473553414642968b96bbcc047343962975bbd0077e4c85955f4"
    },
    {
     "file": "entries/0006.jsonl",
@@ -273,8 +273,8 @@
     "last_seq": 3000,
     "first_key": "ἀκανθοφάγος",
     "last_key": "ἄκρίτοεπής",
-    "bytes": 487004,
-    "sha256": "428c6994bea2b91bfe68cc26ce1259c76c915f00acbdf0f43efb1936c0826380"
+    "bytes": 487520,
+    "sha256": "e0be5a591b08db4d2af4fa87c2e99724372ef4aef78a9ea7d1c29adbd672e31d"
    },
    {
     "file": "entries/0007.jsonl",
@@ -283,8 +283,8 @@
     "last_seq": 3500,
     "first_key": "ἀκριτομυθέω",
     "last_key": "ἀληξ",
-    "bytes": 493721,
-    "sha256": "b4200183fc0ad395e9ba427ca97611f8ca6eb128bdf830757b309f69624f9c2c"
+    "bytes": 495306,
+    "sha256": "1a674b9318711f09a535552acf3a53effd4605aab89ff4b40620e66b2671d9d3"
    },
    {
     "file": "entries/0008.jsonl",
@@ -293,8 +293,8 @@
     "last_seq": 4000,
     "first_key": "ἀληπτος",
     "last_key": "ἁλυσηδόν",
-    "bytes": 510473,
-    "sha256": "362fcee41f40b2bc47ba5a8d186328849026251e50c091cccca42dbabef85cfc"
+    "bytes": 511956,
+    "sha256": "308f3ec20de23dccbf93a64acb0a8a8ab91aa441550b4de22fb28284de22f5a4"
    },
    {
     "file": "entries/0009.jsonl",
@@ -303,8 +303,8 @@
     "last_seq": 4500,
     "first_key": "ἁλυσθαίνω",
     "last_key": "ἀμμοχωσία",
-    "bytes": 526247,
-    "sha256": "50b8a5cc3593edf2cb86dbf2b96186ef6ae06cfd9baa356a4768c9d1ff82c73d"
+    "bytes": 530275,
+    "sha256": "7fa082305ee42709ab8aa80a6d91600821e562f34f3f80e0720884dc3b07aeca"
    },
    {
     "file": "entries/0010.jsonl",
@@ -313,8 +313,8 @@
     "last_seq": 5000,
     "first_key": "ἀμμόχωστος",
     "last_key": "ἀμφινεικτήος",
-    "bytes": 500959,
-    "sha256": "76107f1e930582de95d8cfe67a6b017d369d86d02f57f93815b2f913528a62c0"
+    "bytes": 502484,
+    "sha256": "5695e159987e7e4300c2b92fec5501a753a6f23a7c926072fa1f62da0c00f170"
    },
    {
     "file": "entries/0011.jsonl",
@@ -323,8 +323,8 @@
     "last_seq": 5500,
     "first_key": "ἀμφινέμομαι",
     "last_key": "ἀναθυμιάω",
-    "bytes": 531250,
-    "sha256": "71cd8545c00dd5a12943b5a5a2ae33f3a230df19b77a9989d532668165b878ca"
+    "bytes": 532299,
+    "sha256": "32525a067270698c58d43016fb9a3ec2f4fbe4b9d1f9da3362a00a7e9892be7a"
    },
    {
     "file": "entries/0012.jsonl",
@@ -333,8 +333,8 @@
     "last_seq": 6000,
     "first_key": "ἀναθύω",
     "last_key": "ἀναπίεσμα",
-    "bytes": 493845,
-    "sha256": "0860f4a138c9c3b3c23972897cf8e3f1f5bb2e8355735a13ec8f095118add2c8"
+    "bytes": 494654,
+    "sha256": "ac56e14d70c082c28c90b0417943d01fd7bbbcbe7bdf21fb37868065bb899f99"
    },
    {
     "file": "entries/0013.jsonl",
@@ -343,8 +343,8 @@
     "last_seq": 6500,
     "first_key": "ἀναπιεσμός",
     "last_key": "ἀναχορεύω",
-    "bytes": 493381,
-    "sha256": "f6fd7a8e1c3ece6248df5e706e3d5303a4389175099aed4f9e08afd504b50146"
+    "bytes": 493908,
+    "sha256": "ca44218cf6f43acd950342db998911f035453141c39651d738df4d1048df1654"
    },
    {
     "file": "entries/0014.jsonl",
@@ -353,8 +353,8 @@
     "last_seq": 7000,
     "first_key": "ἀναχόω",
     "last_key": "ἀνεπιζητησία",
-    "bytes": 458376,
-    "sha256": "9e4b286d5dadbf1a80f1eed4436fb59b9ccfe9550791ebace2c6386aa80e6bd9"
+    "bytes": 459730,
+    "sha256": "4ca82116d3ac9d774557401296713a74679529f74a69e7cf8a859d83e33cc32a"
    },
    {
     "file": "entries/0015.jsonl",
@@ -363,8 +363,8 @@
     "last_seq": 7500,
     "first_key": "ἀνεπίθετος",
     "last_key": "ἀνθρωποτρόφος",
-    "bytes": 518060,
-    "sha256": "6957fb7d50f4fba1e9e2f2a8ea9987f1aa0dc8868a9524433904b6bb253a5fc7"
+    "bytes": 520742,
+    "sha256": "0069ee037ab99e7de3acb871eac074e475fe7785b75c2b2e89149259a7568c74"
    },
    {
     "file": "entries/0016.jsonl",
@@ -373,8 +373,8 @@
     "last_seq": 8000,
     "first_key": "ἀνθρωπουπόστατος",
     "last_key": "ἀνταποθνήσκω",
-    "bytes": 475749,
-    "sha256": "0b1483fc85d9768c10e8df227cf65dc994ae315e47a31e750e89498ea0b94ae5"
+    "bytes": 477380,
+    "sha256": "35b1fb581ba16bf97312ffbb07605d68e211e7153615ce23e4a2e38554fa7649"
    },
    {
     "file": "entries/0017.jsonl",
@@ -383,8 +383,8 @@
     "last_seq": 8500,
     "first_key": "ἀντάποινα",
     "last_key": "ἀντικατηγορία",
-    "bytes": 422548,
-    "sha256": "c8a0a8d9b4fc0d881b298a19f7c3e814187de808dafe8ab2ed754dec90c0385d"
+    "bytes": 422806,
+    "sha256": "b02968e1f8b4c58e2cdd531c851f560fe644b1807940cd2375738935c0242067"
    },
    {
     "file": "entries/0018.jsonl",
@@ -393,8 +393,8 @@
     "last_seq": 9000,
     "first_key": "ἀντικάττημαι",
     "last_key": "ἀντισφήν",
-    "bytes": 432825,
-    "sha256": "d477ba96dd1766cb8f05a82b51c26a75f698327de2e4cbf2f3b7b05e1a81d949"
+    "bytes": 433084,
+    "sha256": "d89c24c055bd1c879546d98084a6ca2f1bf240fc303420daffe7e84b72b68944"
    },
    {
     "file": "entries/0019.jsonl",
@@ -403,8 +403,8 @@
     "last_seq": 9500,
     "first_key": "ἀντισφίγγω",
     "last_key": "ἀοίκητος",
-    "bytes": 486007,
-    "sha256": "78229a589bf3fc1f73b086559480080233d2610f22ec6dd03df8888f7774c4cf"
+    "bytes": 486823,
+    "sha256": "1359b68a7787f4fbeadfea8d80fe6b9a41dcdd48e6edc7f9c198960e229fb4d1"
    },
    {
     "file": "entries/0020.jsonl",
@@ -413,8 +413,8 @@
     "last_seq": 10000,
     "first_key": "ἄοικος",
     "last_key": "ἀπεικῶς",
-    "bytes": 489615,
-    "sha256": "75d014ecf4be2c05189758733aa8662d8d9f5a0b484efe756130c509186af324"
+    "bytes": 490973,
+    "sha256": "a4b6f99a9790e9f10c2457b16772609d1c9b34f552366f2003d5575c5cf25259"
    },
    {
     "file": "entries/0021.jsonl",
@@ -423,8 +423,8 @@
     "last_seq": 10500,
     "first_key": "ἀπειλέω",
     "last_key": "ἄπλοος",
-    "bytes": 460745,
-    "sha256": "ee9d833b11788bc6d5c696fc1ac8f87e25194d3189257e3ef62811fc157f5d1c"
+    "bytes": 461431,
+    "sha256": "37b251d7ff3bddfd25ea64b421b05d19c2667b8d29df57e00db37a6bd60ebf27"
    },
    {
     "file": "entries/0022.jsonl",
@@ -433,8 +433,8 @@
     "last_seq": 11000,
     "first_key": "ἁπλοπάθεια",
     "last_key": "ἀποκάω",
-    "bytes": 486110,
-    "sha256": "9438d48fe3f6a1d10ced77eb6823ada3c386ba3b0b0fdd5ec0b2f6254f46d9c6"
+    "bytes": 486644,
+    "sha256": "4aafc9129e749383ba8288d9ef2d6671274351291b34e00820b2f9d84fc4645d"
    },
    {
     "file": "entries/0023.jsonl",
@@ -443,8 +443,8 @@
     "last_seq": 11500,
     "first_key": "ἀπόκειμαι",
     "last_key": "ἀπόξυρος",
-    "bytes": 482064,
-    "sha256": "a2a2be02c57de7de6312fd7353c5076477cf52afbad39248b0d0ac64e13029bd"
+    "bytes": 482123,
+    "sha256": "1a7c6e03f7efc478f989002a8f2584ce757a80905c1e698460bdc1967c0c78cd"
    },
    {
     "file": "entries/0024.jsonl",
@@ -463,8 +463,8 @@
     "last_seq": 12500,
     "first_key": "ἀποστρακίζω",
     "last_key": "ἀπροσεκτέω",
-    "bytes": 471282,
-    "sha256": "5e45de35b6778bbd0c8ddad18dc6ac5da1139dbc0fa4aef35857b7a69353996a"
+    "bytes": 471603,
+    "sha256": "eff70d0350fead63ad04096aad2279eaeef2082ee51ee3cd34573f04e1ef8f44"
    },
    {
     "file": "entries/0026.jsonl",
@@ -473,8 +473,8 @@
     "last_seq": 13000,
     "first_key": "ἀπρόσεκτος",
     "last_key": "ἄριν",
-    "bytes": 509718,
-    "sha256": "45bb50d8674cbc0d12243516d01b56fcd42425481efffab63b7e88f021ab9cf8"
+    "bytes": 510537,
+    "sha256": "e5062fa33921b8d42010718c3e3ba86fbbbe45fdebc6e689698c3ef6af3294eb"
    },
    {
     "file": "entries/0027.jsonl",
@@ -482,9 +482,9 @@
     "first_seq": 13001,
     "last_seq": 13500,
     "first_key": "ἄριοι",
-    "last_key": "ἄρτιστεφής",
-    "bytes": 509061,
-    "sha256": "aeb063a0fa2e4af6c7dc39937f4cffeda79990b102e87bfb9ec139c2aec097ea"
+    "last_key": "ἀρτιστεφής",
+    "bytes": 510381,
+    "sha256": "6325bfe01c6574927cef34c95fe39d5d1f2ab547e8fb8b88f7be3f36c068469a"
    },
    {
     "file": "entries/0028.jsonl",
@@ -493,8 +493,8 @@
     "last_seq": 14000,
     "first_key": "ἀρτιστομέω",
     "last_key": "ἀσπάλαξ",
-    "bytes": 480164,
-    "sha256": "599388bf5c3fe8e50f1012dfe219c3f09e6e9150b298a80877138abd93fe2f44"
+    "bytes": 482551,
+    "sha256": "4a1bd09b583c9c298e3e8dd72e4d4c5e2c99921dda3d9092d9d3985e964d97f1"
    },
    {
     "file": "entries/0029.jsonl",
@@ -503,8 +503,8 @@
     "last_seq": 14500,
     "first_key": "ἀσπαλιεύομαι",
     "last_key": "ἀσφάραγος",
-    "bytes": 454610,
-    "sha256": "62d4f8068ddcea19cea0c0e9c23567bceeaa2d6b76dcb7e3dd2039816cd4f880"
+    "bytes": 455759,
+    "sha256": "0c5a4112e58cd12e674cf723f22a97926cf60ea522b52770c570b2fc97834777"
    },
    {
     "file": "entries/0030.jsonl",
@@ -513,8 +513,8 @@
     "last_seq": 15000,
     "first_key": "ἀσφαραγωνία",
     "last_key": "αὐλωνοειδής",
-    "bytes": 510104,
-    "sha256": "64abfa2201d7b3e47310ac15818e041ba3012384e8f0045bd449fbb22a35590e"
+    "bytes": 511554,
+    "sha256": "178f228975fd151056baadad4dd4678613f09f840839c2b0c2c18d8524dadc8a"
    },
    {
     "file": "entries/0031.jsonl",
@@ -523,8 +523,8 @@
     "last_seq": 15500,
     "first_key": "αὐλωπίας",
     "last_key": "αὐτόχθονος",
-    "bytes": 440932,
-    "sha256": "32780fed860cd77ad7ef6e9a5f69d9593adce987b277d48dea047cf95e7a068a"
+    "bytes": 442349,
+    "sha256": "0f435024ecaf8139d74cc0e444af6a47342722eda54f3c9b166e78960992bb50"
    },
    {
     "file": "entries/0032.jsonl",
@@ -533,8 +533,8 @@
     "last_seq": 16000,
     "first_key": "αὐτόχθων",
     "last_key": "ἀχάνης",
-    "bytes": 493372,
-    "sha256": "dd3089b109f645d3e81d424f930e69b66329d710dd229d597379a9c52ab6d508"
+    "bytes": 494556,
+    "sha256": "93c3a7edce68d9a31c4ddee8af8ab392faae88bb8a9078f9f681a249ce202be3"
    },
    {
     "file": "entries/0033.jsonl",
@@ -543,8 +543,8 @@
     "last_seq": 16500,
     "first_key": "ἀχαρακτήριστος",
     "last_key": "βάλε",
-    "bytes": 480299,
-    "sha256": "4dba786ae272a236f47c4a3155bd541a522211de6261ddd703cd02b181fa175b"
+    "bytes": 481562,
+    "sha256": "81fd97f9c012963e1b6673b11283b0aa3685ce5b16948679f25f8fb112f769d2"
    },
    {
     "file": "entries/0034.jsonl",
@@ -553,8 +553,8 @@
     "last_seq": 17000,
     "first_key": "βάλερος",
     "last_key": "βιβαστής",
-    "bytes": 478494,
-    "sha256": "aa04eefbc0b3281788416f3bfe044417c46a47310b0c6ec0e4d0db93d45b6929"
+    "bytes": 478999,
+    "sha256": "2cac5880f9854de6b1d879ca3081e5aacd8fe4d39e03f834f9bffda1df06b6ef"
    },
    {
     "file": "entries/0035.jsonl",
@@ -563,8 +563,8 @@
     "last_seq": 17500,
     "first_key": "βίβαω",
     "last_key": "βουκολικός",
-    "bytes": 435586,
-    "sha256": "35993140afb56766192b3bcec60596ab9971421ad78091bdb67c85c8882fb5b3"
+    "bytes": 435728,
+    "sha256": "91632b05307ce4695c3060c9736536368ec9b70f52164b9d6298d3cb7b811b1d"
    },
    {
     "file": "entries/0036.jsonl",
@@ -573,8 +573,8 @@
     "last_seq": 18000,
     "first_key": "βουκόλιον",
     "last_key": "βώλινος",
-    "bytes": 438327,
-    "sha256": "47d2ad9b365ade5331b6b6135c2276e6e9b675c57c56add35014aebe315f7001"
+    "bytes": 438598,
+    "sha256": "c3b92646133cde6db66a08a6ee5922923761043ac604f1cbfe16d244be01b390"
    },
    {
     "file": "entries/0037.jsonl",
@@ -583,8 +583,8 @@
     "last_seq": 18500,
     "first_key": "βωλίον",
     "last_key": "γεῦσις",
-    "bytes": 479928,
-    "sha256": "429eeee7b1e2a867a2729abca7d904708710e5ff6d817f943e3084c83026626a"
+    "bytes": 480506,
+    "sha256": "be3a43cfbaa6094cb84850eba7f7f1e2dc09a3c316679a853e4ebc41c8e2c730"
    },
    {
     "file": "entries/0038.jsonl",
@@ -593,8 +593,8 @@
     "last_seq": 19000,
     "first_key": "γευστέον",
     "last_key": "γοῦν",
-    "bytes": 490922,
-    "sha256": "fa869feab9f58ccb0acab646209272acbc03f4f6d25e34efc58bba29ac7058a0"
+    "bytes": 491173,
+    "sha256": "822db8fb0a9182f6b4f6f5e156d19de070bb57f433263821bce4a90b6798d892"
    },
    {
     "file": "entries/0039.jsonl",
@@ -603,8 +603,8 @@
     "last_seq": 19500,
     "first_key": "γοῦνα",
     "last_key": "δανειστικός",
-    "bytes": 479789,
-    "sha256": "38871cd61f199c9889bdb1e563b7d8ee654c9850d831ffa543ee19b04c92c17f"
+    "bytes": 479899,
+    "sha256": "b19fbd85eecfcb2c98364b9319550b359fd11e83fd24873af5962f9276db2771"
    },
    {
     "file": "entries/0040.jsonl",
@@ -613,8 +613,8 @@
     "last_seq": 20000,
     "first_key": "δανίζω",
     "last_key": "δερκιάομαι",
-    "bytes": 469467,
-    "sha256": "a7e64f0207ddc986e910687c5651421e3d881a27c2a92f716b249db6cc17a237"
+    "bytes": 470116,
+    "sha256": "257f1d2797fa51755f91dada176c728388a82ff4e2ecc74bc32607c75df4fa79"
    },
    {
     "file": "entries/0041.jsonl",
@@ -623,8 +623,8 @@
     "last_seq": 20500,
     "first_key": "δέρκομαι",
     "last_key": "διαθλητέον",
-    "bytes": 537369,
-    "sha256": "51d48d35a25ee6ffc21c082e9b6d063295c13c115a1e5f8ccde4726f5f6f2515"
+    "bytes": 537676,
+    "sha256": "0916adbf7cd53077440c27a34be36673be1273497ffdfb1733fdadac31e5d62a"
    },
    {
     "file": "entries/0042.jsonl",
@@ -633,8 +633,8 @@
     "last_seq": 21000,
     "first_key": "διαθλίβω",
     "last_key": "διαπαρασιωπάω",
-    "bytes": 465671,
-    "sha256": "82ea2c6216a5bafe1c43befac227069ed2cb6a4d29205223e3cd08d7a4b15b4f"
+    "bytes": 466542,
+    "sha256": "b1eb47da73c88bfddce49c3a0a9deba7c5ff8fe5a344a2de0dff17392f708268"
    },
    {
     "file": "entries/0043.jsonl",
@@ -643,8 +643,8 @@
     "last_seq": 21500,
     "first_key": "διαπαρατηρέομαι",
     "last_key": "διατορεύω",
-    "bytes": 441569,
-    "sha256": "8a807f992780045f034d5eea9d125880c7431f04968b586016e47505357f59a6"
+    "bytes": 442376,
+    "sha256": "9fcb8e9403aadca36363aa49881e29abacb665a69e32a9d84ac59a276b7716c0"
    },
    {
     "file": "entries/0044.jsonl",
@@ -653,8 +653,8 @@
     "last_seq": 22000,
     "first_key": "διατορέω",
     "last_key": "διηλλαγμένως",
-    "bytes": 464763,
-    "sha256": "2341524a7c727fad5fc9d93f68698993f870915fb233ed16a3f9c959ea1a3312"
+    "bytes": 465545,
+    "sha256": "17d59b0c1b2ff13a76c949b3dbcbcb051b9646f655d80a2bc1c6dcf0b9d86c57"
    },
    {
     "file": "entries/0045.jsonl",
@@ -663,8 +663,8 @@
     "last_seq": 22500,
     "first_key": "διηλόω",
     "last_key": "διστάσιος",
-    "bytes": 466001,
-    "sha256": "949f93f31121af6ad44c45aac1cf397d6b145fb962b2c8689f2efb3d7298a8f4"
+    "bytes": 466058,
+    "sha256": "a60a785e6c5eca227b6ef4e7d1b76e00f54aeb957e31b4c2dcf2a618e6271070"
    },
    {
     "file": "entries/0046.jsonl",
@@ -673,8 +673,8 @@
     "last_seq": 23000,
     "first_key": "διστασμός",
     "last_key": "δουλογραφέω",
-    "bytes": 459950,
-    "sha256": "bb9016c93e87786a4abd041477ee2746089d1ea30356399bf0dbc3e23b31a5df"
+    "bytes": 460376,
+    "sha256": "b22c21b25deb47a15d14f1cfccfb165583855e7ad690d7431921105920e7b302"
    },
    {
     "file": "entries/0047.jsonl",
@@ -683,8 +683,8 @@
     "last_seq": 23500,
     "first_key": "δουλοδιδάσκαλος",
     "last_key": "δυσείσπλους",
-    "bytes": 444312,
-    "sha256": "44d3eccfc8988f227b9bb14203eca897bb869f9b81a31022b3807f0d4d738ab7"
+    "bytes": 445911,
+    "sha256": "5240cb9788f90f784b8805e10e4245b8472becddf96096a89597b2903a9cbe47"
    },
    {
     "file": "entries/0048.jsonl",
@@ -693,8 +693,8 @@
     "last_seq": 24000,
     "first_key": "δυσείσπλωτος",
     "last_key": "δυσπρόσδεκτος",
-    "bytes": 383687,
-    "sha256": "bfcb58ba0c2f86d4546a3a4d823239cecddbcc702d71e686e2d453ff22874fc1"
+    "bytes": 383899,
+    "sha256": "ee23052af48c6519d9a01f86888a1a3bbc1b2e1d8d12a0b4f48b44b04e013f9a"
    },
    {
     "file": "entries/0049.jsonl",
@@ -703,8 +703,8 @@
     "last_seq": 24500,
     "first_key": "δυσπροσήγορος",
     "last_key": "ἐγκαρπίζω",
-    "bytes": 460914,
-    "sha256": "052272209be8cc9b6f352938e3b95094b5ce425245b28d4fc6d50577810908d3"
+    "bytes": 461441,
+    "sha256": "230de1b7251a81a6eea108f6d4e44af08d72a9446b66edb3d36a62648ee61e45"
    },
    {
     "file": "entries/0050.jsonl",
@@ -713,8 +713,8 @@
     "last_seq": 25000,
     "first_key": "ἐγκάρπιος",
     "last_key": "ἕῃστο",
-    "bytes": 469153,
-    "sha256": "0a66d140c068339b6f72fb97c88df1a803ea124156fa49b8fc3c847875d6a6e0"
+    "bytes": 470228,
+    "sha256": "6efb6be0c9ff4fdf0bb2f3e8852067c91dd467c8167ea345228019b77f5b2af0"
    },
    {
     "file": "entries/0051.jsonl",
@@ -723,8 +723,8 @@
     "last_seq": 25500,
     "first_key": "ἕζομαι",
     "last_key": "εἰσέπειτα",
-    "bytes": 562992,
-    "sha256": "be273cf7f2e7c1a9e7ce416421f941f8bc7c3a6d049a9facf10cae5706e405de"
+    "bytes": 565059,
+    "sha256": "45552c65e5efda46aeac6259fdd2f989a814abb280051f75f98013a4ef8049c6"
    },
    {
     "file": "entries/0052.jsonl",
@@ -733,8 +733,8 @@
     "last_seq": 26000,
     "first_key": "εἰσεπιδημέω",
     "last_key": "ἐκθηράομαι",
-    "bytes": 507719,
-    "sha256": "69fd220883e72465d9d808fe86023a230b0ae57543940a3b9c771ff7c95803c4"
+    "bytes": 508463,
+    "sha256": "bd719de65c87cce6d30b598de2e44b20237eec05d8301fdeb1a286ebd7ac3c6f"
    },
    {
     "file": "entries/0053.jsonl",
@@ -743,8 +743,8 @@
     "last_seq": 26500,
     "first_key": "ἐκθηρεύω",
     "last_key": "ἐκπλευρος",
-    "bytes": 472193,
-    "sha256": "d855fba44a9004d43ecc777bcd0c54ba488be3b684ab627c278c890f8820ae09"
+    "bytes": 473517,
+    "sha256": "86414eb9d04830642b7d2ecb9b113a463751a4826d4d79f7c04686f3b3fe929d"
    },
    {
     "file": "entries/0054.jsonl",
@@ -753,8 +753,8 @@
     "last_seq": 27000,
     "first_key": "ἐκπλέω",
     "last_key": "ἐκψήγμα",
-    "bytes": 490984,
-    "sha256": "93bfd6cc67111502cdd21bd186f99aca8fde9b4660fb7db297ca5ce9c425221f"
+    "bytes": 491796,
+    "sha256": "4ca6566129574fbdd286fcaf1ae9b60e3876a332668d5db305acabcf0f279533"
    },
    {
     "file": "entries/0055.jsonl",
@@ -763,8 +763,8 @@
     "last_seq": 27500,
     "first_key": "ἐκψύχω",
     "last_key": "ἔμβαρος",
-    "bytes": 512384,
-    "sha256": "33773065be1b0b6c1eb2c5501a36f8be2b833fbe330b1febae398124acc659be"
+    "bytes": 513580,
+    "sha256": "d74951ec68e884e56d5c09970ac52fb9abd353d697951a92b23ca71c820b8a12"
    },
    {
     "file": "entries/0056.jsonl",
@@ -773,8 +773,8 @@
     "last_seq": 28000,
     "first_key": "ἐμβαρύθω",
     "last_key": "ἐμφθέγγομαι",
-    "bytes": 526599,
-    "sha256": "cf85985a4c782556d547e7b252904860524bc35347054cc1c4f504cbf1ddedeb"
+    "bytes": 528167,
+    "sha256": "c3fb7ab1083f642480f1e423d24214085fd87dcb55e11ced6b2de0df1b6989e6"
    },
    {
     "file": "entries/0057.jsonl",
@@ -783,8 +783,8 @@
     "last_seq": 28500,
     "first_key": "ἐμφθορής",
     "last_key": "ἐνδρομέω",
-    "bytes": 513863,
-    "sha256": "8082044f85d03e4543569fcc3c649527f3d78f775c557975daa4a5a9f92e2c3d"
+    "bytes": 514943,
+    "sha256": "51b38c5dbef582841c939ca736be0a90751cc7ffc3e53e9ed9761fd9e90d1018"
    },
    {
     "file": "entries/0058.jsonl",
@@ -793,8 +793,8 @@
     "last_seq": 29000,
     "first_key": "ἔνδρομη",
     "last_key": "ἔνορχος",
-    "bytes": 488567,
-    "sha256": "6c9c7173e793151980168776e630f3b42672c1958a1f97c5a4f8dbb7a94a4a70"
+    "bytes": 489629,
+    "sha256": "731e09aa5e5d6437d5d42a7014b9d731db589b7e25ca48b06f5dccc333a91748"
    },
    {
     "file": "entries/0059.jsonl",
@@ -803,8 +803,8 @@
     "last_seq": 29500,
     "first_key": "ἔνος",
     "last_key": "ἐξαλύω",
-    "bytes": 503636,
-    "sha256": "154799ad2ee05320a10753f9a0ca11c43212120d89af2139cd7e3c0a6f108d02"
+    "bytes": 505755,
+    "sha256": "dd5f7d47393d3537e6bc686ea3cc0de733bc643440b32e2c59bb8c29d9a0f47f"
    },
    {
     "file": "entries/0060.jsonl",
@@ -813,8 +813,8 @@
     "last_seq": 30000,
     "first_key": "ἐξαμαρτάνω",
     "last_key": "ἐξηχέω",
-    "bytes": 493633,
-    "sha256": "962357787d627ceebcc0857948d4db84ea2cd71d355934f12860ffff83b0d339"
+    "bytes": 495147,
+    "sha256": "ac201f487b427588538d3eee5a8a07758fe7d7a2761033d7d75d832bae998504"
    },
    {
     "file": "entries/0061.jsonl",
@@ -823,8 +823,8 @@
     "last_seq": 30500,
     "first_key": "ἔξηχος",
     "last_key": "ἐπάλτο",
-    "bytes": 505120,
-    "sha256": "df2acc0faa55262bba401b491f1dc705b96c915d6168daecc5a0e88692d8a86d"
+    "bytes": 506101,
+    "sha256": "874789e48fe3a426e773341508a06b50f7f5d9625ab1c4478537c94eabd91fb9"
    },
    {
     "file": "entries/0062.jsonl",
@@ -833,8 +833,8 @@
     "last_seq": 31000,
     "first_key": "ἐπάλωστης",
     "last_key": "ἐπεμβάλλω",
-    "bytes": 483893,
-    "sha256": "40b31a4543f856115bc4aab69b2c57aa04da527138ae4313da0211d8c6167302"
+    "bytes": 484441,
+    "sha256": "0f9d0cd097561d6438b36f0d2577b9b9a81d06cf77a3bbd3b6ac0f968b63a117"
    },
    {
     "file": "entries/0063.jsonl",
@@ -843,8 +843,8 @@
     "last_seq": 31500,
     "first_key": "ἐπεμβάς",
     "last_key": "ἐπιδιατείνω",
-    "bytes": 523989,
-    "sha256": "b8eb24fb789b23b66d8023a0a3ae43bd02484ede60be1585a77ea0ba27dec653"
+    "bytes": 524591,
+    "sha256": "0d70303f172bba34d701d551e4c9b0fdbf68352317d35c4f6552e198ed3fb4bd"
    },
    {
     "file": "entries/0064.jsonl",
@@ -853,8 +853,8 @@
     "last_seq": 32000,
     "first_key": "ἐπιδιατίθημι",
     "last_key": "ἐπικραυγάζω",
-    "bytes": 454144,
-    "sha256": "42a8885414d79ae3a2f2077add0be43d12155bde0b16a2a62f2de2867714f8ad"
+    "bytes": 454997,
+    "sha256": "42c3117c9d7ea1e711de1639733568c83c04972e1b2dc1f46408ac8fe0632979"
    },
    {
     "file": "entries/0065.jsonl",
@@ -863,8 +863,8 @@
     "last_seq": 32500,
     "first_key": "ἐπικρεμάννυμι",
     "last_key": "ἐπιπίστωσις",
-    "bytes": 455802,
-    "sha256": "1835e54464e908012d12991f7c75d276e908ef221f3d3775b29b0597d5fbf3fd"
+    "bytes": 456036,
+    "sha256": "ff844328be8599d14ea1bc17739fe346467f983df66696b8fe44d2ad08775328"
    },
    {
     "file": "entries/0066.jsonl",
@@ -873,8 +873,8 @@
     "last_seq": 33000,
     "first_key": "ἐπίπλα",
     "last_key": "ἐπισύλληψις",
-    "bytes": 474785,
-    "sha256": "fd87a9593777a1621e13e733c1b5353e3dcc182df906aaf7cf6651bead8dca3f"
+    "bytes": 475456,
+    "sha256": "f5f8fdf5f9026ebbaa43f50d222b339fe270b59ed9ef36514ce5adc446a7fe05"
    },
    {
     "file": "entries/0067.jsonl",
@@ -893,8 +893,8 @@
     "last_seq": 34000,
     "first_key": "ἔπληντο",
     "last_key": "ἐρεχθεύς",
-    "bytes": 519157,
-    "sha256": "e8f3a271a93cf0e0665416e805cd5c300a1e2e1238a4bc36556c40dbea479103"
+    "bytes": 520648,
+    "sha256": "8f6ab311f6e94e1a09738dd97bbec7ff7dd00e37e4bb5a562b85c4e626a16862"
    },
    {
     "file": "entries/0069.jsonl",
@@ -903,8 +903,8 @@
     "last_seq": 34500,
     "first_key": "ἐρέχθω",
     "last_key": "ἔσσα",
-    "bytes": 516628,
-    "sha256": "17b4e431cac462ef16b3b23943afc7b08ac71b001194b87a8a68f171931ffd43"
+    "bytes": 519713,
+    "sha256": "51608f7c61e311a487b83cf51da84ccd69bda99f343be44b3b33c96625e97955"
    },
    {
     "file": "entries/0070.jsonl",
@@ -913,8 +913,8 @@
     "last_seq": 35000,
     "first_key": "ἐσσεδάριος",
     "last_key": "εὐβάστακτος",
-    "bytes": 483155,
-    "sha256": "3d7a843e06d9da3acb3daea2d32a8166231f76ac0dc7f74367feed08192fcba1"
+    "bytes": 484094,
+    "sha256": "c0ddf768b72e6b4b3a29e864b934de1014bd3690e44ca271f69f816188b9ae20"
    },
    {
     "file": "entries/0071.jsonl",
@@ -923,8 +923,8 @@
     "last_seq": 35500,
     "first_key": "εὐβάτος",
     "last_key": "εὐθυώνυξ",
-    "bytes": 437992,
-    "sha256": "a552c68e6fc652617daaf7c068292a33d6df5802f558cb47c5ac275a921ee482"
+    "bytes": 438232,
+    "sha256": "5e27f97cd5693733d394a1ea6cf4b72ae189d9a56ba2f16b4fff9f5c64678ea3"
    },
    {
     "file": "entries/0072.jsonl",
@@ -933,8 +933,8 @@
     "last_seq": 36000,
     "first_key": "εὐθυωρέω",
     "last_key": "εὐπάτρις",
-    "bytes": 453631,
-    "sha256": "d5686ccf14c4c9fdc7009b498605c77e90ddcef1acb58c291459c2c2a0b6195f"
+    "bytes": 453860,
+    "sha256": "ab403e0984ef03efcb26c8fadf05a6dac4408041bb3ab793829b76ec7c720ebc"
    },
    {
     "file": "entries/0073.jsonl",
@@ -953,8 +953,8 @@
     "last_seq": 37000,
     "first_key": "εὐτόκιος",
     "last_key": "ἔχθιστος",
-    "bytes": 529474,
-    "sha256": "35ba47066f6a27b775105401567f524fca95de2880d01f3f110917df02948381"
+    "bytes": 529809,
+    "sha256": "a92da30adb72d8fca94c5d1832f37b935efcb8d16492493c3444fa0014c58279"
    },
    {
     "file": "entries/0075.jsonl",
@@ -963,8 +963,8 @@
     "last_seq": 37500,
     "first_key": "ἐχθίων",
     "last_key": "ζῶσμα",
-    "bytes": 518596,
-    "sha256": "c3fbcf9e706a7a266bf53d0f71e425dd4a4cfacf8de9cddd3f770ed2965d2a32"
+    "bytes": 520255,
+    "sha256": "4a551bf306ab5c1d39d9ff6e4e845e362a9a1e80ec8eb6a9440f03c903dd0e90"
    },
    {
     "file": "entries/0076.jsonl",
@@ -973,8 +973,8 @@
     "last_seq": 38000,
     "first_key": "ζωσμός",
     "last_key": "ἡμιδακτύλιον",
-    "bytes": 507080,
-    "sha256": "cd2f36d19d559cddbd5a6fab47303781432a73391d655aa6e11d52ada38cc15b"
+    "bytes": 508113,
+    "sha256": "9c902d5267ed663b7a06a5962a6109d91a82b7d32a2c268f3f9a0793e23e6535"
    },
    {
     "file": "entries/0077.jsonl",
@@ -983,8 +983,8 @@
     "last_seq": 38500,
     "first_key": "ἡμιδαμῆς",
     "last_key": "ἡὔχορος",
-    "bytes": 454940,
-    "sha256": "aba3c23788b3f84e40b9361052e41f15e4b31672525a7070ff2938777e38a461"
+    "bytes": 455628,
+    "sha256": "7003ab0634c0b7acd43735f918018eaced4a7ec1f9d759a6fdfe3ec9c7a2667d"
    },
    {
     "file": "entries/0078.jsonl",
@@ -993,8 +993,8 @@
     "last_seq": 39000,
     "first_key": "ἡφαίστειος",
     "last_key": "θεοκατάρατος",
-    "bytes": 481258,
-    "sha256": "dfc3f16b7f2e85bb0d781f23f11591f67a30922e684eccbfe58e895518587d5f"
+    "bytes": 482267,
+    "sha256": "bdf2a91c96e0905880544681fc53d77e0f66070e28ebb8f7e2651aa5ca9ca861"
    },
    {
     "file": "entries/0079.jsonl",
@@ -1003,8 +1003,8 @@
     "last_seq": 39500,
     "first_key": "θεοκατασκευάστος",
     "last_key": "θην",
-    "bytes": 455321,
-    "sha256": "8b41543f39378ea6b05165f012b562e9b38b24429979a58f630e885656f2ab92"
+    "bytes": 455985,
+    "sha256": "85e1f5a27c99588d502a7eed8e266e788efaf7c938eb7edc28955b032a851e3f"
    },
    {
     "file": "entries/0080.jsonl",
@@ -1013,8 +1013,8 @@
     "last_seq": 40000,
     "first_key": "θῆξις",
     "last_key": "θυάω",
-    "bytes": 461956,
-    "sha256": "24f402bed17ae0219966dc0dd93b15ee7cf781aaa4a5a1acb75d136c5b61dafe"
+    "bytes": 463086,
+    "sha256": "080dea850f167719f90dbb3f146fa8854ac082c8c6d0317fde731914d6428c91"
    },
    {
     "file": "entries/0081.jsonl",
@@ -1023,8 +1023,8 @@
     "last_seq": 40500,
     "first_key": "θυβριάς",
     "last_key": "ἰδιόγλωσσος",
-    "bytes": 483747,
-    "sha256": "030688465eb9c8310d6b95e100f9de111ff99ad568a8059a9e058d1a9fbb8651"
+    "bytes": 484939,
+    "sha256": "54831b29b359d742fe56597e57af1326738decdc0323b466d399064b6792f9a3"
    },
    {
     "file": "entries/0082.jsonl",
@@ -1033,8 +1033,8 @@
     "last_seq": 41000,
     "first_key": "ἰδιογνωμονέω",
     "last_key": "ἱματηγός",
-    "bytes": 495932,
-    "sha256": "bf4c981ceaaa1e6b540cf49a63b39c27e425713fd36028fc37b0aa69786c92cc"
+    "bytes": 497009,
+    "sha256": "63302cad25a0ced64276d8dcdf951fab201963ab6a6cc6236d118a8977d58853"
    },
    {
     "file": "entries/0083.jsonl",
@@ -1043,8 +1043,8 @@
     "last_seq": 41500,
     "first_key": "ἱματιδάριον",
     "last_key": "ἰσοκέλευθος",
-    "bytes": 455281,
-    "sha256": "fcd474647335ad12f8e329120795b395bcdded7c23639ef7fce3045fdfe7ac86"
+    "bytes": 456119,
+    "sha256": "332b9624f126c7198229a812c6b0cbf528f62243c352ab3686dd6921b0286cb0"
    },
    {
     "file": "entries/0084.jsonl",
@@ -1053,8 +1053,8 @@
     "last_seq": 42000,
     "first_key": "ἰσοκέφαλος",
     "last_key": "καθά",
-    "bytes": 471381,
-    "sha256": "8f310fc3cb577aa3b1c7b49377cb1cbe5629e081f3fc70a16ad85c57b6ddb959"
+    "bytes": 471721,
+    "sha256": "af72cf2f1bbe99ee959d0759c7fa968ba8f8e9b736664ef0f071ea359da82cdf"
    },
    {
     "file": "entries/0085.jsonl",
@@ -1063,8 +1063,8 @@
     "last_seq": 42500,
     "first_key": "καθαγιάζω",
     "last_key": "κακόθυρσος",
-    "bytes": 535218,
-    "sha256": "91cd500c183051c3c73b6aa653e57c6227d710d8bc863f685b40e34144a9429d"
+    "bytes": 535883,
+    "sha256": "8ecccf2947b88e48ed262687190157dc6af037a44b27b7d69f029e3658656bba"
    },
    {
     "file": "entries/0086.jsonl",
@@ -1073,8 +1073,8 @@
     "last_seq": 43000,
     "first_key": "κακόθυτος",
     "last_key": "καλλωπισμός",
-    "bytes": 452909,
-    "sha256": "92a464a2e5349a982a9d0d6e25949e2cc23905ec0777e0feebe92913122b63ad"
+    "bytes": 453968,
+    "sha256": "6b1a9e6f09b78146807fb180aee01a05d084e98952ffd2771af4962a1bb1154b"
    },
    {
     "file": "entries/0087.jsonl",
@@ -1083,8 +1083,8 @@
     "last_seq": 43500,
     "first_key": "καλλωπιστέος",
     "last_key": "κάρπασος",
-    "bytes": 469973,
-    "sha256": "579e7cfd8c13ff069acb7376b87aad9010986df20473a31d48441e6ecbd10386"
+    "bytes": 470867,
+    "sha256": "f8117b8ef0599491338bc81a28b0e91796496b8f638e8a26673bb1d19de53b56"
    },
    {
     "file": "entries/0088.jsonl",
@@ -1093,8 +1093,8 @@
     "last_seq": 44000,
     "first_key": "καρπεία",
     "last_key": "καταζευγοτροφέω",
-    "bytes": 493014,
-    "sha256": "4e5b3ef6ae0a2619ee394c865162ccbd810973482c83259014ea1241c2fe6709"
+    "bytes": 494118,
+    "sha256": "63122d227fc2dadb36c0562a177edf8cef0f3b0c85a589c59f49a8b7bc8caba6"
    },
    {
     "file": "entries/0089.jsonl",
@@ -1103,8 +1103,8 @@
     "last_seq": 44500,
     "first_key": "κατάζευξις",
     "last_key": "καταμεθύω",
-    "bytes": 461689,
-    "sha256": "c155f416e88065e34dc7d85513d540022ae74437d8579074f4202afb16701fdf"
+    "bytes": 462441,
+    "sha256": "7c70feeb5135e3f74e5f6b45f82f43da2ef139882cbb7c7b34299f0659160ae6"
    },
    {
     "file": "entries/0090.jsonl",
@@ -1113,8 +1113,8 @@
     "last_seq": 45000,
     "first_key": "καταμειδιάω",
     "last_key": "καταρραστωνεύω",
-    "bytes": 440813,
-    "sha256": "7585273aa4e3761f216ad098da0cf1b79cf8e2a61f6a1a144f8e7fdca41ead36"
+    "bytes": 442017,
+    "sha256": "3010620f76db09cc8f4dae9558d653d580ba2456e8f38287acd68bd4e95352cd"
    },
    {
     "file": "entries/0091.jsonl",
@@ -1123,8 +1123,8 @@
     "last_seq": 45500,
     "first_key": "καταρραφή",
     "last_key": "καταφορέω",
-    "bytes": 472771,
-    "sha256": "c292d9c476bfae277c8166b4b09e70b93d05e5c5e3c57ac77e5f8e1d5a463197"
+    "bytes": 473321,
+    "sha256": "8b93fa1f71038bbe05c74580f7cf9382a383dba9dde82fb09a43910e715458a5"
    },
    {
     "file": "entries/0092.jsonl",
@@ -1133,8 +1133,8 @@
     "last_seq": 46000,
     "first_key": "καταφορικός",
     "last_key": "κατομβρία",
-    "bytes": 458961,
-    "sha256": "adb0baad14d285ab75f43ef5659e5875bef3b687d1da8143b32a9663a5ed28db"
+    "bytes": 460400,
+    "sha256": "8b9b039ab808f0b1ab85f17661ffc637bfb42570b20f13202f325ad7ef486f00"
    },
    {
     "file": "entries/0093.jsonl",
@@ -1143,8 +1143,8 @@
     "last_seq": 46500,
     "first_key": "κατομβρίζω",
     "last_key": "κεντητικός",
-    "bytes": 454093,
-    "sha256": "f92ad66e4e1db3185c50b38941f5b398c5fde969b50732c997448a7d003078bb"
+    "bytes": 455984,
+    "sha256": "9af85967867920ff3b7847ef77f49caa39988c58c33ad8693285259356b19274"
    },
    {
     "file": "entries/0094.jsonl",
@@ -1153,8 +1153,8 @@
     "last_seq": 47000,
     "first_key": "κεντητός",
     "last_key": "κηρία",
-    "bytes": 462107,
-    "sha256": "d357a41375c6e62aade9e0070cf51289b159a3518fae33566ea714cf60c1346c"
+    "bytes": 463480,
+    "sha256": "d6c776e536ed5a99bdd793bc3ff45e4198cc3dc655cb4af3def2e2176efdf580"
    },
    {
     "file": "entries/0095.jsonl",
@@ -1163,8 +1163,8 @@
     "last_seq": 47500,
     "first_key": "κηριάζω",
     "last_key": "κλείω",
-    "bytes": 462522,
-    "sha256": "bba5d4a761826400e77669d7f9f1febfcdfeda98ca02b40fd51b8b5cda7b9fef"
+    "bytes": 464881,
+    "sha256": "18132e0fd5e9a5674b97708c451f824de058ae0120a0fb4f6bfd34b1243e678a"
    },
    {
     "file": "entries/0096.jsonl",
@@ -1173,8 +1173,8 @@
     "last_seq": 48000,
     "first_key": "κλειώ",
     "last_key": "κοιλωπός",
-    "bytes": 473198,
-    "sha256": "d3162c49ac98b939906c8b137b90ec445e4d9ba1d4cc0a0070199a614ef7fbd5"
+    "bytes": 474418,
+    "sha256": "de2b64806382a30a524d09c684fcb8b0818fbf45420d09e7c73a705abbed1f9d"
    },
    {
     "file": "entries/0097.jsonl",
@@ -1183,8 +1183,8 @@
     "last_seq": 48500,
     "first_key": "κοίλωσις",
     "last_key": "κοπεύς",
-    "bytes": 479612,
-    "sha256": "05f4db0b7e9d693f7995c24ec24545e9bb0e900f23cca7c84c18cf1b73efc760"
+    "bytes": 480812,
+    "sha256": "05d3aa9bd42e396b038495e9d9eadb8cf5d99a905835c578eb2c7282a01ccf30"
    },
    {
     "file": "entries/0098.jsonl",
@@ -1193,8 +1193,8 @@
     "last_seq": 49000,
     "first_key": "κοπή",
     "last_key": "κραῖπαλικός",
-    "bytes": 476845,
-    "sha256": "a32dc828843e4759a2d885a618811d72cea681cc32112d32c4b2493eb635258b"
+    "bytes": 477336,
+    "sha256": "ef34acabd7f9f53c772ad63219099a5eee726f8ebc2d8d529dc1cb958a7a42a3"
    },
    {
     "file": "entries/0099.jsonl",
@@ -1203,8 +1203,8 @@
     "last_seq": 49500,
     "first_key": "κραῖπαλόβοσκος δίψα",
     "last_key": "κρούω",
-    "bytes": 478485,
-    "sha256": "b7a2b00353d3e1cd0936a469a3630e244bb96d874ecc3c4098ec2b9377c442ff"
+    "bytes": 478855,
+    "sha256": "5e875a04916df58184a3b6ff3bca8ee54fa23c0b6973fea022e967ac5586830e"
    },
    {
     "file": "entries/0100.jsonl",
@@ -1213,8 +1213,8 @@
     "last_seq": 50000,
     "first_key": "κρυβάζω",
     "last_key": "κυμινότριβος",
-    "bytes": 482659,
-    "sha256": "fc828db5ac4d2b073491867ab0c91418f2a44c2be5ba54d598a8bdc808a6306e"
+    "bytes": 483468,
+    "sha256": "e592d8d14952052e9af6cf0ad28540fc2eeaa25a3c4a076c37c6765a1b3196db"
    },
    {
     "file": "entries/0101.jsonl",
@@ -1223,8 +1223,8 @@
     "last_seq": 50500,
     "first_key": "κυμινώδης",
     "last_key": "κωρυκώδης",
-    "bytes": 477416,
-    "sha256": "6a42d62844291963292081f00c7c663b6834aecac049fbdf86b5c4cca65535a7"
+    "bytes": 479791,
+    "sha256": "a9f2f57a527804f316a58f6ca997f23dfb38b3e41233791c735be0e7cfbf85cb"
    },
    {
     "file": "entries/0102.jsonl",
@@ -1233,8 +1233,8 @@
     "last_seq": 51000,
     "first_key": "κῶς",
     "last_key": "λαρυγγόφωνος",
-    "bytes": 489863,
-    "sha256": "b2a6261de0b07910b06c742bc0faa1b57329d8bfa2241c7b27dc54aff0bb59ce"
+    "bytes": 491328,
+    "sha256": "d59b738c47a7f8a20475bff61264e3dd686c6b69f4a553d340e909fd04423f16"
    },
    {
     "file": "entries/0103.jsonl",
@@ -1243,8 +1243,8 @@
     "last_seq": 51500,
     "first_key": "λάρυγξ",
     "last_key": "λεσχηνεύω",
-    "bytes": 469439,
-    "sha256": "de3772e25fe17e6cf0b0ace99114721ce9e2c8c77bb20a1a9aa3dc77b2ac0a96"
+    "bytes": 470879,
+    "sha256": "52be342f80718dcf71c6eac03a13cfa7b583ce0d1c388afb1b0c13a6d0e90531"
    },
    {
     "file": "entries/0104.jsonl",
@@ -1253,8 +1253,8 @@
     "last_seq": 52000,
     "first_key": "λεσχηνίτης",
     "last_key": "λίθος",
-    "bytes": 448591,
-    "sha256": "f358607a5a33135e2d18dc795e6184cfb15f3a7443c6165a26222cafcdab999f"
+    "bytes": 448885,
+    "sha256": "d951679f4102c07d3c13093e9dc6c8f92a3eec3270fb43368101e5c22a8e0f01"
    },
    {
     "file": "entries/0105.jsonl",
@@ -1263,8 +1263,8 @@
     "last_seq": 52500,
     "first_key": "λιθοσπαδής",
     "last_key": "λοιγήεις",
-    "bytes": 466948,
-    "sha256": "ff78b4021a2d0c7f851c591f977a7a931578c01e0b378ab68998a21c23da97c9"
+    "bytes": 467883,
+    "sha256": "9d6696927658b4a10a43f7ca2ed2f744f52dfdacb0a86c1e71c7f16fc53a350d"
    },
    {
     "file": "entries/0106.jsonl",
@@ -1273,8 +1273,8 @@
     "last_seq": 53000,
     "first_key": "λοίγιος",
     "last_key": "μαγᾶδιον",
-    "bytes": 492368,
-    "sha256": "c237716d3f691a10461e15ecfd9cd5193bbce53f690ad3eff0d7fd6028a6992a"
+    "bytes": 493583,
+    "sha256": "03a73b0ee7e284180d027c27b695eb269ac8bffd21a2f58529e437b09341cfc5"
    },
    {
     "file": "entries/0107.jsonl",
@@ -1283,8 +1283,8 @@
     "last_seq": 53500,
     "first_key": "μάγαδις",
     "last_key": "μάργος",
-    "bytes": 475810,
-    "sha256": "f6f92381620d026bc81b651e2f4f98cfadf48d0241b91f877d315dc6e560582d"
+    "bytes": 476570,
+    "sha256": "73619a3bd5e4c393630cc5d9b445650da1b44f3a2369baf328611af5363e0e8c"
    },
    {
     "file": "entries/0108.jsonl",
@@ -1293,8 +1293,8 @@
     "last_seq": 54000,
     "first_key": "μαργοσύνη",
     "last_key": "μεθεορτάζω",
-    "bytes": 485524,
-    "sha256": "665ea3a962c90d0744662ba6518ef4ad151907fbfe2721ceae251c679f5895e4"
+    "bytes": 487335,
+    "sha256": "7ee1de6ed8eb0f09c29e86d45bc4484189e380e45ef78fee97bf667ba90a5afe"
    },
    {
     "file": "entries/0109.jsonl",
@@ -1303,8 +1303,8 @@
     "last_seq": 54500,
     "first_key": "μεθέορτος",
     "last_key": "μελοποιητής",
-    "bytes": 469625,
-    "sha256": "e6ada78c602cd4c23651f9c3fe5094e4c19753ff7533ccb5096f7585b9d6c828"
+    "bytes": 470694,
+    "sha256": "7b48954567c8c740c0a29643be35f4dfe3a1662c0fc5a1ef5edb253d3711a3d1"
    },
    {
     "file": "entries/0110.jsonl",
@@ -1313,8 +1313,8 @@
     "last_seq": 55000,
     "first_key": "μελοποιία",
     "last_key": "μεταλογίζομαι",
-    "bytes": 524506,
-    "sha256": "c96f8b200ac8bc7a963b2aeee77eed0353efc5aa056d475b1ffeb96879d2260c"
+    "bytes": 527387,
+    "sha256": "5b96b144d75ba94c9e103a85469f826436bc61e9babaec3f5aad9905e2029ee0"
    },
    {
     "file": "entries/0111.jsonl",
@@ -1323,8 +1323,8 @@
     "last_seq": 55500,
     "first_key": "μεταλωφάω",
     "last_key": "μηλινοειδής",
-    "bytes": 502819,
-    "sha256": "598682f47b160645c1424766b14335f935e503632b806acafed764070fc9daca"
+    "bytes": 503395,
+    "sha256": "f245374e64d56cebe7715a9febd4575cbb5e54c73892c213f72c6e15bd0a63d8"
    },
    {
     "file": "entries/0112.jsonl",
@@ -1333,8 +1333,8 @@
     "last_seq": 56000,
     "first_key": "μηλινόεις",
     "last_key": "μισέλλην",
-    "bytes": 480175,
-    "sha256": "b54daadeef63f45246fde4d74826d5c9c50221b388697028de76fcfdf7de5287"
+    "bytes": 480669,
+    "sha256": "bc17e56111947f6b1b07247c5702de35e0dfefcbb78ef6237f3765821631cab0"
    },
    {
     "file": "entries/0113.jsonl",
@@ -1343,8 +1343,8 @@
     "last_seq": 56500,
     "first_key": "μῖσεργος",
     "last_key": "μονόκυκλος",
-    "bytes": 442885,
-    "sha256": "6554110830801905d800e0eb4ad7c65da0def2a1e57994ca921074fd90fe11fd"
+    "bytes": 443279,
+    "sha256": "c5cf456fdc77f9c1e4d03e4e7969d9b71f90387ad4faa106aa90e69f42132e64"
    },
    {
     "file": "entries/0114.jsonl",
@@ -1352,69 +1352,69 @@
     "first_seq": 56501,
     "last_seq": 57000,
     "first_key": "μονόκωλος",
-    "last_key": "μυξάζω",
-    "bytes": 450785,
-    "sha256": "b5106c4340eacf59015ff0fd6857f4e21daf4b9bf36491ee18c9a8d8be3a391f"
+    "last_key": "μύξα",
+    "bytes": 451949,
+    "sha256": "e10ed869fd823025395d87742d9d7bbbbe770491a2e5b96435f0a20a0a8d88d0"
    },
    {
     "file": "entries/0115.jsonl",
     "count": 500,
     "first_seq": 57001,
     "last_seq": 57500,
-    "first_key": "μυξάριον",
-    "last_key": "ναστότης",
-    "bytes": 453987,
-    "sha256": "ea6d8e4e31c73696fc2fb4d4a1687eadaf9a7ed860f4754a424b947634374819"
+    "first_key": "μυξάζω",
+    "last_key": "ναστός",
+    "bytes": 458509,
+    "sha256": "e7ee4be5f0bd32f6c328e14a47dfbd7f74cddcb30a54af0eaa1831594083bba1"
    },
    {
     "file": "entries/0116.jsonl",
     "count": 500,
     "first_seq": 57501,
     "last_seq": 58000,
-    "first_key": "ναστοφαγέω",
-    "last_key": "νεοπολίτης",
-    "bytes": 436685,
-    "sha256": "a1f526bb056ce47d15774a738e0558dd55afb73d0bc35b6c2dd90f092bce7751"
+    "first_key": "ναστότης",
+    "last_key": "νεόποκος",
+    "bytes": 437741,
+    "sha256": "9229ba2c4a011b591d80707525437a1b7dfbb441d32f3555c944f543764f2193"
    },
    {
     "file": "entries/0117.jsonl",
     "count": 500,
     "first_seq": 58001,
     "last_seq": 58500,
-    "first_key": "νεοπότιστος",
-    "last_key": "νοϊκός",
-    "bytes": 461037,
-    "sha256": "fac9ba6b94b0698a9cd269f2d3070de4415dafbf0336854ccd2b51f59c6267f5"
+    "first_key": "νεοπολίτης",
+    "last_key": "νοίδιον",
+    "bytes": 461648,
+    "sha256": "0476685057f2026645a7dbaaf0c7d9977190279d6826f0cdf757684b46d976af"
    },
    {
     "file": "entries/0118.jsonl",
     "count": 500,
     "first_seq": 58501,
     "last_seq": 59000,
-    "first_key": "νομάδειος",
-    "last_key": "ξενολογέω",
-    "bytes": 482949,
-    "sha256": "135bf385a64b6bd0b8f36f796e396449dd9f4c3e1cb3b64368f47d20250862b9"
+    "first_key": "νοϊκός",
+    "last_key": "ξενοκυστάπατη",
+    "bytes": 483895,
+    "sha256": "920503fd2fbf0f7fe7dda27f439e2f8143bd06189b0236d815854aae29f85afc"
    },
    {
     "file": "entries/0119.jsonl",
     "count": 500,
     "first_seq": 59001,
     "last_seq": 59500,
-    "first_key": "ξενολογία",
-    "last_key": "οἱακηδόν",
-    "bytes": 512942,
-    "sha256": "6af8186cf9aef45386b1c028867d7e55f6a59a61cceda9b07996d6c82c8445d7"
+    "first_key": "ξενολογέω",
+    "last_key": "οἱαδόν",
+    "bytes": 516046,
+    "sha256": "fc00331d9f6d5af391a4f9bdb604a1dd3d82b73ca8ff440ca4f1b541a78d575c"
    },
    {
     "file": "entries/0120.jsonl",
     "count": 500,
     "first_seq": 59501,
     "last_seq": 60000,
-    "first_key": "οἱακίζω",
+    "first_key": "οἱακηδόν",
     "last_key": "ὀκριάζω",
-    "bytes": 524622,
-    "sha256": "fdd7023db3f2f5d6438654302032536e4c5ed70309c95ce24bf9449df450c225"
+    "bytes": 526131,
+    "sha256": "ee970dd890c5a54045642979d82c5e28dd0acb5c19b299bc244f749702e8f080"
    },
    {
     "file": "entries/0121.jsonl",
@@ -1423,8 +1423,8 @@
     "last_seq": 60500,
     "first_key": "ὀκριάομαι",
     "last_key": "ὁμβρηρός",
-    "bytes": 484812,
-    "sha256": "e9d2db22a3c684f1d20be1a0fd99673c1d676c8907ecfc71ba193aa22bc94225"
+    "bytes": 487531,
+    "sha256": "4146ae874a4d398d775d55fea0a4a3bf78f7638b59d9498de76bd8db6e5297f1"
    },
    {
     "file": "entries/0122.jsonl",
@@ -1433,8 +1433,8 @@
     "last_seq": 61000,
     "first_key": "ὁμβρησις",
     "last_key": "ὅμως",
-    "bytes": 474177,
-    "sha256": "02363ad047962d684b9af240348829898ac1179632293fc3750855f7b9e30e9b"
+    "bytes": 475086,
+    "sha256": "f879c867db35be8d9644eb711addcb8160bb503ebef3590f30d1a8be9231a3a9"
    },
    {
     "file": "entries/0123.jsonl",
@@ -1443,8 +1443,8 @@
     "last_seq": 61500,
     "first_key": "ὀμωχέτης",
     "last_key": "ὁπόθι",
-    "bytes": 507032,
-    "sha256": "5dadb46b408f5009910b01d33a6f8c96a8952f2716972c5bc75d8251b2ba98a5"
+    "bytes": 510270,
+    "sha256": "b66c425ac90f6712088270ff3a631c54c2e70d2e4868816b8a22cc9bfd762351"
    },
    {
     "file": "entries/0124.jsonl",
@@ -1452,9 +1452,9 @@
     "first_seq": 61501,
     "last_seq": 62000,
     "first_key": "ὅποι",
-    "last_key": "ὄρνεοσκοπία",
-    "bytes": 562256,
-    "sha256": "503fe8b2a218a4280e880cda30e3472c99afd632e0aa11f6cd8df9814110e90f"
+    "last_key": "ὀρνεοσκοπία",
+    "bytes": 564273,
+    "sha256": "fdb9acea492c7145cfa5d61c217798e0776a440fe8df850b5e6c6ad981310d0e"
    },
    {
     "file": "entries/0125.jsonl",
@@ -1463,8 +1463,8 @@
     "last_seq": 62500,
     "first_key": "ὀρνεοσκόπος",
     "last_key": "οὐδ’ ἔτι",
-    "bytes": 605277,
-    "sha256": "36b5f6c9a39d30880b1e431d6c1f5d9fa8945694ddd3c2370c9c783e881dcd88"
+    "bytes": 607811,
+    "sha256": "f59d5bf12bc9e26a2de1adc01aeadfa651b6c0ccf62b8d9214a2c5d313a73457"
    },
    {
     "file": "entries/0126.jsonl",
@@ -1473,8 +1473,8 @@
     "last_seq": 63000,
     "first_key": "οὐ δή",
     "last_key": "ὀψίφάνης",
-    "bytes": 552124,
-    "sha256": "c629322c64109a1fde44c1435f3a50bdfc3782d37b906e76dec550b180f7507a"
+    "bytes": 552677,
+    "sha256": "da1474727d310076097904878f712795469f7c65e6bebbe3191754f0fea54cfe"
    },
    {
     "file": "entries/0127.jsonl",
@@ -1483,8 +1483,8 @@
     "last_seq": 63500,
     "first_key": "ὀψιφόρος",
     "last_key": "παλίνδρομος",
-    "bytes": 489537,
-    "sha256": "11b683ceb4de426818d1ee4a850006bf827335e44c2c6836300a688ec0847d69"
+    "bytes": 490642,
+    "sha256": "16a7e3b4cb4329f0b169447f55917e0696f24eb09220e4192fd96c4a9199f6f2"
    },
    {
     "file": "entries/0128.jsonl",
@@ -1493,8 +1493,8 @@
     "last_seq": 64000,
     "first_key": "παλινδωμήτωρ",
     "last_key": "πανθυμαδόν",
-    "bytes": 433913,
-    "sha256": "aef362b5037a2f878408cc5b3141115c9d078489f62f3314d3aa6c72d530d1e6"
+    "bytes": 436177,
+    "sha256": "68d644925c6f043988b12e4d05463f03aedae5c27d12288f7f6fec0f1077f314"
    },
    {
     "file": "entries/0129.jsonl",
@@ -1503,8 +1503,8 @@
     "last_seq": 64500,
     "first_key": "πᾶνθυτος",
     "last_key": "παραδρομίς",
-    "bytes": 499683,
-    "sha256": "2aad7dee6b706d353f9b087a25f693cedcd10322541800233bf493c39c170512"
+    "bytes": 500187,
+    "sha256": "10913e606e9e48c9b6867b71e92b36999fd82995a5c0ea8c090a7e706849b943"
    },
    {
     "file": "entries/0130.jsonl",
@@ -1513,8 +1513,8 @@
     "last_seq": 65000,
     "first_key": "παράδρομος",
     "last_key": "παραπαστόν",
-    "bytes": 485745,
-    "sha256": "1ce7c47fbd0f0666aa2e59f2372face53f9383b9cfacba81ad87ea91f550557e"
+    "bytes": 486541,
+    "sha256": "85ddf552a6953d49c07acf1168cdb7d43d1c7eb8969de67dde34243667cb9d6c"
    },
    {
     "file": "entries/0131.jsonl",
@@ -1523,8 +1523,8 @@
     "last_seq": 65500,
     "first_key": "παραπατάω",
     "last_key": "παραχαλκεύω",
-    "bytes": 482630,
-    "sha256": "41aef04dd8a2815b6b196c36f1ecb07f24d8814ed5271b0ffd37bde7f5b7209c"
+    "bytes": 482985,
+    "sha256": "640d69172e802c7e2f1e3e4a5319cd953781b36c34b5edc8f27336dce07d5763"
    },
    {
     "file": "entries/0132.jsonl",
@@ -1533,8 +1533,8 @@
     "last_seq": 66000,
     "first_key": "παραχάραγμα",
     "last_key": "παριαμβίς",
-    "bytes": 472262,
-    "sha256": "a1e0666d48df902d9f226b88c106252cc86bd2bb186aa81e78c381be9d785fc7"
+    "bytes": 472506,
+    "sha256": "c37485b2c894d7d6272d35fa2a397870ba6c9d3b3b0fa54df4074a863b8d3264"
    },
    {
     "file": "entries/0133.jsonl",
@@ -1543,8 +1543,8 @@
     "last_seq": 66500,
     "first_key": "παρίαμβος",
     "last_key": "παχυσμός",
-    "bytes": 508927,
-    "sha256": "37f334897eeff645522fe6e81d85afb9e112c488ebe0657d584c8d0cf81984ec"
+    "bytes": 509373,
+    "sha256": "04cb625c4c519247e80b8df207c3728c1ffae42567306d18072992791f67914c"
    },
    {
     "file": "entries/0134.jsonl",
@@ -1553,8 +1553,8 @@
     "last_seq": 67000,
     "first_key": "παχύστομος",
     "last_key": "πεντεκαιεικοσιέτης",
-    "bytes": 498333,
-    "sha256": "930472019ffbce62f635752c49d21c062923ce944b081eee4c98b21f089b703f"
+    "bytes": 498775,
+    "sha256": "98cbea9c19d7ab731ba93a35b6be1f2e1e579613df2059f6be56c83297c411c6"
    },
    {
     "file": "entries/0135.jsonl",
@@ -1563,8 +1563,8 @@
     "last_seq": 67500,
     "first_key": "πεντεκαιεικοστός",
     "last_key": "περιέρχομαι",
-    "bytes": 512903,
-    "sha256": "f654603857329dbd8dd844fb1dcd0748cd00cfffe5395960aa5d5c0075b6327d"
+    "bytes": 513565,
+    "sha256": "6ab21a8815f2aa1a13cc87878f218baeb57cc855c2c3b3c6ffb28fe7b7698447"
    },
    {
     "file": "entries/0136.jsonl",
@@ -1583,8 +1583,8 @@
     "last_seq": 68500,
     "first_key": "περιπαχνόομαι",
     "last_key": "περιτροπή",
-    "bytes": 456512,
-    "sha256": "81d8f981209b6d6c3beec8661839ee2735ef82b34f6d115c529926ea71f7a629"
+    "bytes": 456820,
+    "sha256": "5fd86cc84cab0e621fe9172ef38a596c7115bf808cc062c0bf316a1241ca991e"
    },
    {
     "file": "entries/0138.jsonl",
@@ -1593,8 +1593,8 @@
     "last_seq": 69000,
     "first_key": "περίτροπος",
     "last_key": "πηρόδετος",
-    "bytes": 470664,
-    "sha256": "3b092da01120ebc95c43300eb40f7e09912415b80ec7df64fc655a084a1ec185"
+    "bytes": 471486,
+    "sha256": "e384fbf81fb48faa8e34218cc7371d550bb24e872816906716301077c8063c94"
    },
    {
     "file": "entries/0139.jsonl",
@@ -1603,8 +1603,8 @@
     "last_seq": 69500,
     "first_key": "πηρομελής",
     "last_key": "πλάτυπους",
-    "bytes": 531211,
-    "sha256": "13ca818b43a2725aece6dde6ef0fb13126a0d0d80e2a14d6eb2fdd8e317b1cb4"
+    "bytes": 532069,
+    "sha256": "0e410166a910723ad7841faf27bbf7f214965d3f4347cfe463570d0835080b33"
    },
    {
     "file": "entries/0140.jsonl",
@@ -1613,8 +1613,8 @@
     "last_seq": 70000,
     "first_key": "πλατυπρόσωπος",
     "last_key": "ποθέω",
-    "bytes": 534108,
-    "sha256": "3c7ed48434b7bd68328926d5e002645e5d68dc298ec22cf939d83ad0abcc881a"
+    "bytes": 534578,
+    "sha256": "0201720e1e8bdc4f68d404f5d01c86d4c8b7ea9efdd5de252bddeab84ca8753a"
    },
    {
     "file": "entries/0141.jsonl",
@@ -1623,8 +1623,8 @@
     "last_seq": 70500,
     "first_key": "ποθή",
     "last_key": "πολύδουλος",
-    "bytes": 496088,
-    "sha256": "2f60c285c452f92fd5afcba94d2cfa8aa9f626224d4d5a39fc5775c2c34e73d6"
+    "bytes": 497207,
+    "sha256": "6ebac0eae0f4eed4c4714c95402d759e2d22b84eb876139bf5a50af8455acd6c"
    },
    {
     "file": "entries/0142.jsonl",
@@ -1632,9 +1632,9 @@
     "first_seq": 70501,
     "last_seq": 71000,
     "first_key": "πολυδράστεια",
-    "last_key": "πολύσινής",
-    "bytes": 435355,
-    "sha256": "bf385a54a7123972d83b34c61995e3e674e468d43fe262994c5d28748b065db3"
+    "last_key": "πολυσινής",
+    "bytes": 437138,
+    "sha256": "c90436648087024113a531df3836e7515bf47250fe7fdee782f7dc4cb6071050"
    },
    {
     "file": "entries/0143.jsonl",
@@ -1643,8 +1643,8 @@
     "last_seq": 71500,
     "first_key": "πολυσιτία",
     "last_key": "πόρφυρος",
-    "bytes": 466690,
-    "sha256": "771195e2034578ac2e2f5901158fcf6c02eee565b49ad208229b61398290ff6f"
+    "bytes": 467468,
+    "sha256": "d55c76c7d8d47f5178103ada0b768b5db67580d26706912a2c5804c5e309c855"
    },
    {
     "file": "entries/0144.jsonl",
@@ -1653,8 +1653,8 @@
     "last_seq": 72000,
     "first_key": "πορφυρόστρωτος",
     "last_key": "προαναθεωρέω",
-    "bytes": 582522,
-    "sha256": "593cf01668cf396ad3cee99cf7b63e45a42ccacc0754ea1e53fd480d1a8e61c8"
+    "bytes": 583569,
+    "sha256": "f0b44c0955ca842b7865b9dc468a6bc1debd215be041b9e254563c0304ee76bc"
    },
    {
     "file": "entries/0145.jsonl",
@@ -1663,8 +1663,8 @@
     "last_seq": 72500,
     "first_key": "προαναθρέω",
     "last_key": "προδιατίθημι",
-    "bytes": 426721,
-    "sha256": "1172c47830d26680202017aa4e927bb991729fcbd028a1b29b3bd35e86893881"
+    "bytes": 427229,
+    "sha256": "e01f0b57e4981d968951e261024c38882c74fb5598781d991631eb3a88412941"
    },
    {
     "file": "entries/0146.jsonl",
@@ -1673,8 +1673,8 @@
     "last_seq": 73000,
     "first_key": "προδιατρανῶω",
     "last_key": "προθυμοεργέω",
-    "bytes": 418610,
-    "sha256": "f40116fbbd06a691fe6b78815ec0674b16471d1b3c31885718a658df33c2e4ca"
+    "bytes": 419273,
+    "sha256": "24f973bdba8272ddb7f9740dc73b347fba60ef3d24d0c7fa606b808f53642d3d"
    },
    {
     "file": "entries/0147.jsonl",
@@ -1683,8 +1683,8 @@
     "last_seq": 73500,
     "first_key": "προθυμοποιέομαι",
     "last_key": "πρόξεινος",
-    "bytes": 467194,
-    "sha256": "0036c6284e103d46ac8bd0495c3549538eb725602d365370267bc72d02e95a87"
+    "bytes": 467483,
+    "sha256": "2b85e690cf9f2a8b8a29bcf2d23417a7c6d34337166d8c642b6c1e8b04063efe"
    },
    {
     "file": "entries/0148.jsonl",
@@ -1693,8 +1693,8 @@
     "last_seq": 74000,
     "first_key": "προξενέω",
     "last_key": "προσαποκρέμαμαι",
-    "bytes": 483188,
-    "sha256": "e806e3be045f91327e1517ff3a4ba976ed3433c18cfd4bf82d18bd6c63990d99"
+    "bytes": 483968,
+    "sha256": "1ac14ba5ade79ab7cd34659bdb0530e6d99ce126d1ed45308eb85f20ed94f931"
    },
    {
     "file": "entries/0149.jsonl",
@@ -1703,8 +1703,8 @@
     "last_seq": 74500,
     "first_key": "προσαποκρίνομαι",
     "last_key": "προσεπικρεμάννυμαι",
-    "bytes": 434634,
-    "sha256": "4522d88db50e6cea87a76815920f991bde9090146862411bff69a3e63a1dac8a"
+    "bytes": 435233,
+    "sha256": "74e3fb44ee5f4c15084d95ca2cdf17e7623765db015570003b4291f3808d50a9"
    },
    {
     "file": "entries/0150.jsonl",
@@ -1713,8 +1713,8 @@
     "last_seq": 75000,
     "first_key": "προσεπικρούω",
     "last_key": "προσμάχομαι",
-    "bytes": 463289,
-    "sha256": "373bf1f63a8f950f79712bd1f9a3e2bbbed30925755ddb218c609270a933855a"
+    "bytes": 464132,
+    "sha256": "fbbbfb182f44de15df1a565d7e9aa33c310b6cd3811d63cc29651e91cb8a918b"
    },
    {
     "file": "entries/0151.jsonl",
@@ -1723,8 +1723,8 @@
     "last_seq": 75500,
     "first_key": "προσμεδιάω",
     "last_key": "προσφεύγω",
-    "bytes": 473971,
-    "sha256": "e6cfdedbd324e1c8926d6ed8b52fd995b2016e481156091c414a69e05efe12b7"
+    "bytes": 474966,
+    "sha256": "1af3dca1f1540c602a88ec1ca4077f205deb905654fb620121f9d2e899b7345e"
    },
    {
     "file": "entries/0152.jsonl",
@@ -1733,8 +1733,8 @@
     "last_seq": 76000,
     "first_key": "προσφευκτέον",
     "last_key": "πρωίρα",
-    "bytes": 531978,
-    "sha256": "ef6b3dde4b09f705f393fe637391385626d1e272f49e5e39c56ccf7888bbc474"
+    "bytes": 533563,
+    "sha256": "540d832de766789f42784422a7482c0b172720ecb576ab9f63961c06d550846d"
    },
    {
     "file": "entries/0153.jsonl",
@@ -1743,8 +1743,8 @@
     "last_seq": 76500,
     "first_key": "πρωίσπορος",
     "last_key": "πυθόθεν",
-    "bytes": 451378,
-    "sha256": "16cbfbf3ec98a1cd2dd836491f0a317b7c471324db0b2df099842d5c40f229a8"
+    "bytes": 453636,
+    "sha256": "93d9444a787fd71b3cdbf4fa594001a0a2cb2f3649e0336e5d484992cdd29191"
    },
    {
     "file": "entries/0154.jsonl",
@@ -1753,8 +1753,8 @@
     "last_seq": 77000,
     "first_key": "πυθοῖ",
     "last_key": "πωλίον",
-    "bytes": 498439,
-    "sha256": "42635547a82599efe0f469d839876f1d2130dea8942e51bdceadacd09de73ed6"
+    "bytes": 501406,
+    "sha256": "9513976c7d63344ddd6d5c8bdabd6b356c87c7bdf63a719d851c3694a4b27fa3"
    },
    {
     "file": "entries/0155.jsonl",
@@ -1763,8 +1763,8 @@
     "last_seq": 77500,
     "first_key": "πωλοδαμαστής",
     "last_key": "ῥινοφάλιος",
-    "bytes": 511585,
-    "sha256": "3aa422600a07bc400526587b915c38f1920150ba3fdd578f3fc5b676deff10b4"
+    "bytes": 514172,
+    "sha256": "4502d12b7b744f1ab6b0f9d6a603ba802376abef8b85f742567acc92fe5c72fc"
    },
    {
     "file": "entries/0156.jsonl",
@@ -1773,8 +1773,8 @@
     "last_seq": 78000,
     "first_key": "ῥινόχοος",
     "last_key": "σακοδερμίτης",
-    "bytes": 494060,
-    "sha256": "281db79d4e2d78e04c45f1e26bd0ee08609e611dd1d51dc5dc1ced1db1f54735"
+    "bytes": 495929,
+    "sha256": "f8bdc6dad97ba32aa416fbe9f5216bd2da9c87c5f01f5ee1fa68cef7085438cf"
    },
    {
     "file": "entries/0157.jsonl",
@@ -1783,8 +1783,8 @@
     "last_seq": 78500,
     "first_key": "σάκος",
     "last_key": "σεμνόν",
-    "bytes": 470914,
-    "sha256": "407bd67b0b8834b14cf947891bda356631edb1d9f5f82cc177e0959c0e42dba9"
+    "bytes": 472320,
+    "sha256": "9f70d6c80a43e2b69196006ada130b7c0e2aa169d706ce1cf474e5b42fea54c6"
    },
    {
     "file": "entries/0158.jsonl",
@@ -1793,8 +1793,8 @@
     "last_seq": 79000,
     "first_key": "σεμνονυμφοστολία",
     "last_key": "σισυφίζω",
-    "bytes": 480345,
-    "sha256": "8c5df4131efb5fa536e137fb2c58214e262898065c6c59f77a82888b487a7bcd"
+    "bytes": 481201,
+    "sha256": "58ed7002c0b416857163b185ac2fdd6005ccffd3214d5a9af1f354914dd8187c"
    },
    {
     "file": "entries/0159.jsonl",
@@ -1803,8 +1803,8 @@
     "last_seq": 79500,
     "first_key": "σίσυφος",
     "last_key": "σκιοειδής",
-    "bytes": 493069,
-    "sha256": "6613f777ba6a426272def34420a1f4e3c830edeb4b557b8ab4b8e839de9e8a11"
+    "bytes": 493564,
+    "sha256": "ad5091c5a415d3e94b81b70ec8cddad88e9ce0c50d1abc50f57452facbfba8bb"
    },
    {
     "file": "entries/0160.jsonl",
@@ -1813,8 +1813,8 @@
     "last_seq": 80000,
     "first_key": "σκιοεῖς",
     "last_key": "σμαραγδίτης",
-    "bytes": 454149,
-    "sha256": "312633ee7eb0eef32e8f0aa0737ad6d3ad7ceb41d35d7b994159c17f83053e13"
+    "bytes": 454885,
+    "sha256": "a98b4349021aa4c78547f4e13a17f8fe67c229cc25853c5b0ae7a0f090054fff"
    },
    {
     "file": "entries/0161.jsonl",
@@ -1823,8 +1823,8 @@
     "last_seq": 80500,
     "first_key": "σμαράγδος",
     "last_key": "σπογγοτόμος",
-    "bytes": 483141,
-    "sha256": "78fb5e93738aa994f8b517d89690974484ca061616ed6778ea25811d75d156ea"
+    "bytes": 484444,
+    "sha256": "97f0fd3e9ee3b8f79a0882dbfb74c27253126e3b5d8ffd196f4d8f96a14d1e1e"
    },
    {
     "file": "entries/0162.jsonl",
@@ -1833,8 +1833,8 @@
     "last_seq": 81000,
     "first_key": "σπογγώδης",
     "last_key": "στέριπο",
-    "bytes": 512398,
-    "sha256": "f7082edbc325b5fdb4856fcc340e1b6b015cb3d05282813699bd88e6e5ef4532"
+    "bytes": 513457,
+    "sha256": "947311f3ba3e55873f84ac7be211835f234637dfa3f9749b8255502807e0e127"
    },
    {
     "file": "entries/0163.jsonl",
@@ -1843,8 +1843,8 @@
     "last_seq": 81500,
     "first_key": "στερίσκω",
     "last_key": "στρεβλωτής",
-    "bytes": 513037,
-    "sha256": "868b1ebeeafb49edc9d3aaea333facaafb6ae7c50b200464f3010f3e36df2532"
+    "bytes": 513784,
+    "sha256": "4f67240cb454a804a6f7ebb0ac20112b59f458546eaa59d43cda10ce6d223c6c"
    },
    {
     "file": "entries/0164.jsonl",
@@ -1853,8 +1853,8 @@
     "last_seq": 82000,
     "first_key": "στρέμμα",
     "last_key": "συγκατασταδίαζω",
-    "bytes": 482191,
-    "sha256": "a553372c781be4d1d1ec0b760995e23e2c7b333ba6a8a5fa19ce75c6f6140d70"
+    "bytes": 483968,
+    "sha256": "9b007b80857e850e008e3d27a74bd5b7bef70e68accaa186b1371eb896dbd017"
    },
    {
     "file": "entries/0165.jsonl",
@@ -1863,8 +1863,8 @@
     "last_seq": 82500,
     "first_key": "συγκατάστασις",
     "last_key": "συλλοχίζω",
-    "bytes": 486650,
-    "sha256": "39f5f58be049dde0a8aafeb8bc7fb5ecb8b4858b390926263479725aad84082f"
+    "bytes": 487540,
+    "sha256": "b0f18089d7fb6b71007efb559ad01af743e66b690710420075c93b2d77be2460"
    },
    {
     "file": "entries/0166.jsonl",
@@ -1873,8 +1873,8 @@
     "last_seq": 83000,
     "first_key": "συλλοχίτης",
     "last_key": "συμπεριφόρητος",
-    "bytes": 468470,
-    "sha256": "04420fe94c1fad8eecc8f4fbdd2e0e538da19e76a254e9881c1523c45297c488"
+    "bytes": 468977,
+    "sha256": "79dcc8bb42fe947bd6efd8e887d980fb2dd2bcc137dd8a946a907144d02eb968"
    },
    {
     "file": "entries/0167.jsonl",
@@ -1883,8 +1883,8 @@
     "last_seq": 83500,
     "first_key": "συμπεριφράσσω",
     "last_key": "συνάλλαξις",
-    "bytes": 489822,
-    "sha256": "74d1c2e903e576eb531a5c8c1a177892250e4cda2294f0ba75be1f8e4a320865"
+    "bytes": 490066,
+    "sha256": "e6676fd932e1601e3f9dca61391f1ea14e5328695e9b7aa8d36ccd35e659023d"
    },
    {
     "file": "entries/0168.jsonl",
@@ -1893,8 +1893,8 @@
     "last_seq": 84000,
     "first_key": "συναλλάσσω",
     "last_key": "συνδεσμεύω",
-    "bytes": 423897,
-    "sha256": "d849dc8aada6de0ca6c0c1ebb0273d47e6d9f8e9c85cc7b7d954016b7de0078c"
+    "bytes": 424393,
+    "sha256": "5d877659cca314bc9a6fb278b232086b4d45c92ca65a5862cec86aa1c5034f28"
    },
    {
     "file": "entries/0169.jsonl",
@@ -1903,8 +1903,8 @@
     "last_seq": 84500,
     "first_key": "συνδεσμικός",
     "last_key": "συνεξάλλομαι",
-    "bytes": 427990,
-    "sha256": "3acd7bd4303a99f7c1236f2cfac658073ae9bb7f1e1d82b44261e4464e018e34"
+    "bytes": 429040,
+    "sha256": "9c8384c212d563f9961a85c78a35edb7f350d0d9817c42899e72f41ce2ae25e7"
    },
    {
     "file": "entries/0170.jsonl",
@@ -1923,8 +1923,8 @@
     "last_seq": 85500,
     "first_key": "συνθέω",
     "last_key": "συνυποκουφίζω",
-    "bytes": 502364,
-    "sha256": "691c6f2a0d9b25d250cf31fcb6c2a5535cd9194e22450bc4aea3aed1e6f049f7"
+    "bytes": 502611,
+    "sha256": "0e8e07c98236b79f0e55236059b5b87d2447fa56a995337e7f86f87bbd3ef07c"
    },
    {
     "file": "entries/0172.jsonl",
@@ -1933,8 +1933,8 @@
     "last_seq": 86000,
     "first_key": "συνυποκρίνομαι",
     "last_key": "σφηνοπώγων",
-    "bytes": 486977,
-    "sha256": "9f55a0ec23224ccbb4659cf70dce4363b71a7edf2dbba18d088a75e22677c6bd"
+    "bytes": 488894,
+    "sha256": "5d233d1dc922c73f2b4201cc5000e99d3ba863a14c49152c79655c0c605ddae4"
    },
    {
     "file": "entries/0173.jsonl",
@@ -1943,8 +1943,8 @@
     "last_seq": 86500,
     "first_key": "σφηνόω",
     "last_key": "ταλασιουργία",
-    "bytes": 526392,
-    "sha256": "67a5c0fa276e6f53d55d9520666342112bf99da5e143ce2faeb1061e58778bf4"
+    "bytes": 528495,
+    "sha256": "db348ee9e9da6c9066b497363def7883e23f914cb49fab25bc84bf014f76cc51"
    },
    {
     "file": "entries/0174.jsonl",
@@ -1953,8 +1953,8 @@
     "last_seq": 87000,
     "first_key": "ταλασιουργικός",
     "last_key": "τειχομαχέω",
-    "bytes": 506539,
-    "sha256": "81c21e399f23d5f28d2e29266fc1b520fe76f69077e962e3f8b6c1ac43442172"
+    "bytes": 510590,
+    "sha256": "9389447c33f46444f0e4e63ac56e06944b2922452e4f2e34bff43068b54bafcf"
    },
    {
     "file": "entries/0175.jsonl",
@@ -1963,8 +1963,8 @@
     "last_seq": 87500,
     "first_key": "τειχομάχης",
     "last_key": "τετράπηχυς",
-    "bytes": 525733,
-    "sha256": "0551aa9402c5ee419a78f46c24973e1a699da57715f7f14f727ea2ecf7c0b5dc"
+    "bytes": 526740,
+    "sha256": "b996b8fab01815fb4e303643f9dc6f0b1534a103fd15eaaf7dc391ac36058c98"
    },
    {
     "file": "entries/0176.jsonl",
@@ -1973,8 +1973,8 @@
     "last_seq": 88000,
     "first_key": "τετραπλασιάζω",
     "last_key": "τιτθεύω",
-    "bytes": 567831,
-    "sha256": "86d64b4360f40046a040bbf8db112b678c6bfd04560dcaf7da9478e2bc2455fa"
+    "bytes": 568602,
+    "sha256": "cbc16a22fa3c67535542107f8fecae1afe53ad95bc262967be6e091ca516015b"
    },
    {
     "file": "entries/0177.jsonl",
@@ -1983,8 +1983,8 @@
     "last_seq": 88500,
     "first_key": "τίτθη",
     "last_key": "τραχέως",
-    "bytes": 504232,
-    "sha256": "60636af264f207a9bd8c83aa83f68ae10562915bf63824433936161ca005dbba"
+    "bytes": 505137,
+    "sha256": "f267a2509b8187a996cf3a0e62fc18fb2807bc090fde748367575a34dfd279f3"
    },
    {
     "file": "entries/0178.jsonl",
@@ -1993,8 +1993,8 @@
     "last_seq": 89000,
     "first_key": "τραχηλάγχη",
     "last_key": "τρισάσμενος",
-    "bytes": 489437,
-    "sha256": "6935ead72f32f49566bc290296ee368dea6476865f3a33924e14cb31adfcbd29"
+    "bytes": 491486,
+    "sha256": "8383ccbc437d18ea3af19c959445ac4158deb4a65dc22f3269b17427028be20d"
    },
    {
     "file": "entries/0179.jsonl",
@@ -2003,8 +2003,8 @@
     "last_seq": 89500,
     "first_key": "τρισαύγουστος",
     "last_key": "τρύφαξ",
-    "bytes": 465342,
-    "sha256": "5c6f8adad660fa1f023b20c642b56c27c7b9dc833b2a70acd0a66eac9162b934"
+    "bytes": 467863,
+    "sha256": "0f893dcccf56dacd7e3efd7cf09ea60f0f2f78f9e7d0bba37d253f239f60c24f"
    },
    {
     "file": "entries/0180.jsonl",
@@ -2013,8 +2013,8 @@
     "last_seq": 90000,
     "first_key": "τρυφάω",
     "last_key": "ὑγρόχυτος",
-    "bytes": 515850,
-    "sha256": "2d33db71f165013367356427bff46e87f3b64280f4181027f9a9c6dd15c421e7"
+    "bytes": 517781,
+    "sha256": "5963d33ef286a9acf0cf1afd49dfc0e083af7356f29b823a54de4ac7ee5bcdfb"
    },
    {
     "file": "entries/0181.jsonl",
@@ -2023,8 +2023,8 @@
     "last_seq": 90500,
     "first_key": "ὑγρύνω",
     "last_key": "ὑπαναμιμνήσκω",
-    "bytes": 473625,
-    "sha256": "805824761ea0da855d297584ea473c0ff07fde329e7d58b0fe234b2d33d4d014"
+    "bytes": 477365,
+    "sha256": "3b3e9f639a70048fe498e362b35458c5ca0ccf1db2ecc342fa650bd42e9bff0a"
    },
    {
     "file": "entries/0182.jsonl",
@@ -2043,8 +2043,8 @@
     "last_seq": 91500,
     "first_key": "ὑπερδιατείνομαι",
     "last_key": "ὑπερταλαντάω",
-    "bytes": 420235,
-    "sha256": "6925c218471396758bd892129a68a8a3c5ccca6aa3d40f7f0516b8121c85d95c"
+    "bytes": 421142,
+    "sha256": "d10124ffc7ac5551ac715baec9e3bcacbdaa1d5cdb14692319b3b99bfd3cb6f1"
    },
    {
     "file": "entries/0184.jsonl",
@@ -2053,8 +2053,8 @@
     "last_seq": 92000,
     "first_key": "ὑπέρτασις",
     "last_key": "ὑποζώνη",
-    "bytes": 497351,
-    "sha256": "5874a052356e51deb69f7c9737bf2958c3e94e9c99166c012c6cd7130f1b805e"
+    "bytes": 498519,
+    "sha256": "b5e363ab220b4c583f4eac4b199b0d9dd8180a79727c8446fdbc6e4ebc0feac1"
    },
    {
     "file": "entries/0185.jsonl",
@@ -2063,8 +2063,8 @@
     "last_seq": 92500,
     "first_key": "ὑποζώννυμι",
     "last_key": "ὑποπιάζω",
-    "bytes": 446497,
-    "sha256": "21816f7297b2c80f8b952607ae508adad82d49c49190d5b1c12f95a0c764231e"
+    "bytes": 446734,
+    "sha256": "81b368af81adec35e7769a935cd81177c95038abe393d08df327619115c04d36"
    },
    {
     "file": "entries/0186.jsonl",
@@ -2073,8 +2073,8 @@
     "last_seq": 93000,
     "first_key": "ὑποπιαίνομαι",
     "last_key": "ὑποφήτης",
-    "bytes": 450883,
-    "sha256": "9ee1cb694a7927f7844a73a171bc80168a6b0581fa126738a3073fe77ffcd9f8"
+    "bytes": 451379,
+    "sha256": "e1be8a76bc3e6b011e295cb8fb877aa0ba1b0dc4ac37fa6e3ec0fcacfaaff286"
    },
    {
     "file": "entries/0187.jsonl",
@@ -2083,8 +2083,8 @@
     "last_seq": 93500,
     "first_key": "ὑποφητικῶς",
     "last_key": "φ",
-    "bytes": 462234,
-    "sha256": "28c6d19128c928660c0181ed1baa752f3b837fbf76d8641105b80eb7badbde6a"
+    "bytes": 462532,
+    "sha256": "8fc39eb568711960000425b47dff6bfed5687f2edfc8ee8fddfefb2a4ff8000f"
    },
    {
     "file": "entries/0188.jsonl",
@@ -2093,8 +2093,8 @@
     "last_seq": 94000,
     "first_key": "φᾶ",
     "last_key": "φηλήτης",
-    "bytes": 545044,
-    "sha256": "0dfea8f10c43544f8b27116104408d7e63829181670e552fe27888f33bf37a85"
+    "bytes": 546214,
+    "sha256": "c8b0086e42fbd14af94ddfba9c9eb36b1d1aea2d7759d0cd55ff985dc525d656"
    },
    {
     "file": "entries/0189.jsonl",
@@ -2103,8 +2103,8 @@
     "last_seq": 94500,
     "first_key": "φἠλος",
     "last_key": "φιλόθερμος",
-    "bytes": 486333,
-    "sha256": "993cd2f5c90901234d7d7bca732fc1de6b5b8c619e8ccb36424683f25cb13545"
+    "bytes": 488001,
+    "sha256": "fa8f933fc2f5941ef2514bb57b0761b4b44e076f805f98567fa52291155b8f55"
    },
    {
     "file": "entries/0190.jsonl",
@@ -2112,9 +2112,9 @@
     "first_seq": 94501,
     "last_seq": 95000,
     "first_key": "φιλοθεωρέω",
-    "last_key": "φιλψδός",
-    "bytes": 448380,
-    "sha256": "93d59a015fb65c29b8d7fc0233b3e046424361573d025a1d99defb6e0417abcd"
+    "last_key": "φιλῳδός",
+    "bytes": 450461,
+    "sha256": "810333c4eb22e5277749da9339fb33d227e969f63bdc44bdc95e836f8aacca61"
    },
    {
     "file": "entries/0191.jsonl",
@@ -2123,8 +2123,8 @@
     "last_seq": 95500,
     "first_key": "φιλωνίζω",
     "last_key": "φράσσω",
-    "bytes": 496289,
-    "sha256": "1c7df8631c40316cd44a9f3c5cce6f7ae5098564d89086a026b71d23f615bf97"
+    "bytes": 496966,
+    "sha256": "15834bbde588f18842e3f2daeb1174cf1b269b4c4e8bf2913a1c0bd62aea1c9b"
    },
    {
     "file": "entries/0192.jsonl",
@@ -2133,8 +2133,8 @@
     "last_seq": 96000,
     "first_key": "φραστέον",
     "last_key": "φυτουργέω",
-    "bytes": 552545,
-    "sha256": "ed838fdedf4dc6c2b91aa1042c0cafae8eefb90e2b37fa115926da733415e74b"
+    "bytes": 554333,
+    "sha256": "9915eda24e2c27e7beac9a23f5f4428cf36d55378d5c460fa8e70b4caf49e23d"
    },
    {
     "file": "entries/0193.jsonl",
@@ -2143,8 +2143,8 @@
     "last_seq": 96500,
     "first_key": "φυτούργημα",
     "last_key": "χαμόθεν",
-    "bytes": 514390,
-    "sha256": "b0a93d4cea1b7cc205f6de59451e2837940d671bbaeb455fd7d390e64e5a4f32"
+    "bytes": 516485,
+    "sha256": "e452db9cb24cfb26604a9e5415693a71e65291994ae2f419e4ab5d4d9a7dc2d9"
    },
    {
     "file": "entries/0194.jsonl",
@@ -2153,8 +2153,8 @@
     "last_seq": 97000,
     "first_key": "χαμοκοιτέω",
     "last_key": "χερσώδης",
-    "bytes": 529383,
-    "sha256": "83801b5ac499f57f8c0eba235f001a9d3af214e9b1b043b80a60e258b0d79f96"
+    "bytes": 530904,
+    "sha256": "68638597507b217ada116c0eb204764f2cf1534e87341423ab9bb351189f58d8"
    },
    {
     "file": "entries/0195.jsonl",
@@ -2163,8 +2163,8 @@
     "last_seq": 97500,
     "first_key": "χερύδριον",
     "last_key": "χορδολογέω",
-    "bytes": 470128,
-    "sha256": "811a460b2831549e3250f2a343b9df74655307e816a046b9bc5f6c9a6ae54871"
+    "bytes": 471003,
+    "sha256": "acef871a6fa655d6ac6a45b7a00d22b1303973e8e0252d0fb16ba7a7557cded9"
    },
    {
     "file": "entries/0196.jsonl",
@@ -2173,8 +2173,8 @@
     "last_seq": 98000,
     "first_key": "χορδοποιός",
     "last_key": "χρυσολαμπής",
-    "bytes": 541603,
-    "sha256": "ee3b2da917019377699d0f1c3fbd744ef4db966aeafb54475e1983ef35fe21ae"
+    "bytes": 545920,
+    "sha256": "899f3e88c1833995958545f83ccd27efe330dc12b5debdd71f41e75132536904"
    },
    {
     "file": "entries/0197.jsonl",
@@ -2183,8 +2183,8 @@
     "last_seq": 98500,
     "first_key": "χρυσολαμπίς",
     "last_key": "ψευδατράφαξυς",
-    "bytes": 460069,
-    "sha256": "87df46040783b02ac3b2ca0f8a1e5a94f69faac0fa3879c42f453d3b9d335b60"
+    "bytes": 464659,
+    "sha256": "14e0ab2c2c761f56d697b0d11d0659e159109a8ba7b597a8f807aa9671da5ce7"
    },
    {
     "file": "entries/0198.jsonl",
@@ -2193,8 +2193,8 @@
     "last_seq": 99000,
     "first_key": "ψευδαττικός",
     "last_key": "ψυχροβάφης",
-    "bytes": 454302,
-    "sha256": "d56e33750e889fa6ce58d12230a5cddd84f2c865ec10a46a7e7c94218693baa0"
+    "bytes": 457748,
+    "sha256": "ae394f1b65bef1685779fcb1acbcd817f291356a648d6771ccff9d52a42ab764"
    },
    {
     "file": "entries/0199.jsonl",
@@ -2203,8 +2203,8 @@
     "last_seq": 99500,
     "first_key": "ψυχροδόχος",
     "last_key": "ὠτόλικνος",
-    "bytes": 582868,
-    "sha256": "b45841bb7d69d487a6f4db25799f3016250aeee77b7dab195b5fa87ed3786617"
+    "bytes": 593162,
+    "sha256": "7479374e9f6e9652d70451bdccc5e3bb48bff0c7159e3fc0df314de44b0f1945"
    },
    {
     "file": "entries/0200.jsonl",
@@ -2213,46 +2213,46 @@
     "last_seq": 99839,
     "first_key": "ὠτοπάροχος",
     "last_key": "ὠιδεῖον",
-    "bytes": 276563,
-    "sha256": "8944a3b43336bead8edfe12db959b435f6a92d2a81aa110708fb59c6b7ebfcea"
+    "bytes": 278011,
+    "sha256": "5461107038f799c832b9a0c46c4aa9c67f5fc37f0ae0780b51e44d616fea3664"
    }
   ],
   "keys": {
    "file": "keys.json",
-   "bytes": 4500368,
-   "sha256": "907f52ce3b7c0e41b816f11f7f799f20729fbea362cb7de253c687c2a6f86724"
+   "bytes": 4517317,
+   "sha256": "59b0fe043b49fcdd2c1db946c276d62cb776e5db31f7f5f0cfa4fb8b9783c369"
   },
   "readme": {
    "file": "README.md",
-   "bytes": 12193,
-   "sha256": "c9ecb083d3d7d3b0af0ee1c2a7e0d16866e0148ce424c0571a7ab2eb31100c08"
+   "bytes": 12208,
+   "sha256": "d8c043785b1759378e2947f2acb51e47a18229564a17d57b3426e8cfc85dc7c0"
   },
   "corrections": {
    "file": "corrections.json",
-   "bytes": 13120569,
-   "sha256": "68e3f67cc145110bd1bf466f9c48f38f4bfdf510edd19e88827dd84c28d22cc3"
+   "bytes": 13782658,
+   "sha256": "ff3d7c6064682c162147a5331c2c0cb3de45d9d38610cb245921f36872ec1d57"
   },
   "pages": {
    "file": "pages.json",
    "rows": 3552,
    "bytes": 1852835,
-   "sha256": "1a53e79d1d95a4a4c08012520987291b41a70a02022e44b7d9d3802fdc8e5bec"
+   "sha256": "478e8523aeee5525508750777535f4beb224c7bff2a190e1e1d03ebeed305e7c"
   },
   "aliases": {
    "file": "aliases.json",
-   "aliases": 12,
-   "bytes": 2156,
-   "sha256": "47e1a0ac29b23a9d59fe1b4b95cfcc5ee5e36e31687d041bd283a1a7c4c07184"
+   "aliases": 13,
+   "bytes": 2346,
+   "sha256": "930f4f5c18641d7df688e9ffe2a01f0954ddf78803feb1a5b24feddf2a6e81c3"
   }
  },
  "publication": {
   "repository": "https://github.com/open-greek/lexicon-lsj8",
-  "release": "lsj8-2026-11-23",
+  "release": "lsj8-2026-11-23.1",
   "date": "2026-11-23",
   "license_text": "LICENSE",
-  "build_manifest_sha256": "68340d2f1f18a0dd34e2a62bacd1c2efbe3eeae44cc24aedeedf1142a3957ceb",
+  "build_manifest_sha256": "565712d439e31ea73045f5022433a1576a59295f2197cc7c0a8cad775948cab6",
   "corrections": {
-   "build_sha256": "e2fa4caccec1bca42824f680a6f5c514c156ab6c699849d47d7e3560e8da76dc",
+   "build_sha256": "bac77771551524940b258549c083d267f2382738bdd20942cd599cf5aea2ca23",
    "withheld_fields": [
     "evidence"
    ]

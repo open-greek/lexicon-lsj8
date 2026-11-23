@@ -1,4 +1,11 @@
 {
+ "lsj8-1901:1037-b-52": {
+  "successors": [
+   "lsj8-1901:1037-b-46"
+  ],
+  "reason": "Read as an entry; the line belongs to οἰωνίζομαι.",
+  "retired_in": "lsj8-2026-11-23.1"
+ },
  "lsj8-1901:1078-a-27": {
   "successors": [
    "lsj8-1901:1078-a-16"

@@ -1,6 +1,6 @@
 # Lexicon entry format (open-greek-lexica 0.3.0)
 
-> This copy of the format comes with release `lsj8-2026-11-23` of
+> This copy of the format comes with release `lsj8-2026-11-23.1` of
 > `lsj8-1901`. The programs it names under `scripts/` build the lexica and
 > are not part of this repository, and neither is `lookup/`, the lemma
 > lookup. The JSON Schemas are in `schema/` and the test vectors in

@@ -6,7 +6,7 @@ type: "dataset"
 authors:
   - name: "The Open Greek project"
 repository-code: "https://github.com/open-greek/lexicon-lsj8"
-version: "lsj8-2026-11-23"
+version: "lsj8-2026-11-23.1"
 date-released: "2026-11-23"
 license: "CC-BY-SA-4.0"
 keywords:

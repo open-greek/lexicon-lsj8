@@ -1,10 +1,31 @@
 {
+ "lsj8-1901:1078-a-27": {
+  "successors": [
+   "lsj8-1901:1078-a-16"
+  ],
+  "reason": "Read as an entry; the line belongs to ὄρος.",
+  "retired_in": "lsj8-2026-11-23"
+ },
+ "lsj8-1901:1205-a-54": {
+  "successors": [
+   "lsj8-1901:1205-a-46"
+  ],
+  "reason": "Read as an entry; the line belongs to Περσικός.",
+  "retired_in": "lsj8-2026-11-23"
+ },
  "lsj8-1901:1241-b-84": {
   "successors": [
    "lsj8-1901:1241-b-81"
   ],
   "reason": "Read as an entry; the line belongs to πολλαπλόος.",
   "retired_in": "lsj8-2026-11-22.2"
+ },
+ "lsj8-1901:1342-a-85": {
+  "successors": [
+   "lsj8-1901:1342-a-81"
+  ],
+  "reason": "Read as an entry; the line belongs to πτώξ.",
+  "retired_in": "lsj8-2026-11-23"
  },
  "lsj8-1901:1514-b-16": {
   "successors": [
@@ -54,5 +75,12 @@
   ],
   "reason": "Read as an entry; the line belongs to γε.",
   "retired_in": "lsj8-2026-11-22.2"
+ },
+ "lsj8-1901:866-b-3": {
+  "successors": [
+   "lsj8-1901:866-a-82"
+  ],
+  "reason": "Read as an entry; the line belongs to κῶμος.",
+  "retired_in": "lsj8-2026-11-23"
  }
 }

@@ -41,6 +41,13 @@
   "reason": "Read as an entry; the line belongs to σφῠρ-ήλατος.",
   "retired_in": "lsj8-2026-11-22.2"
  },
+ "lsj8-1901:1599-b-20": {
+  "successors": [
+   "lsj8-1901:1599-b-16"
+  ],
+  "reason": "Read as an entry; the line belongs to Ὕης.",
+  "retired_in": "lsj8-2026-11-25"
+ },
  "lsj8-1901:1768-a-58": {
   "successors": [
    "lsj8-1901:1767-b-57"
@@ -82,6 +89,13 @@
   ],
   "reason": "Read as an entry; the line belongs to γε.",
   "retired_in": "lsj8-2026-11-22.2"
+ },
+ "lsj8-1901:562-b-27": {
+  "successors": [
+   "lsj8-1901:562-b-19"
+  ],
+  "reason": "Read as an entry; the line belongs to ἐπιφαίνω.",
+  "retired_in": "lsj8-2026-11-25"
  },
  "lsj8-1901:866-b-3": {
   "successors": [

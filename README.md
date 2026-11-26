@@ -11,8 +11,8 @@ edition, revised throughout (Oxford: Clarendon Press, 1897), in the
 printing of 1901: the lexicon, pages 1 to 1774, and the Addenda, pages
 1774 to 1776, as structured data. Every entry is a JSON object with its
 text, its sense labels, its cross-references and the page, column and line
-where it is printed. This is release `lsj8-2026-11-23.1`, with 99,839
-entries: 99,547 from the lexicon and 292
+where it is printed. This is release `lsj8-2026-11-25`, with 99,837
+entries: 99,545 from the lexicon and 292
 from the Addenda.
 
 Not included: the preface, the list of authors and abbreviations and the
@@ -78,12 +78,12 @@ serves them).
    from the print, and after them the flagged headwords that serve the most
    words of the corpus and every headword with Latin or Cyrillic letters.
    No headword or key has a Latin or Cyrillic letter or a middle dot now:
-   the build stops on one. There are 18,445 corrections, all in
+   the build stops on one. There are 20,257 corrections, all in
    `corrections.json`.
-   Each one that changes an entry's text or references is marked at that place in the entry, with the reading before it and the reason. The 19 that change no entry's text (19 entry starts set or removed: c16833-c16843, c17547-c17552, c18442-c18443) have no mark.
+   Each one that changes an entry's text or references is marked at that place in the entry, with the reading before it and the reason. The 21 that change no entry's text (21 entry starts set or removed: c16833-c16843, c17547-c17552, c18442-c18443, c20253-c20254) have no mark.
 4. Each entry of the lexicon is matched to its entry in the Perseus
    encoding of LSJ9 where one can be found in the same alphabetical place
-   (83,478 entries), and has its id as `source.perseus_id`,
+   (83,772 entries), and has its id as `source.perseus_id`,
    so that the two editions can be compared entry by entry.
 
 The OCR text itself is not otherwise changed. Lines are joined, words
@@ -96,18 +96,18 @@ are not yet parsed or linked.
 The text of every entry is OCR. `quality` says how far the headword was
 checked:
 
-- `ocr-headword-checked` (89,364 entries):
+- `ocr-headword-checked` (90,932 entries):
   the headword and the start of the entry pass the checks above;
-- `ocr` (10,475 entries): something makes the entry
+- `ocr` (8,905 entries): something makes the entry
   doubtful, and `source.review` says what:
-  - `headword` (841): the headword cannot be right as
+  - `headword` (12): the headword cannot be right as
     read (two accents, or a missing or misplaced breathing);
-  - `no-accent` (1,821): a word of two or more
+  - `no-accent` (1,516): a word of two or more
     syllables without an accent;
-  - `lsj9-key` (7,742): its breathing, accent or
+  - `lsj9-key` (7,053): its breathing, accent or
     another mark differs from its LSJ9 entry. Many of these are misread,
     but some words are printed otherwise in the two editions;
-  - `out-of-order` (1,699): the start breaks the
+  - `out-of-order` (1,612): the start breaks the
     alphabetical order, mostly because its headword is misread;
   - `indent` (34): a start at a line the scan shows
     flush.
@@ -126,7 +126,7 @@ letter, breathing or accent.
   breathings are misread, and an OCR slip can hide a sense label or add one
   (`I. IO` for `l. 10`). A few lines still have letters of other scripts
   (Arabic, Hebrew) where the OCR misread Greek.
-- The 841 headwords flagged `headword` are not
+- The 12 headwords flagged `headword` are not
   corrected, and the `no-accent` and `lsj9-key` entries have not been
   checked on the scans yet, apart from those the corpus's most frequent
   lemmas reach.
@@ -135,7 +135,7 @@ letter, breathing or accent.
 - Where the indent of a line could not be measured (about one line in
   twenty), or was measured wrong, an entry can start in the wrong place or
   a derivative can be run into the entry before it.
-- 143 cross-references do not find their entry,
+- 141 cross-references do not find their entry,
   among them a few amendments in the Addenda whose headword is read
   differently.
 - Citations are not parsed: `citations` is empty in every entry.
@@ -181,8 +181,8 @@ of this repository.
 Cite the release you used, by its tag:
 
 > Henry George Liddell and Robert Scott, A Greek-English Lexicon, 8th
-> edition (1901 printing), Open Greek OCR edition, release `lsj8-2026-11-23.1`
-> (2026-11-23), https://github.com/open-greek/lexicon-lsj8.
+> edition (1901 printing), Open Greek OCR edition, release `lsj8-2026-11-25`
+> (2026-11-25), https://github.com/open-greek/lexicon-lsj8.
 
 `CITATION.cff` has the same in machine-readable form. Cite an entry by its
 id and the release.

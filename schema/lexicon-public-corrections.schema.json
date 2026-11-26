@@ -100,7 +100,7 @@
        "object",
        "null"
       ],
-      "description": "The changed state. element: {attributes, text} (an attribute the original names and the correction does not is removed), and tail (the exact text after the element) when the original gives one (a record on a paragraph, p, changes only its text); page-break: {pb}; move: {parent, index}; insert-element: {xml, tail}; remove-element: {index, xml, tail} (top-level) or {xml, tail} (inside an entry), or null; insert-entry: {index, xml, tail}, the entry the source lost, typed from the scan, at that position among the children of the body; text: {text}; start: {start}, whether the line begins an entry."
+      "description": "The changed state. element: {attributes, text} (an attribute the original names and the correction does not is removed), and tail (the exact text after the element) when the original gives one, or xml (the exact XML of the element, whose content is replaced) where the change adds or drops a child (a record on a paragraph, p, changes only its text); page-break: {pb}; move: {parent, index}; insert-element: {xml, tail}; remove-element: {index, xml, tail} (top-level) or {xml, tail} (inside an entry), or null; insert-entry: {index, xml, tail}, the entry the source lost, typed from the scan, at that position among the children of the body; text: {text}; start: {start}, whether the line begins an entry."
      },
      "summary": {
       "type": "string",

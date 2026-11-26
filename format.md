@@ -1,6 +1,6 @@
 # Lexicon entry format (open-greek-lexica 0.3.0)
 
-> This copy of the format comes with release `lsj8-2026-11-23.1` of
+> This copy of the format comes with release `lsj8-2026-11-25` of
 > `lsj8-1901`. The programs it names under `scripts/` build the lexica and
 > are not part of this repository, and neither is `lookup/`, the lemma
 > lookup. The JSON Schemas are in `schema/` and the test vectors in
@@ -276,9 +276,14 @@ source. Kinds:
   exact text after the element, to change it as well: stray text the
   source left beside the element (`4</bibl>.3,` for the printed 413), or
   punctuation and words the print has there; the correction mark then
-  covers the element and that text. A record on a paragraph (`p`) changes
-  only its own words, and its mark covers the text node it changed, not the
-  whole paragraph;
+  covers the element and that text. Where the change adds or drops a child
+  element (a reference that loses its book title, `<title>Il.</title> 9.265`
+  for the print's bare 265), `original` and `correction` give the element's
+  exact `xml` beside its `attributes` and `text`, and the element's content
+  is replaced in place after its XML is checked; such a record has no
+  `tail`, and earlier records keep their marks on the element. A record on
+  a paragraph (`p`) changes only its own words, and its mark covers the text
+  node it changed, not the whole paragraph;
 - `page-break`: insert or remove a page break before an anchor text;
 - `move`: move a division to another parent (repairs nesting);
 - `insert-element`: insert an element the source lost (a dropped reference)
@@ -390,7 +395,7 @@ it:
 ```json
 {"lsj8-1901:1770-a-55": {"successors": ["lsj8-1901:1770-a-10"],
                          "reason": "Read as an entry; the line belongs to ὡς.",
-                         "retired_in": "lsj8-2026-11-23"}}
+                         "retired_in": "lsj8-2026-11-22.2"}}
 ```
 
 `successors` is empty when the entry was removed (a running head).
@@ -461,7 +466,7 @@ is never taken for a name.
 
 ### Order of a lemma's entries
 
-The stages find a lemma's entries; the rule `open-greek-lexica-entry-order/2`
+The stages find a lemma's entries; the rule `open-greek-lexica-entry-order/4`
 (in `build_lexicon_lemma_lookup.py`) puts them in order, so that the first
 is the entry a reader looking up the word wants: the article on the word,
 not a note on one of its forms. It reads only the entries.
@@ -490,7 +495,19 @@ prints at most 80 code points (a printed line is about 67), in words:
   mistress"). After a gloss of the note's own these are "see also" or a
   note on the reading ("δί-μετρος, ον, of a verse, having two metres,
   Hephaest. ; v. διποδία."; "ἐξιδίω, ..., to exsude: in Ar. Av. 791 euphem.
-  for τιλάω.").
+  for τιλάω.");
+- in a lexicon that marks its glosses (Cunliffe), where the note names no
+  entry in those words, the word it ends with, after a parse, an "=" or a
+  number, with any homograph number or bracketed letter after it (read as
+  after the other words): "δῦ, 3 sing. aor. δύω.", "ἕσπερα, metaplastic
+  neut. pl. ἕσπερος.", "στάς, aor. pple. ἵστημι (β)." (rule 4, since
+  24 November 2026). Not an article or a bare letter (one without marks), and
+  not a word after "and", "or", "with", "also", "not", "but" or "cf.":
+  "εἴξειε, 3 sing. aor. opt. εἴκω¹ and εἴκω²." names two words and is read
+  as before, as is one that ends "Dim. of", "patronym. of", "son of" or
+  "used for" a word. "comp." is a parse ("μείζων, comp. μέγας."). A note that
+  ends with a numbered section ("(2)") is read as before. The encoding gives these
+  form notes no reference, though it gives one to "οἶδα, pf. εἴδω (C)."
 
 "son of" and "used for" name nothing, nor does a note on a phrase
 ("τοῦναντίον, crasis for τὸ ἐναντίον", "ἐπιπολύ, Adv. for ἐπὶ πολύ"), one
@@ -530,7 +547,20 @@ in words too.
    Pointers to pointers are followed up to three steps. A pointer that
    prints one form for each of its targets ("ἆθλος, ἀθλοφόρος. See ἄεθλος,
    ἀεθλοφόρος.") names, for a lemma that is one of its forms, only that
-   form's target.
+   form's target. But a word's own entry leads when it has a gloss of its
+   own, and the named word only when the entry is only a pointer (rule 3,
+   since 24 November 2026): a pointer that glosses its headword before it
+   names another word ("ἔπομαι, to follow, Dep.: v. sub ἔπω.", "ἑξήκοντα,
+   οἱ, αἱ, τά, indecl. sixty, Hom., etc.; v. sub ἕξ.") leads, by step 1
+   among such pointers, and the entries it names follow it. Its own gloss
+   is a word of three letters or more outside brackets and the headword,
+   before the first word the note names (a gloss after "for X", "v. sub X"
+   or a word derived from it, "whence X" or "hence X", is X's: "ῥύω,
+   whence ἐρύω, to draw; v. sub ῥύομαι." is only a pointer), that is not
+   a referral or a word
+   on the form's use ("shortened", "rare", "only"), nor a Latin equivalent
+   ("Lat. se"); an Addenda note has none, and in a lexicon that marks its
+   glosses (Cunliffe) a pointer has none.
 
 The entry a pointer names is read from the word it prints as well as from
 the cross-reference's target, which the build takes as the first entry

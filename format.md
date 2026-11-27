@@ -1,6 +1,6 @@
 # Lexicon entry format (open-greek-lexica 0.3.0)
 
-> This copy of the format comes with release `lsj8-2026-11-25` of
+> This copy of the format comes with release `lsj8-2026-11-27` of
 > `lsj8-1901`. The programs it names under `scripts/` build the lexica and
 > are not part of this repository, and neither is `lookup/`, the lemma
 > lookup. The JSON Schemas are in `schema/` and the test vectors in
@@ -464,6 +464,18 @@ the corpus reaches only entries whose headword is capitalized, at every
 stage but the pins: Δῖος does not reach δῖος. A lemma with a small letter
 is never taken for a name.
 
+A malformed lemma reaches no entry, at any stage: one with a digit
+(`131.κατέπηξε`, `139,17)δέκα`, `Σ¹`), a bracket (`δοῦλος (II)`,
+`ὁμοκο<υ>ρίτης`), other punctuation (`κε#`, `ἐπαρέσσω/ήγω`), a symbol
+(`Γ∠`, or a spacing quantity mark or diaeresis such as `˘` and `¨`) or a
+letter that is neither Greek nor one of the Latin and Cyrillic lookalikes
+the LSJ8 build reads as Greek (`o`, `v`, `µ`, with or without marks).
+Hyphens, spaces, apostrophes and elision marks, the Greek spacing marks
+and the numeral signs are not malformations. A lemma is counted under its
+first such character: `139,17)δέκα` under digit. These lemmas are slips of the annotations, which the
+lookup does not try to read, and `coverage.json` lists them apart
+(`malformed`) for the annotations to correct.
+
 ### Order of a lemma's entries
 
 The stages find a lemma's entries; the rule `open-greek-lexica-entry-order/4`
@@ -630,7 +642,7 @@ gives (`pinned`), and the entries the rule added for each lemma by
 following its pointers (`followed`). A release refuses a table that records
 another rule, or whose order is not the one the rule gives.
 
-`lookup/coverage.json` reports, over tokens whose lemma has a Greek letter:
+`lookup/coverage.json` reports, over tokens whose well-formed lemma has a Greek letter:
 the share of tokens matched, by method, with and without proper nouns, and
 how much of it is exact (pins, convention and keys) rather than by letters;
 the same for the top 100, 1,000 and 5,000 lemmas and for the Homeric poems;
@@ -641,7 +653,8 @@ the entry order (`entry_order`): over all lemmas and the top 100, 1,000 and
 5,000, the lemmas with several entries, those whose lead is not their
 first entry in print, those led by a followed entry or a pointer and those
 a pin orders (each with its tokens), and every lead change in the top
-1,000.
+1,000. `malformed` counts the malformed lemmas and their tokens, by
+reason, and lists the 500 most frequent.
 
 ## Fitting the other lexica
 
@@ -654,7 +667,11 @@ a pin orders (each with its tokens), and every lead change in the top
   between their matches with the same key or letters. A printed homograph
   number picks the LSJ9 homograph with that number; an entry gets no id
   when another LSJ9 homograph with its key is free in the same place, nor
-  in the Addenda. The manifest's `perseus_ids` records the pinned LSJ9
+  in the Addenda. A link of the lexicon's `lsj9_links.json` gives an entry
+  the LSJ9 entry with its sense where these steps give it the homograph of
+  another sense or none (method `pinned`), and no id where LSJ9 has no
+  entry of its own for the sense; each link names the id the steps give the
+  entry, so the build stops when the alignment changes under it. The manifest's `perseus_ids` records the pinned LSJ9
   files, the number of entries with an id and the count of each method;
   it is null for a build made without the LSJ9 files, which has no
   `perseus_id` and is not released. An entry whose key and alternative

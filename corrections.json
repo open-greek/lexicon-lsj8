@@ -830496,6 +830496,2507 @@
      "text": "ῖ"
     }
    }
+  },
+  {
+   "id": "lsj8-1901-c20258",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 13,
+    "col": "b",
+    "line": 27,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἄγο"
+   },
+   "correction": {
+    "text": "ἀγό"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἄγος for ἀγός.",
+   "scan": {
+    "vol": null,
+    "page": 13,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 35
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 13,
+     "col": "b",
+     "line": 27,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἀγό"
+    },
+    "correction": {
+     "text": "ἄγο"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20259",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 16,
+    "col": "b",
+    "line": 44,
+    "offset": 7
+   },
+   "original": {
+    "text": "ί"
+   },
+   "correction": {
+    "text": "ῖ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἀγχιστεία for ἀγχιστεῖα.",
+   "scan": {
+    "vol": null,
+    "page": 16,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 38
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 16,
+     "col": "b",
+     "line": 44,
+     "offset": 7
+    },
+    "original": {
+     "text": "ῖ"
+    },
+    "correction": {
+     "text": "ί"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20260",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 32,
+    "col": "a",
+    "line": 62,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἆτ"
+   },
+   "correction": {
+    "text": "ἀΐ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἆτ for ἀΐ.",
+   "scan": {
+    "vol": null,
+    "page": 32,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 54
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 32,
+     "col": "a",
+     "line": 62,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἀΐ"
+    },
+    "correction": {
+     "text": "ἆτ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20261",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 58,
+    "col": "a",
+    "line": 69,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἀ"
+   },
+   "correction": {
+    "text": "ἁ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἀλεία for ἁλεία.",
+   "scan": {
+    "vol": null,
+    "page": 58,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 80
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 58,
+     "col": "a",
+     "line": 69,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἁ"
+    },
+    "correction": {
+     "text": "ἀ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20262",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 77,
+    "col": "a",
+    "line": 52,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἄμη"
+   },
+   "correction": {
+    "text": "ἁμῆ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἄμη for ἁμῆ.",
+   "scan": {
+    "vol": null,
+    "page": 77,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 99
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 77,
+     "col": "a",
+     "line": 52,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἁμῆ"
+    },
+    "correction": {
+     "text": "ἄμη"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20263",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 91,
+    "col": "b",
+    "line": 4,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἄ"
+   },
+   "correction": {
+    "text": "ἅ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἄν for ἅν.",
+   "scan": {
+    "vol": null,
+    "page": 91,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 113
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 91,
+     "col": "b",
+     "line": 4,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἅ"
+    },
+    "correction": {
+     "text": "ἄ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20264",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 119,
+    "col": "a",
+    "line": 85,
+    "offset": 2
+   },
+   "original": {
+    "text": "έκα"
+   },
+   "correction": {
+    "text": "εκά"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἀνέκας for ἀνεκάς.",
+   "scan": {
+    "vol": null,
+    "page": 119,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 141
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 119,
+     "col": "a",
+     "line": 85,
+     "offset": 2
+    },
+    "original": {
+     "text": "εκά"
+    },
+    "correction": {
+     "text": "έκα"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20265",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 157,
+    "col": "b",
+    "line": 65,
+    "offset": 7
+   },
+   "original": {
+    "text": "ἀ"
+   },
+   "correction": {
+    "text": "ἆ"
+   },
+   "summary": "Second form of the headword misread by the OCR, read on the scans: ἀορ for ἆορ.",
+   "scan": {
+    "vol": null,
+    "page": 157,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 179
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 157,
+     "col": "b",
+     "line": 65,
+     "offset": 7
+    },
+    "original": {
+     "text": "ἆ"
+    },
+    "correction": {
+     "text": "ἀ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20266",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 231,
+    "col": "b",
+    "line": 39,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἄσῐ"
+   },
+   "correction": {
+    "text": "ᾆσι"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἄσῐς for ᾆσις.",
+   "scan": {
+    "vol": null,
+    "page": 231,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 253
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 231,
+     "col": "b",
+     "line": 39,
+     "offset": 0
+    },
+    "original": {
+     "text": "ᾆσι"
+    },
+    "correction": {
+     "text": "ἄσῐ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20267",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 233,
+    "col": "a",
+    "line": 4,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἄ"
+   },
+   "correction": {
+    "text": "ᾆ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἄσμα for ᾆσμα.",
+   "scan": {
+    "vol": null,
+    "page": 233,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 255
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 233,
+     "col": "a",
+     "line": 4,
+     "offset": 0
+    },
+    "original": {
+     "text": "ᾆ"
+    },
+    "correction": {
+     "text": "ἄ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20268",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 255,
+    "col": "a",
+    "line": 58,
+    "offset": 1
+   },
+   "original": {
+    "text": "ὐ"
+   },
+   "correction": {
+    "text": "ὑ"
+   },
+   "summary": "Headword misread by the OCR; the readings do not settle a mark, so LSJ9 decides: αὐτός for αὑτός.",
+   "scan": {
+    "vol": null,
+    "page": 255,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 277
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 255,
+     "col": "a",
+     "line": 58,
+     "offset": 1
+    },
+    "original": {
+     "text": "ὑ"
+    },
+    "correction": {
+     "text": "ὐ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20269",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 255,
+    "col": "b",
+    "line": 86,
+    "offset": 1
+   },
+   "original": {
+    "text": "ὐ"
+   },
+   "correction": {
+    "text": "ὑ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: αὐτοῦ for αὑτοῦ.",
+   "scan": {
+    "vol": null,
+    "page": 255,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 277
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 255,
+     "col": "b",
+     "line": 86,
+     "offset": 1
+    },
+    "original": {
+     "text": "ὑ"
+    },
+    "correction": {
+     "text": "ὐ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20270",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 267,
+    "col": "b",
+    "line": 25,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἄ"
+   },
+   "correction": {
+    "text": "ἆ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἄχος for ἆχος.",
+   "scan": {
+    "vol": null,
+    "page": 267,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 289
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 267,
+     "col": "b",
+     "line": 25,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἆ"
+    },
+    "correction": {
+     "text": "ἄ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20271",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 268,
+    "col": "b",
+    "line": 29,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἄχω"
+   },
+   "correction": {
+    "text": "ἀχώ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἄχω for ἀχώ.",
+   "scan": {
+    "vol": null,
+    "page": 268,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 290
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 268,
+     "col": "b",
+     "line": 29,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἀχώ"
+    },
+    "correction": {
+     "text": "ἄχω"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20272",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 295,
+    "col": "b",
+    "line": 1,
+    "offset": 11
+   },
+   "original": {
+    "text": "ῦ"
+   },
+   "correction": {
+    "text": "ύ"
+   },
+   "summary": "Second form of the headword misread by the OCR, read on the scans: βρῦχω for βρύχω.",
+   "scan": {
+    "vol": null,
+    "page": 295,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 317
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 295,
+     "col": "b",
+     "line": 1,
+     "offset": 11
+    },
+    "original": {
+     "text": "ύ"
+    },
+    "correction": {
+     "text": "ῦ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20273",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 321,
+    "col": "b",
+    "line": 35,
+    "offset": 1
+   },
+   "original": {
+    "text": "αί"
+   },
+   "correction": {
+    "text": "ᾰΐ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: δαί for δᾰΐ.",
+   "scan": {
+    "vol": null,
+    "page": 321,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 343
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 321,
+     "col": "b",
+     "line": 35,
+     "offset": 1
+    },
+    "original": {
+     "text": "ᾰΐ"
+    },
+    "correction": {
+     "text": "αί"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20274",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 370,
+    "col": "a",
+    "line": 64,
+    "offset": 2
+   },
+   "original": {
+    "text": "ῖ"
+   },
+   "correction": {
+    "text": "ΐ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: Διῖ for Διΐ.",
+   "scan": {
+    "vol": null,
+    "page": 370,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 392
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 370,
+     "col": "a",
+     "line": 64,
+     "offset": 2
+    },
+    "original": {
+     "text": "ΐ"
+    },
+    "correction": {
+     "text": "ῖ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20275",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 376,
+    "col": "b",
+    "line": 44,
+    "offset": 4
+   },
+   "original": {
+    "text": "ῆ"
+   },
+   "correction": {
+    "text": "ῇ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: διπλῆ for διπλῇ.",
+   "scan": {
+    "vol": null,
+    "page": 376,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 398
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 376,
+     "col": "b",
+     "line": 44,
+     "offset": 4
+    },
+    "original": {
+     "text": "ῇ"
+    },
+    "correction": {
+     "text": "ῆ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20276",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 409,
+    "col": "b",
+    "line": 28,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἐδα"
+   },
+   "correction": {
+    "text": "ἑδᾰ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἐδανός for ἑδᾰνός.",
+   "scan": {
+    "vol": null,
+    "page": 409,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 431
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 409,
+     "col": "b",
+     "line": 28,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἑδᾰ"
+    },
+    "correction": {
+     "text": "ἐδα"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20277",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 417,
+    "col": "a",
+    "line": 40,
+    "offset": 1
+   },
+   "original": {
+    "text": "ἴ"
+   },
+   "correction": {
+    "text": "ἵ"
+   },
+   "summary": "Headword misread by the OCR; the readings do not settle a mark, so LSJ9 decides: εἴλησις for εἵλησις.",
+   "scan": {
+    "vol": null,
+    "page": 417,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 439
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 417,
+     "col": "a",
+     "line": 40,
+     "offset": 1
+    },
+    "original": {
+     "text": "ἵ"
+    },
+    "correction": {
+     "text": "ἴ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20278",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 453,
+    "col": "a",
+    "line": 6,
+    "offset": 9
+   },
+   "original": {
+    "text": "ἐ"
+   },
+   "correction": {
+    "text": "ἑ"
+   },
+   "summary": "Second form of the headword misread by the OCR, read on the scans: ἐλάνη for ἑλάνη.",
+   "scan": {
+    "vol": null,
+    "page": 453,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 475
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 453,
+     "col": "a",
+     "line": 6,
+     "offset": 9
+    },
+    "original": {
+     "text": "ἑ"
+    },
+    "correction": {
+     "text": "ἐ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20279",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 481,
+    "col": "b",
+    "line": 9,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἐ"
+   },
+   "correction": {
+    "text": "ἑ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἐνίζω for ἑνίζω.",
+   "scan": {
+    "vol": null,
+    "page": 481,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 503
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 481,
+     "col": "b",
+     "line": 9,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἑ"
+    },
+    "correction": {
+     "text": "ἐ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20280",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 495,
+    "col": "b",
+    "line": 85,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἑ"
+   },
+   "correction": {
+    "text": "ἐ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἑξαπλόω for ἐξαπλόω.",
+   "scan": {
+    "vol": null,
+    "page": 495,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 517
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 495,
+     "col": "b",
+     "line": 85,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἐ"
+    },
+    "correction": {
+     "text": "ἑ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20281",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 499,
+    "col": "a",
+    "line": 36,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἐ"
+   },
+   "correction": {
+    "text": "ἑ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἐξέμεν for ἑξέμεν.",
+   "scan": {
+    "vol": null,
+    "page": 499,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 521
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 499,
+     "col": "a",
+     "line": 36,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἑ"
+    },
+    "correction": {
+     "text": "ἐ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20282",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 507,
+    "col": "a",
+    "line": 27,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἔ"
+   },
+   "correction": {
+    "text": "ἕ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἔξω for ἕξω.",
+   "scan": {
+    "vol": null,
+    "page": 507,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 529
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 507,
+     "col": "a",
+     "line": 27,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἕ"
+    },
+    "correction": {
+     "text": "ἔ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20283",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 567,
+    "col": "a",
+    "line": 44,
+    "offset": 32
+   },
+   "original": {
+    "text": "ἔ"
+   },
+   "correction": {
+    "text": "ἕ"
+   },
+   "summary": "Pointer misread by the OCR, read on the scans: ἔπω for ἕπω.",
+   "scan": {
+    "vol": null,
+    "page": 567,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 589
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 567,
+     "col": "a",
+     "line": 44,
+     "offset": 32
+    },
+    "original": {
+     "text": "ἕ"
+    },
+    "correction": {
+     "text": "ἔ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20284",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 570,
+    "col": "a",
+    "line": 18,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἔ"
+   },
+   "correction": {
+    "text": "ἕ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἔπω for ἕπω.",
+   "scan": {
+    "vol": null,
+    "page": 570,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 592
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 570,
+     "col": "a",
+     "line": 18,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἕ"
+    },
+    "correction": {
+     "text": "ἔ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20285",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 573,
+    "col": "b",
+    "line": 7,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἔ"
+   },
+   "correction": {
+    "text": "ἕ"
+   },
+   "summary": "Headword misread by the OCR; the readings do not settle a mark, so LSJ9 decides: ἔργμα for ἕργμα.",
+   "scan": {
+    "vol": null,
+    "page": 573,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 595
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 573,
+     "col": "b",
+     "line": 7,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἕ"
+    },
+    "correction": {
+     "text": "ἔ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20286",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 587,
+    "col": "a",
+    "line": 40,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἔ"
+   },
+   "correction": {
+    "text": "ἕ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ἔσσα for ἕσσα.",
+   "scan": {
+    "vol": null,
+    "page": 587,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 609
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 587,
+     "col": "a",
+     "line": 40,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἕ"
+    },
+    "correction": {
+     "text": "ἔ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20287",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 609,
+    "col": "a",
+    "line": 89,
+    "offset": 12
+   },
+   "original": {
+    "text": "ὐ"
+   },
+   "correction": {
+    "text": "ὔ"
+   },
+   "summary": "Second form of the headword misread by the OCR, read on the scans: εὐοδμος for εὔοδμος.",
+   "scan": {
+    "vol": null,
+    "page": 609,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 631
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 609,
+     "col": "a",
+     "line": 89,
+     "offset": 12
+    },
+    "original": {
+     "text": "ὔ"
+    },
+    "correction": {
+     "text": "ὐ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20288",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 684,
+    "col": "b",
+    "line": 21,
+    "offset": 2
+   },
+   "original": {
+    "text": "ί"
+   },
+   "correction": {
+    "text": "ῖ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: Θυία for Θυῖα.",
+   "scan": {
+    "vol": null,
+    "page": 684,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 706
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 684,
+     "col": "b",
+     "line": 21,
+     "offset": 2
+    },
+    "original": {
+     "text": "ῖ"
+    },
+    "correction": {
+     "text": "ί"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20289",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 709,
+    "col": "b",
+    "line": 76,
+    "offset": 0
+   },
+   "original": {
+    "text": "ἴ"
+   },
+   "correction": {
+    "text": "ἵ"
+   },
+   "summary": "Headword misread by the OCR; the readings do not settle a mark, so LSJ9 decides: ἴσμα for ἵσμα.",
+   "scan": {
+    "vol": null,
+    "page": 709,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 731
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 709,
+     "col": "b",
+     "line": 76,
+     "offset": 0
+    },
+    "original": {
+     "text": "ἵ"
+    },
+    "correction": {
+     "text": "ἴ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20290",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 743,
+    "col": "a",
+    "line": 59,
+    "offset": 1
+   },
+   "original": {
+    "text": "ά"
+   },
+   "correction": {
+    "text": "ᾶ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: κάπος for κᾶπος.",
+   "scan": {
+    "vol": null,
+    "page": 743,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 765
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 743,
+     "col": "a",
+     "line": 59,
+     "offset": 1
+    },
+    "original": {
+     "text": "ᾶ"
+    },
+    "correction": {
+     "text": "ά"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20291",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 814,
+    "col": "a",
+    "line": 17,
+    "offset": 2
+   },
+   "original": {
+    "text": "ῆ"
+   },
+   "correction": {
+    "text": "ῇ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: κλῆθρον for κλῇθρον.",
+   "scan": {
+    "vol": null,
+    "page": 814,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 836
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 814,
+     "col": "a",
+     "line": 17,
+     "offset": 2
+    },
+    "original": {
+     "text": "ῇ"
+    },
+    "correction": {
+     "text": "ῆ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20292",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 828,
+    "col": "a",
+    "line": 46,
+    "offset": 15
+   },
+   "original": {
+    "text": "ή"
+   },
+   "correction": {
+    "text": "ῆ"
+   },
+   "summary": "Second form of the headword misread by the OCR, read on the scans: κομιδή for κομιδῆ.",
+   "scan": {
+    "vol": null,
+    "page": 828,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 850
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 828,
+     "col": "a",
+     "line": 46,
+     "offset": 15
+    },
+    "original": {
+     "text": "ῆ"
+    },
+    "correction": {
+     "text": "ή"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20293",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 832,
+    "col": "a",
+    "line": 53,
+    "offset": 3
+   },
+   "original": {
+    "text": "άκι"
+   },
+   "correction": {
+    "text": "ᾰκῖ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: κοράκινος for κορᾰκῖνος.",
+   "scan": {
+    "vol": null,
+    "page": 832,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 854
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 832,
+     "col": "a",
+     "line": 53,
+     "offset": 3
+    },
+    "original": {
+     "text": "ᾰκῖ"
+    },
+    "correction": {
+     "text": "άκι"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20294",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 855,
+    "col": "a",
+    "line": 54,
+    "offset": 1
+   },
+   "original": {
+    "text": "ῦ"
+   },
+   "correction": {
+    "text": "ύ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: κῦδος for κύδος.",
+   "scan": {
+    "vol": null,
+    "page": 855,
+    "col": "a",
+    "id": "greekenglishlexi0000henr",
+    "leaf": 881
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 855,
+     "col": "a",
+     "line": 54,
+     "offset": 1
+    },
+    "original": {
+     "text": "ύ"
+    },
+    "correction": {
+     "text": "ῦ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20295",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 867,
+    "col": "a",
+    "line": 53,
+    "offset": 1
+   },
+   "original": {
+    "text": "ῶ"
+   },
+   "correction": {
+    "text": "ῷ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: Κῶος for Κῷος.",
+   "scan": {
+    "vol": null,
+    "page": 867,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 889
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 867,
+     "col": "a",
+     "line": 53,
+     "offset": 1
+    },
+    "original": {
+     "text": "ῷ"
+    },
+    "correction": {
+     "text": "ῶ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20296",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 969,
+    "col": "a",
+    "line": 49,
+    "offset": 1
+   },
+   "original": {
+    "text": "ῑ"
+   },
+   "correction": {
+    "text": "ί"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: μῑξ for μίξ.",
+   "scan": {
+    "vol": null,
+    "page": 969,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 991
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 969,
+     "col": "a",
+     "line": 49,
+     "offset": 1
+    },
+    "original": {
+     "text": "ί"
+    },
+    "correction": {
+     "text": "ῑ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20297",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 992,
+    "col": "a",
+    "line": 23,
+    "offset": 5
+   },
+   "original": {
+    "text": "άρι"
+   },
+   "correction": {
+    "text": "ᾱρί"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ναυκράρια for ναυκρᾱρία.",
+   "scan": {
+    "vol": null,
+    "page": 992,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1014
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 992,
+     "col": "a",
+     "line": 23,
+     "offset": 5
+    },
+    "original": {
+     "text": "ᾱρί"
+    },
+    "correction": {
+     "text": "άρι"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20298",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1021,
+    "col": "a",
+    "line": 47,
+    "offset": 0
+   },
+   "original": {
+    "text": "ὅ"
+   },
+   "correction": {
+    "text": "ὁ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ὅ for ὁ.",
+   "scan": {
+    "vol": null,
+    "page": 1021,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1043
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1021,
+     "col": "a",
+     "line": 47,
+     "offset": 0
+    },
+    "original": {
+     "text": "ὁ"
+    },
+    "correction": {
+     "text": "ὅ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20299",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1070,
+    "col": "a",
+    "line": 33,
+    "offset": 5
+   },
+   "original": {
+    "text": "ασί"
+   },
+   "correction": {
+    "text": "άσι"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ὀρειβασία for ὀρειβάσια.",
+   "scan": {
+    "vol": null,
+    "page": 1070,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1092
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1070,
+     "col": "a",
+     "line": 33,
+     "offset": 5
+    },
+    "original": {
+     "text": "άσι"
+    },
+    "correction": {
+     "text": "ασί"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20300",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1073,
+    "col": "b",
+    "line": 59,
+    "offset": 0
+   },
+   "original": {
+    "text": "ὀρι"
+   },
+   "correction": {
+    "text": "ὁρῐ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ὀρικός for ὁρῐκός.",
+   "scan": {
+    "vol": null,
+    "page": 1073,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1095
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1073,
+     "col": "b",
+     "line": 59,
+     "offset": 0
+    },
+    "original": {
+     "text": "ὁρῐ"
+    },
+    "correction": {
+     "text": "ὀρι"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20301",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1084,
+    "col": "b",
+    "line": 9,
+    "offset": 0
+   },
+   "original": {
+    "text": "ὄ"
+   },
+   "correction": {
+    "text": "ὅ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ὄσσα for ὅσσα.",
+   "scan": {
+    "vol": null,
+    "page": 1084,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1106
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1084,
+     "col": "b",
+     "line": 9,
+     "offset": 0
+    },
+    "original": {
+     "text": "ὅ"
+    },
+    "correction": {
+     "text": "ὄ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20302",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1086,
+    "col": "a",
+    "line": 4,
+    "offset": 11
+   },
+   "original": {
+    "text": "ὀ"
+   },
+   "correction": {
+    "text": "ὄ"
+   },
+   "summary": "Second form of the headword misread by the OCR, read on the scans: ὀστρειον for ὄστρειον.",
+   "scan": {
+    "vol": null,
+    "page": 1086,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1108
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1086,
+     "col": "a",
+     "line": 4,
+     "offset": 11
+    },
+    "original": {
+     "text": "ὄ"
+    },
+    "correction": {
+     "text": "ὀ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20303",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1091,
+    "col": "a",
+    "line": 77,
+    "offset": 1
+   },
+   "original": {
+    "text": "ὐ"
+   },
+   "correction": {
+    "text": "ὑ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: οὐκ for οὑκ.",
+   "scan": {
+    "vol": null,
+    "page": 1091,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1113
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1091,
+     "col": "a",
+     "line": 77,
+     "offset": 1
+    },
+    "original": {
+     "text": "ὑ"
+    },
+    "correction": {
+     "text": "ὐ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20304",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1093,
+    "col": "b",
+    "line": 5,
+    "offset": 1
+   },
+   "original": {
+    "text": "ὖ"
+   },
+   "correction": {
+    "text": "ὑ"
+   },
+   "summary": "Headword misread by the OCR; the readings do not settle a mark, so LSJ9 decides: οὖν for οὑν.",
+   "scan": {
+    "vol": null,
+    "page": 1093,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1115
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1093,
+     "col": "b",
+     "line": 5,
+     "offset": 1
+    },
+    "original": {
+     "text": "ὑ"
+    },
+    "correction": {
+     "text": "ὖ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20305",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1093,
+    "col": "b",
+    "line": 53,
+    "offset": 12
+   },
+   "original": {
+    "text": "ὐ"
+   },
+   "correction": {
+    "text": "ὔ"
+   },
+   "summary": "Second form of the headword misread by the OCR, read on the scans: οὐποτε for οὔποτε.",
+   "scan": {
+    "vol": null,
+    "page": 1093,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1115
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1093,
+     "col": "b",
+     "line": 53,
+     "offset": 12
+    },
+    "original": {
+     "text": "ὔ"
+    },
+    "correction": {
+     "text": "ὐ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20306",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1208,
+    "col": "a",
+    "line": 39,
+    "offset": 7
+   },
+   "original": {
+    "text": "η"
+   },
+   "correction": {
+    "text": "ῃ"
+   },
+   "summary": "Second form of the headword misread by the OCR; the readings do not settle a mark, so LSJ9 decides: πη for πῃ.",
+   "scan": {
+    "vol": null,
+    "page": 1208,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1230
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1208,
+     "col": "a",
+     "line": 39,
+     "offset": 7
+    },
+    "original": {
+     "text": "ῃ"
+    },
+    "correction": {
+     "text": "η"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20307",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1216,
+    "col": "a",
+    "line": 83,
+    "offset": 1
+   },
+   "original": {
+    "text": "ί"
+   },
+   "correction": {
+    "text": "ῖ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: πίσος for πῖσος.",
+   "scan": {
+    "vol": null,
+    "page": 1216,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1238
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1216,
+     "col": "a",
+     "line": 83,
+     "offset": 1
+    },
+    "original": {
+     "text": "ῖ"
+    },
+    "correction": {
+     "text": "ί"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20308",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1221,
+    "col": "b",
+    "line": 48,
+    "offset": 2
+   },
+   "original": {
+    "text": "άτο"
+   },
+   "correction": {
+    "text": "ᾱτό"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: πλάτος for πλᾱτός.",
+   "scan": {
+    "vol": null,
+    "page": 1221,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1243
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1221,
+     "col": "b",
+     "line": 48,
+     "offset": 2
+    },
+    "original": {
+     "text": "ᾱτό"
+    },
+    "correction": {
+     "text": "άτο"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20309",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1368,
+    "col": "b",
+    "line": 42,
+    "offset": 1
+   },
+   "original": {
+    "text": "ῦ"
+   },
+   "correction": {
+    "text": "ύ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ῥῦσις for ῥύσις.",
+   "scan": {
+    "vol": null,
+    "page": 1368,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1390
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1368,
+     "col": "b",
+     "line": 42,
+     "offset": 1
+    },
+    "original": {
+     "text": "ύ"
+    },
+    "correction": {
+     "text": "ῦ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20310",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1394,
+    "col": "a",
+    "line": 34,
+    "offset": 2
+   },
+   "original": {
+    "text": "άφη"
+   },
+   "correction": {
+    "text": "ᾰφή"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: σκάφη for σκᾰφή.",
+   "scan": {
+    "vol": null,
+    "page": 1394,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1414
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1394,
+     "col": "a",
+     "line": 34,
+     "offset": 2
+    },
+    "original": {
+     "text": "ᾰφή"
+    },
+    "correction": {
+     "text": "άφη"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20311",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1506,
+    "col": "a",
+    "line": 87,
+    "offset": 4
+   },
+   "original": {
+    "text": "ηνί"
+   },
+   "correction": {
+    "text": "ήνι"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: συσκηνία for συσκήνια.",
+   "scan": {
+    "vol": null,
+    "page": 1506,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1526
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1506,
+     "col": "a",
+     "line": 87,
+     "offset": 4
+    },
+    "original": {
+     "text": "ήνι"
+    },
+    "correction": {
+     "text": "ηνί"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20312",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1545,
+    "col": "b",
+    "line": 58,
+    "offset": 4
+   },
+   "original": {
+    "text": "ά"
+   },
+   "correction": {
+    "text": "ᾶ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: τετράς for τετρᾶς.",
+   "scan": {
+    "vol": null,
+    "page": 1545,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1565
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1545,
+     "col": "b",
+     "line": 58,
+     "offset": 4
+    },
+    "original": {
+     "text": "ᾶ"
+    },
+    "correction": {
+     "text": "ά"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20313",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1573,
+    "col": "b",
+    "line": 58,
+    "offset": 3
+   },
+   "original": {
+    "text": "ά"
+   },
+   "correction": {
+    "text": "ᾶ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: τριάς for τριᾶς.",
+   "scan": {
+    "vol": null,
+    "page": 1573,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1593
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1573,
+     "col": "b",
+     "line": 58,
+     "offset": 3
+    },
+    "original": {
+     "text": "ᾶ"
+    },
+    "correction": {
+     "text": "ά"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20314",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1583,
+    "col": "a",
+    "line": 71,
+    "offset": 5
+   },
+   "original": {
+    "text": "ί"
+   },
+   "correction": {
+    "text": "ῖ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: τροφεία for τροφεῖα.",
+   "scan": {
+    "vol": null,
+    "page": 1583,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1603
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1583,
+     "col": "a",
+     "line": 71,
+     "offset": 5
+    },
+    "original": {
+     "text": "ῖ"
+    },
+    "correction": {
+     "text": "ί"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20315",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1658,
+    "col": "b",
+    "line": 3,
+    "offset": 1
+   },
+   "original": {
+    "text": "ά"
+   },
+   "correction": {
+    "text": "ᾶ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: Φάσις for Φᾶσις.",
+   "scan": {
+    "vol": null,
+    "page": 1658,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1678
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1658,
+     "col": "b",
+     "line": 3,
+     "offset": 1
+    },
+    "original": {
+     "text": "ᾶ"
+    },
+    "correction": {
+     "text": "ά"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20316",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1762,
+    "col": "b",
+    "line": 24,
+    "offset": 0
+   },
+   "original": {
+    "text": "ὦ"
+   },
+   "correction": {
+    "text": "ὥ"
+   },
+   "summary": "Headword misread by the OCR; the readings do not settle a mark, so LSJ9 decides: ὦ for ὥ.",
+   "scan": {
+    "vol": null,
+    "page": 1762,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1782
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1762,
+     "col": "b",
+     "line": 24,
+     "offset": 0
+    },
+    "original": {
+     "text": "ὥ"
+    },
+    "correction": {
+     "text": "ὦ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20317",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1771,
+    "col": "b",
+    "line": 56,
+    "offset": 0
+   },
+   "original": {
+    "text": "ὡ"
+   },
+   "correction": {
+    "text": "ὦ"
+   },
+   "summary": "Headword misread by the OCR, read on the scans: ὡς for ὦς.",
+   "scan": {
+    "vol": null,
+    "page": 1771,
+    "col": "b",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1791
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1771,
+     "col": "b",
+     "line": 56,
+     "offset": 0
+    },
+    "original": {
+     "text": "ὦ"
+    },
+    "correction": {
+     "text": "ὡ"
+    }
+   }
+  },
+  {
+   "id": "lsj8-1901-c20318",
+   "kind": "text",
+   "error_in": "encoding",
+   "target": {
+    "page": 1772,
+    "col": "a",
+    "line": 62,
+    "offset": 18
+   },
+   "original": {
+    "text": "ῖ"
+   },
+   "correction": {
+    "text": "ί"
+   },
+   "summary": "Second form of the headword misread by the OCR, read on the scans: ὡσπερεῖ for ὡσπερεί.",
+   "scan": {
+    "vol": null,
+    "page": 1772,
+    "col": "a",
+    "id": "greekenglishlex00lidduoft",
+    "leaf": 1792
+   },
+   "date": "2026-11-26",
+   "inverse": {
+    "kind": "text",
+    "target": {
+     "page": 1772,
+     "col": "a",
+     "line": 62,
+     "offset": 18
+    },
+    "original": {
+     "text": "ί"
+    },
+    "correction": {
+     "text": "ῖ"
+    }
+   }
   }
  ]
 }

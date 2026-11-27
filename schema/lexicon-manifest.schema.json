@@ -346,7 +346,7 @@
       "type": "integer",
       "minimum": 0
      },
-     "description": "Entries of the body by how they were matched: key, key-window, letters-window, ambiguous (no id recorded) and none."
+     "description": "Entries of the body by how they were matched: key, key-window, letters-window, letters-run, out-of-order, pinned (lsj9_links.json), ambiguous (no id recorded) and none."
     }
    },
    "description": "LSJ8: how source.perseus_id was matched to the LSJ9 entries, or null for a build made without the LSJ9 files (--no-lsj9), which records no perseus_id and is not to be released. Absent for a lexicon whose ids are not matched to LSJ9."
